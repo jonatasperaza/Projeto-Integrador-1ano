@@ -1,0 +1,34 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.cabeçalho {
+    width: 100%;
+height: 100px;
+background-color: rgb(3, 3, 131);
+border: 5px solid rgb(0, 0, 0);
+font-family: cursive;
+}
+
+.h1cabeça{
+    margin-left: 10px ;
+}
+
+.esquerdo{
+height: 1000px;
+width: 150px;
+border:5px solid rgb(0, 0, 0);
+background-color: rgb(3, 3, 131);
+float: right;
+
+}
+
+.rodape{
+    bottom: auto;
+    border: 5px solid rgb(0, 0, 0);
+    height: 100px;
+    width: 100%;
+    background-color: rgb(3, 3, 131);
+}
