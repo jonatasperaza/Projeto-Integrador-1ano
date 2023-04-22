@@ -6,9 +6,11 @@
 
 body {
 font-family: 'Avalors Personal Use';
-background-color: rgb(178, 178, 214);
+}
 
-
+img {
+  border-radius: 10px;
+  border: 2px solid rgb(50, 50, 121)
 }
 
 .cabeçalho {
@@ -27,12 +29,12 @@ background-color: rgb(178, 178, 214);
 #caixa {
   float: left;
   background-color: rgb(50, 50, 121);
-  width: 200px;
+  width: 300px;
   height: 300px;
   padding: 10px;
   margin-top: 15px;
   border: 5px solid rgb(0, 0, 0);
-  margin-left: 150px;
+  margin-left: 100px;
   border-radius: 10;
   color:#FFFFFF
 }
@@ -52,13 +54,22 @@ background-color: rgb(178, 178, 214);
   color:#FFFFFF
 }
 
+.esquerdoOndas {
+  height: 1500px;
+  width: 200px;
+  border: 5px solid rgb(0, 0, 0);
+  background-color: rgb(50, 50, 121);
+  float: right;
+  text-align: center;
+  color:#FFFFFF
+}
+
 .conteudo{
 float: left;
 margin-top: 15px;
 margin-left: 15px;
 max-width: 800px;
 height: 800px;
-color: #f0eeee;
 
 
 }
@@ -119,8 +130,9 @@ strong.textosTitulo {
   font-family: 'Avalors Personal Use';
   font-size: 30px;
   letter-spacing: 5px;
-  color: #FFFFFF;
-  text-shadow: 0 0 4px white;
+  color: rgb(50, 50, 121);
+  text-shadow: 0 0 4px rgb(50, 50, 121)
+;
 }
 
 #glow {
