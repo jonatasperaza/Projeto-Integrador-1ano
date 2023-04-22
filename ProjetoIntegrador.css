@@ -74,6 +74,16 @@ img {
   color:#FFFFFF
 }
 
+.esquerdoMecanica {
+  height: 3300px;
+  width: 200px;
+  border: 5px solid rgb(0, 0, 0);
+  background-color: rgb(50, 50, 121);
+  float: right;
+  text-align: center;
+  color:#FFFFFF
+}
+
 .conteudo{
 float: left;
 margin-top: 15px;
@@ -143,6 +153,15 @@ strong.textosTitulo {
   color: rgb(50, 50, 121);
   text-shadow: 0 0 4px rgb(50, 50, 121)
 ;
+}
+
+strong.cabeça {
+  z-index: 2;
+  font-family: 'Avalors Personal Use';
+  font-size: 50px;
+  letter-spacing: 5px;
+  color: #FFFFFF;
+  text-shadow: 0 0 4px white;
 }
 
 #glow {
