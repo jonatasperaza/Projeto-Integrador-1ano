@@ -306,3 +306,110 @@ strong.cabeça {
   }
 }
 
+.game-board {
+  margin-left: 100px;
+  width: 1000px;
+  height: 500px;
+  border: 1px solid #333;
+  position: relative;
+  overflow: hidden;
+  background-image: url("Imagens/OIP.jpeg");
+  background-size: 1100px;
+  border: 5px solid #000000;
+}
+
+.cabeçalhoJogo {
+  margin-left: 100px;
+  max-width: 1000px;
+}
+
+.max {
+  position: absolute;
+  bottom: 0;
+  width: 150px;
+  animation: max-animation 2.5s infinite linear;
+}
+
+img.max {
+  position: absolute;
+  bottom: 0;
+  width: 150px;
+  animation: max-animation 2.5s infinite linear;
+}
+
+@keyframes max-animation {
+  from {
+      right: -80px
+  }
+
+  to {
+      right: 100%
+  }
+}
+
+
+img.yellow {
+  width: 150px;
+  position: absolute;
+  bottom: 0;
+  margin-left: 15px;
+}
+
+.yellow {
+  width: 150px;
+  position: absolute;
+  bottom: 0;
+  margin-left: 15px;
+}
+
+.jump {
+  animation: jump 500ms ease-out;
+}
+
+@keyframes jump {
+  0% {
+      bottom: 0;
+  }
+
+  40% {
+      bottom: 180px
+  }
+
+  50% {
+      bottom: 180px;
+  }
+
+  60% {
+      bottom: 180px
+  }
+
+
+  100% {
+      bottom: 0
+  }
+
+}
+
+img.whale {
+  position: absolute;
+  width: 100px;
+  animation: whale-animation 5.5s infinite linear;
+}
+
+
+.whale {
+  position: absolute;
+  width: 100px;
+  animation: whale-animation 5.5s infinite linear;
+}
+
+@keyframes whale-animation {
+  from {
+      right: -100px
+  }
+
+  to {
+      right: 100%
+  }
+}
+
