@@ -74,6 +74,16 @@ img {
   color:#FFFFFF
 }
 
+.esquerdoOptica {
+  height: 4000px;
+  width: 200px;
+  border: 5px solid rgb(0, 0, 0);
+  background-color: rgb(50, 50, 121);
+  float: right;
+  text-align: center;
+  color:#FFFFFF
+}
+
 .esquerdoBibli {
   height: 3500px;
   width: 200px;
