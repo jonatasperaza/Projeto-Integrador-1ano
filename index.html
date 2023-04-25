@@ -8,29 +8,16 @@
   <title>Física Na Mente</title>
   <link href="ProjetoIntegrador.css" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="Imagens/OIG__2_-removebg-preview.png">
+  <script src="index.js"></script>
 </head>
 
 <body>
   <div class="cabeçalho">
     <h1 class="h1cabeça"><strong class="cabeça"> Física Na Mente </strong></h1>
 
-  </div>
-  <div class="conteudo">
-    <h1> Conteúdo</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non aut amet beatae eos sapiente distinctio
-      praesentium, tempora aperiam minima consectetur, nam dignissimos atque? Reiciendis labore quis illum dignissimos,
-      omnis impedit.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit officia veniam quasi commodi in, accusantium
-      autem optio, cumque consectetur rem mollitia consequuntur excepturi, praesentium ut voluptatum nostrum.
-      Blanditiis, itaque enim.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque praesentium rem corrupti autem, eos, tempora,
-      vel nesciunt similique iure provident sit iusto? Aliquam, consequatur recusandae maxime reprehenderit molestias
-      earum est.</p>
-  </div>
-  <div class="esquerdo">
-    <h1>Tópicos</h1>
-    <br>
-
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+<h1 style="text-align: center;">Tópicos</h1>
     <a href="Ondas.html"><button type="button" class="btn">
         <strong>Ondas</strong>
         <div id="container-stars">
@@ -140,7 +127,26 @@
     </button></a>
   <br>
 
+    </div>
+    
+    <div id="main">
+      <button class="openbtn" onclick="openNav()">☰ Menu</button>  
+ 
+    </div>
   </div>
+  <div class="conteudo">
+    <h1> Conteúdo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non aut amet beatae eos sapiente distinctio
+      praesentium, tempora aperiam minima consectetur, nam dignissimos atque? Reiciendis labore quis illum dignissimos,
+      omnis impedit.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit officia veniam quasi commodi in, accusantium
+      autem optio, cumque consectetur rem mollitia consequuntur excepturi, praesentium ut voluptatum nostrum.
+      Blanditiis, itaque enim.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque praesentium rem corrupti autem, eos, tempora,
+      vel nesciunt similique iure provident sit iusto? Aliquam, consequatur recusandae maxime reprehenderit molestias
+      earum est.</p>
+  </div>
+
 
   
   <div class="rodape"></div>
