@@ -12,7 +12,9 @@ body {
 
 img {
   border-radius: 10px;
-  border: 2px solid rgb(50, 50, 121)
+  border: 2px solid rgb(50, 50, 121);
+  text-align: center;
+  width: 100%;
 }
 
 .cabeçalho {
@@ -57,11 +59,17 @@ img {
   border-left: 2px solid #000000;
   border-right: 2px solid #000000;
   box-shadow: 2px 6px #333;
+  text-align: justify;
 }
 
-p.margem{
+p.margem {
   margin-left: 5px;
-  text-indent:2em
+  text-indent: 2cm;
+}
+
+p.margemC {
+  margin-left: 4cm;
+  max-width: 300px;
 }
 
 .rodape {
