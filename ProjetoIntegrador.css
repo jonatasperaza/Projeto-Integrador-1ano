@@ -12,10 +12,19 @@ body {
 
 img {
   border-radius: 10px;
-  border: 2px solid rgb(50, 50, 121);
+  border: 2pt solid rgb(50, 50, 121);
   text-align: center;
-  width: 100%;
+  
 }
+
+#center{
+  text-align: center;
+}
+
+#justify{
+  text-align: justify;
+}
+
 
 .cabeçalho {
   width: 100%;
@@ -46,6 +55,7 @@ img {
 .h1cabeça {
   margin-left: 10px;
   font-size: 50px;
+  width: 100%;
 }
 
 .conteudo {
@@ -64,10 +74,14 @@ img {
   text-align: justify;
 }
 
-
+blockquote{
+  margin-left: 15cm;
+  max-width: 200px;
+}
 
 p.margem {
-  margin-left: 5px;
+  margin-left: 3cm;
+  margin-right: 2cm;
   text-indent: 2cm;
 }
 
