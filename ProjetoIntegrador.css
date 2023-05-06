@@ -6,22 +6,22 @@
 
 body {
   font-family: 'Avalors Personal Use';
-  background-color: #ebebeb;
-
+  background: linear-gradient(#000000, #aaaaaa, #000000);
+  
 }
 
 img {
   border-radius: 10px;
   border: 2pt solid rgb(50, 50, 121);
   text-align: center;
-  
+
 }
 
-#center{
+#center {
   text-align: center;
 }
 
-#justify{
+#justify {
   text-align: justify;
 }
 
@@ -60,7 +60,7 @@ img {
 
 .conteudo {
   margin-left: 3cm;
-  margin-bottom: 2cm ;
+  margin-bottom: 2cm;
   margin-top: 3cm;
   margin-right: 2cm;
   max-width: 950px;
@@ -77,8 +77,8 @@ img {
   text-align: justify;
 }
 
-blockquote{
-  margin-left: 15cm;
+blockquote {
+  margin-left: 4cm;
   max-width: 200px;
 }
 
