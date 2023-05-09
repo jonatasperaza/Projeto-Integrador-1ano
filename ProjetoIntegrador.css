@@ -77,6 +77,25 @@ img {
   text-align: justify;
 }
 
+.conteudo2 {
+  margin-left: 3cm;
+  margin-bottom: 2cm;
+  margin-top: 3cm;
+  margin-right: 2cm;
+  max-width: 90%;
+  min-width: 320px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  border-left: 2px solid #000000;
+  border-right: 2px solid #000000;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+
+  box-shadow: 3px 3px 3px 3px #333;
+  text-align: justify;
+}
+
 blockquote {
   margin-left: 4cm;
   max-width: 200px;
@@ -497,3 +516,20 @@ h1.center {
     display: none;
   }
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 3px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 10px;
+
+}
+
