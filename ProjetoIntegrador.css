@@ -6,9 +6,32 @@
 
 body {
   font-family: 'Avalors Personal Use';
-  background: linear-gradient(#000000, #aaaaaa, #000000);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 0, 0)), to(#aaaaaa)) fixed;
+  ;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-image: url("Imagens/555187.jpg");
+}
+
+.parteIndex {
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-image: url("Imagens/555187.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-shadow: 0 0 4px white;
+  
   
 }
+
 
 img {
   border-radius: 10px;
@@ -28,8 +51,8 @@ img {
 
 .cabeçalho {
   width: 100%;
-  height: 100px;
-  background-color: rgb(50, 50, 121);
+  height: 75px;
+  background-color: #0062FF;
   border: 5px solid rgb(0, 0, 0);
   z-index: 2;
   font-family: 'Avalors Personal Use';
@@ -39,24 +62,6 @@ img {
 
 }
 
-#caixa {
-  float: left;
-  background-color: rgb(50, 50, 121);
-  width: 300px;
-  height: 300px;
-  padding: 10px;
-  margin-top: 15px;
-  border: 5px solid rgb(0, 0, 0);
-  margin-left: 100px;
-  border-radius: 10;
-  color: #FFFFFF
-}
-
-.h1cabeça {
-  margin-left: 10px;
-  font-size: 50px;
-  width: 100%;
-}
 
 .conteudo {
   margin-left: 3cm;
@@ -114,7 +119,7 @@ p.margemC {
 
 .rodape {
   height: 150px;
-  background-color: rgb(50, 50, 121);
+  background-color: #0062FF;
   clear: both;
   bottom: 0%;
   border-top: 5px solid #000000;
@@ -138,7 +143,7 @@ p.margemC {
   transition: 0.5s;
   animation: gradient_301 5s ease infinite;
   border: double 4px transparent;
-  background-image: linear-gradient(#212121, #212121), linear-gradient(137.48deg, rgb(1, 1, 189) 10%, rgb(0, 0, 0) 45%, rgb(1, 1, 189) 67%, rgb(0, 0, 0) 87%);
+  background-image: linear-gradient(#212121, #212121), linear-gradient(137.48deg, #0062FF 10%, rgb(0, 0, 0) 45%, rgb(1, 1, 189) 67%, rgb(0, 0, 0) 87%);
   background-origin: border-box;
   background-clip: content-box, border-box;
 }
@@ -168,7 +173,7 @@ strong.textosTitulo {
   font-family: 'Avalors Personal Use';
   font-size: 30px;
   letter-spacing: 5px;
-  color: rgb(50, 50, 121);
+  color: #0062FF ;
   text-shadow: 0 0 4px rgb(50, 50, 121);
 }
 
@@ -179,6 +184,14 @@ strong.cabeça {
   letter-spacing: 5px;
   color: #FFFFFF;
   text-shadow: 0 0 4px white;
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 50px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
 }
 
 #glow {
@@ -196,11 +209,11 @@ strong.cabeça {
 }
 
 .circle:nth-of-type(1) {
-  background: rgba(254, 83, 186, 0.636);
+  background: #0062FF;
 }
 
 .circle:nth-of-type(2) {
-  background: rgba(142, 81, 234, 0.704);
+  background: #000000;
 }
 
 .btn:hover #container-stars {
@@ -213,14 +226,14 @@ strong.cabeça {
 }
 
 .btn:active {
-  border: double 4px #FE53BB;
+  border: double 4px #0062FF;
   background-origin: border-box;
   background-clip: content-box, border-box;
   animation: none;
 }
 
 .btn:active .circle {
-  background: #FE53BB;
+  background: #0062FF;
 }
 
 #stars {
@@ -312,113 +325,6 @@ strong.cabeça {
   }
 }
 
-.game-board {
-  margin-left: 100px;
-  width: 1000px;
-  height: 500px;
-  border: 1px solid #333;
-  position: relative;
-  overflow: hidden;
-  background-image: url("Imagens/OIP.jpeg");
-  background-size: 1100px;
-  border: 5px solid #000000;
-}
-
-.cabeçalhoJogo {
-  margin-left: 100px;
-  max-width: 1000px;
-}
-
-.max {
-  position: absolute;
-  bottom: 0;
-  width: 150px;
-  animation: max-animation 2.5s infinite linear;
-}
-
-img.max {
-  position: absolute;
-  bottom: 0;
-  width: 150px;
-  animation: max-animation 2.5s infinite linear;
-}
-
-@keyframes max-animation {
-  from {
-    right: -80px
-  }
-
-  to {
-    right: 100%
-  }
-}
-
-
-img.yellow {
-  width: 150px;
-  position: absolute;
-  bottom: 0;
-  margin-left: 15px;
-}
-
-.yellow {
-  width: 150px;
-  position: absolute;
-  bottom: 0;
-  margin-left: 15px;
-}
-
-.jump {
-  animation: jump 500ms ease-out;
-}
-
-@keyframes jump {
-  0% {
-    bottom: 0;
-  }
-
-  40% {
-    bottom: 180px
-  }
-
-  50% {
-    bottom: 180px;
-  }
-
-  60% {
-    bottom: 180px
-  }
-
-
-  100% {
-    bottom: 0
-  }
-
-}
-
-img.whale {
-  position: absolute;
-  width: 100px;
-  animation: whale-animation 5.5s infinite linear;
-}
-
-
-.whale {
-  position: absolute;
-  width: 100px;
-  animation: whale-animation 5.5s infinite linear;
-}
-
-@keyframes whale-animation {
-  from {
-    right: -100px
-  }
-
-  to {
-    right: 100%
-  }
-}
-
 .openNav {
   float: right;
   padding-bottom: 10px;
@@ -433,11 +339,12 @@ img.whale {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgb(50, 50, 121);
+  background-color: #0062FF;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-  border: 5px solid #000000
+  border: 5px solid #000000;
+  scrollbar-width: 0%;
 }
 
 .sidebar a {
@@ -479,14 +386,27 @@ h1.center {
 }
 
 #main {
-  padding-bottom: 10px;
-
+  margin-right: 10px;
+  margin-top: -13px;
 }
 
 .MenuB {
   float: right;
-  padding-bottom: 10px;
-  margin-bottom: 20px
+  margin-top: 2px;
+  border-radius: 10px;
+}
+
+.MenuB:hover {
+  float: right;
+  padding: 1px 1px 1px 1px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  animation: gradient_301 5s ease infinite;
+  background-image: linear-gradient(#000000, #0062FF);
+
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -523,6 +443,7 @@ h1.center {
   padding: 10px;
   border-radius: 10px;
 }
+
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 3px solid rgba(0, 0, 0, 0.8);
@@ -532,4 +453,3 @@ h1.center {
   border-radius: 10px;
 
 }
-
