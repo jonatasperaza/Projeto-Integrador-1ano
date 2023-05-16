@@ -451,5 +451,10 @@ h1.center {
   font-size: 30px;
   text-align: center;
   border-radius: 10px;
-
+}
+.SambaquiLetra{
+    font-size: 15px;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+    text-shadow: 0 0 4px white;
 }
