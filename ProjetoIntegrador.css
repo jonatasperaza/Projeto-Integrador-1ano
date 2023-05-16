@@ -10,21 +10,22 @@ body {
   ;
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  
   background-image: url("Imagens/555187.jpg");
 }
 
 .parteIndex {
+  line-break: initial;
   background-size: cover;
   width: 100%;
-  height: 100vh;
-  background-image: url("Imagens/555187.jpg");
+  
   background-position: center;
   background-repeat: no-repeat;
   align-items: center;
   justify-content: center;
   text-align: center;
-  display: flex;
+  margin-top: 10cm;
+  /*display: unset;*/
   font-size: 20px;
   color: #FFFFFF;
   text-shadow: 0 0 4px white;
@@ -132,7 +133,7 @@ p.margemC {
 
 .btn {
   margin-left: 4.8px;
-  display: flex;
+  /*display: flex;*/
   justify-content: center;
   align-items: center;
   width: 180px;
@@ -326,7 +327,7 @@ a {
 }
 
 .openNav {
-  float: right;
+  float: left;
   padding-bottom: 10px;
   margin-top: -30px;
 }
@@ -391,13 +392,14 @@ h1.center {
 }
 
 .MenuB {
-  float: right;
-  margin-top: 2px;
+  float: left;
+  margin-left: 5px;
+  margin-top: 0px;
   border-radius: 10px;
 }
 
 .MenuB:hover {
-  float: right;
+  float: left;
   padding: 1px 1px 1px 1px;
   margin-bottom: 20px;
   border-radius: 10px;
