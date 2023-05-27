@@ -10,3 +10,13 @@ function closeNav() {
   mySidebar.style.animation = 'none'
   document.getElementById("main").style.marginLeft = "0";
 }
+
+let volteSite = document.title;
+window.addEventListener("blur", () => {
+  document.title = "Volte Para Aprender!";
+});
+
+window.addEventListener("focus", () => {
+  document.title = volteSite
+})
+
