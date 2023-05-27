@@ -249,7 +249,7 @@ html::-webkit-scrollbar {
 
 .texto1 {
   display: flex;
-  margin-left: 2cm;
+  margin: auto;
   width: 85%;
   height: 350px;
   background-color: #0d63ed;
@@ -260,7 +260,7 @@ html::-webkit-scrollbar {
 
 .texto2 {
   display: flex;
-  margin-left: 2cm;
+  margin: auto;
   width: 85%;
   height: 350px;
   background-color: #0d63ed;
