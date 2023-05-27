@@ -247,11 +247,21 @@ html::-webkit-scrollbar {
   display: flex;
 }
 
+@media screen and (max-width: 1024px) {
+  .texto1 {
+    display: grid;
+  }
+  
+  .texto2 {
+    display: grid;
+  }
+}
+
 .texto1 {
   display: flex;
   margin: auto;
   width: 85%;
-  height: 350px;
+  height: 30%;
   background-color: #0d63ed;
   border-radius: 10px;
   box-shadow: 2px 2px 0px 0px white;
@@ -262,7 +272,7 @@ html::-webkit-scrollbar {
   display: flex;
   margin: auto;
   width: 85%;
-  height: 350px;
+  height: 30%;
   background-color: #0d63ed;
   border-radius: 10px;
   box-shadow: 2px 2px 0px 0px white;
