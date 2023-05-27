@@ -5,11 +5,25 @@ function openNav() {
 
 }
 
-function closeNav() {
-  document.getElementById("mySidebar").style.width = "0";
-  mySidebar.style.animation = 'none'
-  document.getElementById("main").style.marginLeft = "0";
+function voltar(event) {
+  if (event.animationName === "barraDois") {
+    document.getElementById("mySidebar").style.width = "0";
+  }
 }
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+      document.getElementById("main").style.marginLeft = "0";
+  mySidebar.style.animation = 'barraDois 4s'
+  mySidebar.addEventListener("animationend", voltar);
+
+}
+
+
+
+
+
 
 let volteSite = document.title;
 window.addEventListener("blur", () => {

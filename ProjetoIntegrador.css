@@ -610,7 +610,7 @@ a {
   }
 }
 
-/*Caso a gente queira fazer a barra voltar de novo
+/*Caso a gente queira fazer a barra voltar de novo*/
   @keyframes barraDois {
   from {
     bottom: 100%
@@ -619,7 +619,7 @@ a {
   to {
     top: -100%
   }
-}*/
+}
 
 
 .sidebar a {
