@@ -581,11 +581,11 @@ a {
   }
   p.textos2{
     font-size: 15px;
-    max-width: 500px;
+    max-width: 80%;
   }
   p.textos{
     font-size: 15px;
-    max-width: 500px;
+    max-width: 80%;
   }
 }
 
