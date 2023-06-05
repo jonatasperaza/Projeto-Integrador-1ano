@@ -21,10 +21,6 @@ function closeNav() {
 }
 
 
-
-
-
-
 let volteSite = document.title;
 window.addEventListener("blur", () => {
   document.title = "Volte Para Aprender!";
