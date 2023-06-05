@@ -247,13 +247,22 @@ strong.cabeca2 {
   width: 100%;
 }
 
+strong.cabeca22 {
+  z-index: 2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+  letter-spacing: 5px;
+  color: #FFFFFF;
+  text-shadow: 0 0 4px white;
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 50px;
+  width: 100%;
+}
+
 html::-webkit-scrollbar {
   display: none;
 }
-
-
-
-
 
 @media screen and (max-width: 1024px) {
   .texto1 {
@@ -291,8 +300,6 @@ html::-webkit-scrollbar {
   display: grid;
 }
 
-@media screen and (max-width: 1024px) {}
-
 p.caixas {
   z-index: 2;
   font-family: Arial, Helvetica, sans-serif;
@@ -326,7 +333,7 @@ img.veio {
     display: grid;
     align-items: center;
     text-align: center;
-    margin-left: 5cm;
+    margin-left: 2.5cm;
   }
 
   .texto1 {
