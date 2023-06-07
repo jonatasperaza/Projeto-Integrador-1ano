@@ -13,21 +13,24 @@ body {
 
 }
 
-#magica{
-  width: 100%;
-  height: 100%;
+.efeito-magica {
+  width: 100vh;
+  height: 100vh;
+  position: absolute;
+  top: 0;
   background-color: #000000;
   animation: animation 4s;
 }
 
 @keyframes animation {
-  from{
+  from {
     right: -100%;
   }
-}
-  to{
-    right: 100%;
+
+  to {
+    right: 0;
   }
+}
 
 html {
   cursor: url('Imagens/R.png'), auto;
@@ -240,10 +243,11 @@ strong.cabeca {
 }
 
 @media screen and (max-width: 1024px) {
-  strong.cabeca{
+  strong.cabeca {
     font-size: 32px;
   }
-  .openNav{
+
+  .openNav {
     margin-top: -40px;
     padding-bottom: 15px;
   }
@@ -581,25 +585,30 @@ a {
 }
 
 @media screen and (max-width: 1024px) {
-  .texto1{
+  .texto1 {
     width: 90%;
   }
-  .texto2{
+
+  .texto2 {
     width: 90%;
   }
-  strong.cabeca2{
+
+  strong.cabeca2 {
     font-size: 15px;
-    margin-left: 2cm ;
+    margin-left: 2cm;
   }
-  strong.cabeca22{
+
+  strong.cabeca22 {
     margin-left: 5cm;
     font-size: 15px;
   }
-  p.textos2{
+
+  p.textos2 {
     font-size: 15px;
     max-width: 80%;
   }
-  p.textos{
+
+  p.textos {
     font-size: 15px;
     max-width: 80%;
   }
@@ -611,7 +620,8 @@ a {
   .caixas {
     display: grid;
   }
-  .espaco{
+
+  .espaco {
     height: 400px;
   }
 }

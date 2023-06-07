@@ -1,7 +1,7 @@
 function click_starwars() {
     const elemento = document.getElementById("magica");
-    elemento.style.animation = "animation 4s"
-    console.log(click_starwars)
+    elemento.className = "efeito-magica";
+    
 }
 
 
