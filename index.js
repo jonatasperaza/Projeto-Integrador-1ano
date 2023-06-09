@@ -1,13 +1,25 @@
 function click_starwars() {
-    const elemento = document.getElementById("magica");
-    elemento.className = "efeito-magica";
-
+  const elemento = document.getElementById("magica");
+  elemento.className = "efeito-magica";
+  const estrela = document.getElementById("star-wars")
+  estrela.className = "star-wars"
 }
 
-//   const estrela = document.getElementById("star")
-//   elemento.className = "star-wars"
+ /* 
+ const p = document.getElementById("star")
+  const p2 = p.getElementsByTagName('p')
+  p2.className = "star"
+  const aga = document.getElementById("star")
+  const aga2 = aga.getElementsByTagName('h2')
+  aga2.className = "star"
 
-   function openNav() {
+  const paragrafos = document.getElementById("starp")
+  paragrafos.className = "starp"
+  const aga = document.getElementById("starh")
+  aga.className = "starh"
+  */
+
+function openNav() {
   document.getElementById("mySidebar").style.width = "250px";
   document.getElementById("main").style.marginLeft = "250px";
   mySidebar.style.animation = 'barra 4s'
@@ -22,7 +34,7 @@ function voltar(event) {
 function closeNav() {
   document.getElementById("mySidebar").style.width = "250px";
   document.getElementById("main").style.marginLeft = "250px";
-      document.getElementById("main").style.marginLeft = "0";
+  document.getElementById("main").style.marginLeft = "0";
   mySidebar.style.animation = 'barraDois 4s'
   mySidebar.addEventListener("animationend", voltar);
 
