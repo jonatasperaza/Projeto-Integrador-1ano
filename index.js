@@ -1,10 +1,13 @@
 function click_starwars() {
     const elemento = document.getElementById("magica");
     elemento.className = "efeito-magica";
-    
+   
 }
 
-
+function teste() {
+   const poema = document.getElementById("poema");
+    poema.className = "poema"
+}
 
 function openNav() {
   document.getElementById("mySidebar").style.width = "250px";
