@@ -20,6 +20,7 @@ body {
   top: 0;
   background-color: #000000;
   animation: animation 8s;
+  max-width: 100% ;
 }
 
 @keyframes animation {
