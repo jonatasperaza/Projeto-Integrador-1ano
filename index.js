@@ -1,19 +1,16 @@
 function click_starwars() {
     const elemento = document.getElementById("magica");
     elemento.className = "efeito-magica";
-   
+
 }
 
-function teste() {
-   const poema = document.getElementById("poema");
-    poema.className = "poema"
-}
+//   const estrela = document.getElementById("star")
+//   elemento.className = "star-wars"
 
-function openNav() {
+   function openNav() {
   document.getElementById("mySidebar").style.width = "250px";
   document.getElementById("main").style.marginLeft = "250px";
   mySidebar.style.animation = 'barra 4s'
-
 }
 
 function voltar(event) {
@@ -31,7 +28,6 @@ function closeNav() {
 
 }
 
-
 let volteSite = document.title;
 window.addEventListener("blur", () => {
   document.title = "Volte Para Aprender!";
@@ -40,4 +36,3 @@ window.addEventListener("blur", () => {
 window.addEventListener("focus", () => {
   document.title = volteSite
 })
-

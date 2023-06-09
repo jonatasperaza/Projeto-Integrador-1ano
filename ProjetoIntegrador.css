@@ -33,29 +33,9 @@ body {
   }
 }
 
-@keyframes crawl {
-  from{
-    top: 100%;
-  }
-  to{
-    top: 0%;
-  }
-}
-
-.poema{
-  width: 300px;
-  max-width: 250px;
-  animation: crawl 8s;
-}
-
-
 :root {
   --main: #ffb13a;
   --font: 'Roboto', 'Oxygen', sans-serif;
-}
-
-html {
-  font-size: 10px;
 }
 
 .star {
@@ -74,7 +54,7 @@ h2.star {
 }
 
 p.star {
-  font-size: 3rem;
+  font-size: 40px;
   line-height: 6rem;
   margin-bottom: 20px;
 }
@@ -174,7 +154,7 @@ img {
   z-index: 2;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   color: #FFFFFF;
 
 }
@@ -295,7 +275,7 @@ strong {
   z-index: 2;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   color: #FFFFFF;
   text-shadow: 0 0 4px white;
 }
@@ -304,7 +284,7 @@ strong.textosTitulo {
   z-index: 2;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   color: #0062FF;
   text-shadow: 0 0 4px rgb(50, 50, 121);
 }
@@ -313,7 +293,7 @@ strong.cabeca {
   z-index: 2;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   color: #FFFFFF;
   text-shadow: 0 0 4px white;
   text-decoration: none;
@@ -337,7 +317,7 @@ strong.cabeca2 {
   z-index: 2;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 80px;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   color: #FFFFFF;
   text-shadow: 0 0 4px white;
   text-decoration: none;
@@ -350,7 +330,7 @@ strong.cabeca22 {
   z-index: 2;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 80px;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   color: #FFFFFF;
   text-shadow: 0 0 4px white;
   text-decoration: none;
@@ -403,7 +383,7 @@ p.caixas {
   z-index: 2;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   color: #FFFFFF;
   text-shadow: 0 0 4px white;
   text-decoration: none;
@@ -421,8 +401,6 @@ img.veio {
 }
 
 @media screen and (max-width: 1024px) {
-  p.caixas {}
-
   p.textos {
     margin-left: 1cm;
     max-height: 500px;
@@ -444,7 +422,7 @@ p.textos {
   z-index: 2;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   color: #FFFFFF;
   text-shadow: 0 0 4px white;
   text-decoration: none;
@@ -456,7 +434,7 @@ p.textos2 {
   z-index: 2;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   color: #FFFFFF;
   text-shadow: 0 0 4px white;
   text-decoration: none;
@@ -469,7 +447,7 @@ strong.cabeca1 {
   z-index: 2;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   color: #FFFFFF;
   text-shadow: 0 0 4px white;
   text-decoration: none;
@@ -980,7 +958,7 @@ h1.center {
 
 .SambaquiLetra {
   font-size: 15px;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   color: black;
   text-shadow: 0 0 4px white;
 }
