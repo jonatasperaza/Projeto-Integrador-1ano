@@ -654,9 +654,9 @@ a {
     font-size: 15px;
   }
 
-  p.textos2 {
+  p#textos2 {
     font-size: 15px;
-    max-width: 80%;
+    max-width: 82.5%;
   }
 
   p.textos {
