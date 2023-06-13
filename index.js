@@ -1,23 +1,12 @@
 function click_starwars() {
   const elemento = document.getElementById("magica");
+  elemento.style.display =  'block'
   elemento.className = "efeito-magica";
   const estrela = document.getElementById("star-wars")
   estrela.className = "star-wars"
+  const claudio = document.getElementById("textos2")
+  claudio.style.display = "none"
 }
-
- /* 
- const p = document.getElementById("star")
-  const p2 = p.getElementsByTagName('p')
-  p2.className = "star"
-  const aga = document.getElementById("star")
-  const aga2 = aga.getElementsByTagName('h2')
-  aga2.className = "star"
-
-  const paragrafos = document.getElementById("starp")
-  paragrafos.className = "starp"
-  const aga = document.getElementById("starh")
-  aga.className = "starh"
-  */
 
 function openNav() {
   document.getElementById("mySidebar").style.width = "250px";
@@ -44,6 +33,26 @@ let volteSite = document.title;
 window.addEventListener("blur", () => {
   document.title = "Volte Para Aprender!";
 });
+
+window.onkeydown = function(evt) {
+  evt = evt || window.event;
+  var isEscape = false;
+  if ("key" in evt) {
+      isEscape = (evt.key === "Escape" || evt.key === "Esc");
+  } else {
+      isEscape = (evt.keyCode === 27);
+  }
+  if (isEscape) {
+    const elemento = document.getElementById("magica");
+    elemento.style.display =  'none'
+    elemento.className = "";
+    const estrela = document.getElementById("star-wars")
+    estrela.className = ""
+    const claudio = document.getElementById("textos2")
+    claudio.style.display = ""
+  }
+};
+
 
 window.addEventListener("focus", () => {
   document.title = volteSite
