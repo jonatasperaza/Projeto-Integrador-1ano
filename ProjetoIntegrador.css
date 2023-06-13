@@ -943,13 +943,13 @@ h1.center {
   border-radius: 10px;
 }
 
-.SambaquiLetra {
-  font-size: 15px;
+p.margemsambaqui{
+  font-size: 20px;
   letter-spacing: 1px;
   color: black;
   text-shadow: 0 0 4px white;
 }
 
-.alight {
-  text-align: center;
-};
+.img-container {
+  text-align: center
+}
