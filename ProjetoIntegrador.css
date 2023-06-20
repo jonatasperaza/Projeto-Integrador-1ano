@@ -6,11 +6,10 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 0, 0)), to(#aaaaaa)) fixed;
-  background-size: cover;
   width: 100%;
-  background-image: url("Imagens/555187.jpg");
-
+  background-image:url(http://untroubled.org/backgrounds/space/stars.gif) ;
+  background-size: auto;
+  
 }
 
 @media screen and (max-width: 1024px) {
@@ -349,22 +348,19 @@ html::-webkit-scrollbar {
   margin: auto;
   width: 85%;
   height: 30%;
-  background-color: #0d63ed;
   border-radius: 10px;
-  box-shadow: 2px 2px 0px 0px white;
   font-family: Arial, Helvetica, sans-serif;
-}
+} 
 
 .texto2 {
   display: flex;
   margin: auto;
   width: 85%;
   height: 30%;
-  background-color: #0d63ed;
   border-radius: 10px;
-  box-shadow: 2px 2px 0px 0px white;
   font-family: Arial, Helvetica, sans-serif;
-  
+  animation: gradient_3012 2s ease infinite;
+
 }
 
 .gato {
@@ -390,6 +386,8 @@ img.veio {
   width: 50%;
   border: none;
   margin-left: 1cm;
+  filter: invert(100%);
+  padding-right: 0.4% ;
 }
 
 @media screen and (max-width: 1024px) {
@@ -657,8 +655,6 @@ a {
 #caixa1 {
   width: 350px;
   height: 350px;
-  background-color: #0062FF;
-  box-shadow: 2px 2px 0px 0px white;
   margin: auto;
   border-radius: 10px;
   text-align: center;
@@ -669,8 +665,6 @@ a {
   width: 350px;
   height: 350px;
   margin: auto;
-  background-color: #000000;
-  box-shadow: 2px 2px 0px 0px white;
   border-radius: 10px;
   text-align: center;
   align-items: center;
@@ -680,9 +674,6 @@ a {
   width: 350px;
   height: 350px;
   margin: auto;
-  ;
-  background-color: #000000;
-  box-shadow: 2px 2px 0px 0px white;
   border-radius: 10px;
   text-align: center;
   align-items: center;
@@ -692,8 +683,6 @@ a {
   width: 350px;
   height: 350px;
   margin: auto;
-  background-color: #0062FF;
-  box-shadow: 2px 2px 0px 0px white;
   border-radius: 10px;
   text-align: center;
   align-items: center;
@@ -702,7 +691,6 @@ a {
 #caixa1:hover {
   width: 350px;
   height: 350px;
-  background-color: #0d63ed;
   box-shadow: 2px 2px 0px 0px white;
   margin-top: -10px;
   transition: 1s;
@@ -715,7 +703,6 @@ a {
 #caixa2:hover {
   width: 350px;
   height: 350px;
-  background-color: #1f1f1f;
   box-shadow: 2px 2px 0px 0px white;
   margin-top: -10px;
   transition: 1s;
@@ -728,7 +715,6 @@ a {
 #caixa3:hover {
   width: 350px;
   height: 350px;
-  background-color: #1f1f1f;
   box-shadow: 2px 2px 0px 0px white;
   transition: 1s;
   margin-top: -10px;
@@ -741,7 +727,6 @@ a {
 #caixa4:hover {
   width: 350px;
   height: 350px;
-  background-color: #0d63ed;
   box-shadow: 2px 2px 0px 0px white;
   transition: 1s;
   margin-top: -10px;
@@ -931,8 +916,4 @@ p.margemsambaqui{
 
 .img-container {
   text-align: center
-  width 70%
-}
-.all1{
-  margin: 2cm;
 }
