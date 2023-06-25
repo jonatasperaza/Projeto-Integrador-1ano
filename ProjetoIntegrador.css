@@ -343,9 +343,10 @@ p.caixas {
 
 img.veio {
   display: flex;
-  width: 50%;
+  width: 25%;
+  height: 10%;
   border: none;
-  margin-left: 1cm;
+  margin-left: 0.5cm;
   filter: invert(100%);
   padding-right: 0.4% ;
 }

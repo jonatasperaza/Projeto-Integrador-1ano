@@ -30,7 +30,7 @@
     }
   
     .openNav {
-      margin-top: -40px;
+      margin-top: -12px;
       padding-bottom: 15px;
     }
   }
@@ -55,7 +55,9 @@
       display: grid;
       align-items: center;
       text-align: center;
-      margin-left: 2.5cm;
+      margin-left: 4.5cm;
+      width: 30%;
+      height: 100%;
     }
   
     .texto1 {
