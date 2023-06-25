@@ -220,5 +220,11 @@
       display: none;
     }
   }
+
+  @media screen and (max-width:1024px) {
+    ref-imagens{
+        margin-left: 2cm;
+    }
+  }
   
   

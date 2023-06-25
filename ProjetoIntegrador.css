@@ -232,6 +232,7 @@ p.margemC {
   border-radius: 5rem;
 }
 
+/* classes de Strong */
 strong {
   z-index: 2;
   font-family: Arial, Helvetica, sans-serif;
@@ -288,6 +289,13 @@ strong.cabeca22 {
   margin-left: 10px;
   font-size: 50px;
   width: 100%;
+}
+
+strong.bibliografia {
+  z-index: 2;
+  letter-spacing: 1px;
+  color: #000000;
+  text-decoration: none;
 }
 
 html::-webkit-scrollbar {
