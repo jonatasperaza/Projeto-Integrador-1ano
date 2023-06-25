@@ -12,12 +12,6 @@ body {
   
 }
 
-@media screen and (max-width: 1024px) {
-  .efeito-magica{
-    height: 600vh;
-  }
-}
-
 #magica {
   display: none;
 }
@@ -32,16 +26,6 @@ body {
   animation: animation 8s;
   max-width: 100% ;
 }
-
-/*@keyframes animation {
-  from {
-    right: -150%;
-  }
-
-  to {
-    right: 0;
-  }
-}*/
 
 :root {
   --main: #ffb13a;
@@ -81,20 +65,6 @@ p.star {
 
 .star-wars :is(h2, p) {
   color: var(--main);
-}
-
-@keyframes intro {
-  0% {
-    transform: perspective(200px) rotateX(14deg) translateY(800px);
-    opacity: 1;
-  }
-  60% {
-    opacity: 1;
-  }
-  100% {
-    transform: perspective(200px) rotateX(20deg) translateY(-1000px);
-    opacity: 1;
-  }
 }
 
 html {
@@ -188,8 +158,9 @@ img {
 }
 
 blockquote {
-  margin-left: 4cm;
-  max-width: 200px;
+  margin-left: 17cm;
+  max-width: 230px;
+  font-size: 12px;
 }
 
 p.margem {
@@ -292,16 +263,6 @@ strong.cabeca {
   width: 100%;
 }
 
-@media screen and (max-width: 1024px) {
-  strong.cabeca {
-    font-size: 32px;
-  }
-
-  .openNav {
-    margin-top: -40px;
-    padding-bottom: 15px;
-  }
-}
 
 strong.cabeca2 {
   z-index: 2;
@@ -333,15 +294,6 @@ html::-webkit-scrollbar {
   display: none;
 }
 
-@media screen and (max-width: 1024px) {
-  .texto1 {
-    display: grid;
-  }
-
-  .texto2 {
-    display: grid;
-  }
-}
 
 .texto1 {
   display: flex;
@@ -390,23 +342,6 @@ img.veio {
   padding-right: 0.4% ;
 }
 
-@media screen and (max-width: 1024px) {
-  p.textos {
-    margin-left: 1cm;
-    max-height: 500px;
-  }
-
-  img.veio {
-    display: grid;
-    align-items: center;
-    text-align: center;
-    margin-left: 2.5cm;
-  }
-
-  .texto1 {
-    display: grid;
-  }
-}
 
 p.textos {
   z-index: 2;
@@ -445,15 +380,7 @@ strong.cabeca1 {
   width: 100%;
 }
 
-@media screen and (max-width:1024px) {
-  strong.cabeca2 {
-    font-size: 30px;
-  }
-}
 
-a {
-  text-decoration: none;
-}
 
 #glow {
   position: absolute;
@@ -551,53 +478,7 @@ a {
   opacity: 0.5;
 }
 
-@keyframes animStar {
-  from {
-    transform: translateY(0);
-  }
 
-  to {
-    transform: translateY(-135rem);
-  }
-}
-
-@keyframes animStarRotate {
-  from {
-    transform: rotate(360deg);
-  }
-
-  to {
-    transform: rotate(0);
-  }
-}
-
-@keyframes gradient_301 {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-@keyframes gradient_3012 {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
-}
 
 .caixas {
   display: flex;
@@ -610,46 +491,6 @@ a {
 
 .espaco1 {
   height: 200px;
-}
-
-@media screen and (max-width: 1024px) {
-  .texto1 {
-    width: 90%;
-  }
-
-  .texto2 {
-    width: 90%;
-  }
-
-  strong.cabeca2 {
-    font-size: 15px;
-    margin-left: 2cm;
-  }
-
-  strong.cabeca22 {
-    margin-left: 5cm;
-    font-size: 15px;
-  }
-
-  p#textos2 {
-    font-size: 15px;
-    max-width: 82.5%;
-  }
-
-  p.textos {
-    font-size: 15px;
-    max-width: 80%;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .caixas {
-    display: grid;
-  }
-
-  .espaco {
-    height: 400px;
-  }
 }
 
 #caixa1 {
@@ -744,20 +585,6 @@ img.FelixCatus {
   clear: both;
 }
 
-@media screen and (max-width: 1024px) {
-  img.FelixCatus {
-    display: grid;
-  }
-
-  .gato {
-    display: grid;
-  }
-
-  .texto2 {
-    display: grid;
-  }
-}
-
 .openNav {
   float: left;
   margin-top: -30px;
@@ -782,25 +609,7 @@ img.FelixCatus {
   scrollbar-width: 0%;
 }
 
-@keyframes barra {
-  0% {
-    top: -100%
-  }
 
-  100% {
-    bottom: 100%
-  }
-}
-
-@keyframes barraDois {
-  from {
-    bottom: 100%
-  }
-
-  to {
-    top: -100%
-  }
-}
 
 .sidebar a {
   padding: 8px 8px 8px 32px;
@@ -863,32 +672,6 @@ h1.center {
   animation: gradient_301 5s ease infinite;
   background-image: linear-gradient(#000000, #0062FF);
 
-}
-
-@media screen and (max-height: 450px) {
-  .sidebar {
-    padding-top: 15px;
-  }
-
-  .sidebar a {
-    font-size: 18px;
-  }
-}
-
-@media (max-width: 1024px) {
-  #openNav {
-    display: none;
-  }
-
-  .menu {
-    display: block;
-  }
-}
-
-@media screen and (max-width:790px) {
-  .MenuB {
-    display: none;
-  }
 }
 
 .grid-container {

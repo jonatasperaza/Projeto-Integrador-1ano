@@ -16,7 +16,6 @@ function openNav() {
 function voltar(event) {
   if (event.animationName === "barraDois") {
       document.getElementById("mySidebar").style.width = "0";
-
   }
 }
 
