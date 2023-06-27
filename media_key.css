@@ -245,13 +245,23 @@
   }
   @media screen and (max-width: 1024px){
     .ref-imagens{
-
+      margin-left: 4.1cm;
+      max-width: 257px;
     }
     .ref-imagens-2{
-
+      margin-left: 1.5cm;
     }
     .ref-imagens-3{
-      
+      margin-left: 2.2cm;
+      max-width: 385px;
+    }
+    .ref-imagens-4{
+      margin-left: 2.2cm;
+      max-width: 180px;
+    }
+    blockquote{
+      margin-left: 6cm;
+      max-width: 255px;
     }
   }
   

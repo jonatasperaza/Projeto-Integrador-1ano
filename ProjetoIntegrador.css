@@ -162,7 +162,7 @@ img {
 }
 
 blockquote {
-  margin-left: 10cm;
+  margin-left: 9.85cm;
   max-width: 500px;
   font-size: 10pt;
 }
@@ -747,4 +747,25 @@ p.margemsambaqui {
 .parte-rodape-direito {
   float: right;
   margin-right: -47%;
+}
+
+.ref-imagens{
+ margin-left: 7cm;
+ font-size: 10pt;
+ line-height: 1;
+}
+.ref-imagens-2{
+  margin-left: 2.5cm;
+  font-size: 10pt;
+  line-height: 1;
+}
+.ref-imagens-3{
+  margin-left: 3.7cm;
+  font-size: 10pt;
+  line-height: 1;
+}
+.ref-imagens-4{
+  margin-left: 3.7cm; 
+  font-size: 10pt;
+  line-height: 1;
 }
