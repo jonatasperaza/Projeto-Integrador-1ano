@@ -44,6 +44,7 @@ h2.star {
   text-align: center;
   margin: 0 0 60px 0;
   font-size: 5rem;
+
 }
 
 p.star {
@@ -161,12 +162,12 @@ img {
 }
 
 blockquote {
-  margin-left: 17cm;
-  max-width: 230px;
+  margin-left: 10cm;
+  max-width: 500px;
   font-size: 10pt;
 }
 
-.conteudo > h1 {
+.conteudo>h1 {
   font-size: 12pt;
 }
 
@@ -740,10 +741,10 @@ p.margemsambaqui {
 .parte-rodape-esquerdo {
   float: left;
   text-align: justify;
-  margin-left: 40%;
+  margin-left: 47%;
 }
 
 .parte-rodape-direito {
   float: right;
-  margin-right: -20%;
+  margin-right: -47%;
 }

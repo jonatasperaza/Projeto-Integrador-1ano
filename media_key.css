@@ -141,7 +141,7 @@
       margin-left: 5cm;
       font-size: 15px;
     }
-  
+    roda
     p#textos2 {
       font-size: 15px;
       max-width: 82.5%;
@@ -228,5 +228,32 @@
         margin-left: 2cm;
     }
   }
+  @media screen and (max-width: 1024px){
+    .texto-rodape{
+      display: grid;
+    }
+    .parte-rodape-esquerdo{
+      margin-left: 5%;
+    }
+    .parte-rodape-direito{
+      margin-right: -4%;
+      margin-top: 5%;
+    }
+    .rodape{
+      height: 50%;
+    }
+  }
+  @media screen and (max-width: 1024px){
+    .ref-imagens{
+
+    }
+    .ref-imagens-2{
+
+    }
+    .ref-imagens-3{
+      
+    }
+  }
+  
   
   
