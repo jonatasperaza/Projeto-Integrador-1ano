@@ -30,6 +30,7 @@ body {
 :root {
   --main: #ffb13a;
   --font: 'Roboto', 'Oxygen', sans-serif;
+  --cor-principal: #003434;
 }
 
 .star {
@@ -80,13 +81,13 @@ html {
   line-break: initial;
   background-size: cover;
   width: 100%;
-  height: 18cm;
+  height: 14cm;
   background-position: center;
   background-repeat: no-repeat;
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-top: 8cm;
+  margin-top: 5cm;
   font-size: 20px;
   color: #FFFFFF;
   text-shadow: 0 0 4px white;
@@ -94,7 +95,7 @@ html {
 
 img {
 
-  border: 2pt solid rgb(50, 50, 121);
+  border: 1pt solid var(--cor-principal);
   text-align: center;
 
 }
@@ -112,14 +113,14 @@ img {
 .cabeçalho {
   width: 100%;
   height: 80px;
-  background-color: #0062FF;
+  background-color: var(--cor-principal);
   border: 5px solid rgb(0, 0, 0);
   z-index: 2;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   letter-spacing: 1px;
   color: #FFFFFF;
-
+  position: sticky 0;
 }
 
 
@@ -186,7 +187,7 @@ p.margemC {
 
 .rodape {
   height: 150px;
-  background-color: #0062FF;
+  background-color: var(--cor-principal);
   clear: both;
   bottom: 0%;
   border-top: 5px solid #000000;
@@ -209,7 +210,7 @@ p.margemC {
   transition: 0.5s;
   animation: gradient_301 5s ease infinite;
   border: double 4px transparent;
-  background-image: linear-gradient(#212121, #212121), linear-gradient(137.48deg, #0062FF 10%, rgb(0, 0, 0) 45%, rgb(1, 1, 189) 67%, rgb(0, 0, 0) 87%);
+  background-image: linear-gradient(#212121, #212121), linear-gradient(137.48deg, var(--cor-principal) 10%, rgb(0, 0, 0) 45%, var(--cor-principal) 67%, rgb(0, 0, 0) 87%);
   background-origin: border-box;
   background-clip: content-box, border-box;
 }
@@ -226,7 +227,7 @@ p.margemC {
   transition: 0.5s;
   animation: gradient_301 5s ease infinite;
   border: double 4px transparent;
-  background-image: linear-gradient(#212121, #212121), linear-gradient(137.48deg, #0062FF 10%, rgb(0, 0, 0) 45%, rgb(1, 1, 189) 67%, rgb(0, 0, 0) 87%);
+  background-image: linear-gradient(#212121, #212121), linear-gradient(137.48deg, var(--cor-principal) 10%, rgb(0, 0, 0) 45%, rgb(1, 1, 189) 67%, rgb(0, 0, 0) 87%);
   background-origin: border-box;
   background-clip: content-box, border-box;
 }
@@ -257,7 +258,7 @@ strong.textosTitulo {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   letter-spacing: 1px;
-  color: #0062FF;
+  color: var(--cor-principal);
   text-shadow: 0 0 4px rgb(50, 50, 121);
 }
 
@@ -428,7 +429,7 @@ strong.cabeca12 {
 }
 
 .circle:nth-of-type(1) {
-  background: #0062FF;
+  background: var(--cor-principal);
 }
 
 .circle:nth-of-type(2) {
@@ -445,14 +446,14 @@ strong.cabeca12 {
 }
 
 .btn:active {
-  border: double 4px #0062FF;
+  border: double 4px var(--cor-principal);
   background-origin: border-box;
   background-clip: content-box, border-box;
   animation: none;
 }
 
 .btn:active .circle {
-  background: #0062FF;
+  background: var(--cor-principal);
 }
 
 .btn1:hover #container-stars {
@@ -465,7 +466,7 @@ strong.cabeca12 {
 }
 
 .btn1:active {
-  border: double 4px #0062FF;
+  border: double 4px var(--cor-principal);
   background-origin: border-box;
   background-clip: content-box, border-box;
   animation: none;
@@ -509,19 +510,139 @@ strong.cabeca12 {
   opacity: 0.5;
 }
 
-
-
 .caixas {
   display: flex;
-
 }
 
-.espaco {
-  height: 200px;
+.temas {
+  display: grid;
+  margin: auto;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+  box-shadow: 2px 2px 0px 0px white;
+  width: 95%;
+  border-radius: 15px   ;
 }
 
-.espaco1 {
-  height: 200px;
+@media screen and (max-width: 1024px) {
+  .temas {
+    grid-template-columns: auto;
+  }
+}
+
+#caixaOndas {
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+#caixaLeis {
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+#caixaMecanica {
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+#caixaEnergia {
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+#caixaEletricidade {
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+#caixaCorrentes {
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+#caixaOptica {
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+#caixaTermofisica {
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+#caixaOndas:hover {
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+#caixaLeis:hover {
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+#caixaMecanica:hover {
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+#caixaEnergia:hover {
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+#caixaEletricidade:hover {
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+#caixaCorrentes:hover {
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  animation: gradient_3012 2s ease infinite;
+}
+
+#caixaOptica:hover {
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  animation: gradient_3012 2s ease infinite;
+}
+
+#caixaTermofisica:hover {
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  animation: gradient_3012 2s ease infinite;
 }
 
 #caixa1 {
@@ -632,7 +753,7 @@ img.FelixCatus {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #0062FF;
+  background-color: var(--cor-principal);
   overflow-x: hidden;
   transition: 0s;
   padding-top: 60px;
@@ -701,7 +822,7 @@ h1.center {
   align-items: center;
   transition: 0.5s;
   animation: gradient_301 5s ease infinite;
-  background-image: linear-gradient(#000000, #0062FF);
+  background-image: linear-gradient(#000000, var(--cor-principal));
 
 }
 
@@ -749,23 +870,26 @@ p.margemsambaqui {
   margin-right: -53%;
 }
 
-.ref-imagens{
- margin-left: 7cm;
- font-size: 10pt;
- line-height: 1;
+.ref-imagens {
+  margin-left: 8.15cm;
+  font-size: 10pt;
+  line-height: 1;
 }
-.ref-imagens-2{
+
+.ref-imagens-2 {
   margin-left: 2.5cm;
   font-size: 10pt;
   line-height: 1;
 }
-.ref-imagens-3{
+
+.ref-imagens-3 {
   margin-left: 3.7cm;
   font-size: 10pt;
   line-height: 1;
 }
-.ref-imagens-4{
-  margin-left: 3.7cm; 
+
+.ref-imagens-4 {
+  margin-left: 3.7cm;
   font-size: 10pt;
   line-height: 1;
 }
