@@ -30,7 +30,7 @@ body {
 :root {
   --main: #ffb13a;
   --font: 'Roboto', 'Oxygen', sans-serif;
-  --cor-principal: #003434;
+  --cor-principal: #008383;
 }
 
 .star {
@@ -227,7 +227,7 @@ p.margemC {
   transition: 0.5s;
   animation: gradient_301 5s ease infinite;
   border: double 4px transparent;
-  background-image: linear-gradient(#212121, #212121), linear-gradient(137.48deg, var(--cor-principal) 10%, rgb(0, 0, 0) 45%, rgb(1, 1, 189) 67%, rgb(0, 0, 0) 87%);
+  background-image: linear-gradient(#212121, #212121), linear-gradient(137.48deg, var(--cor-principal) 10%, rgb(0, 0, 0) 45%, var(--cor-principal) 67%, rgb(0, 0, 0) 87%);
   background-origin: border-box;
   background-clip: content-box, border-box;
 }
