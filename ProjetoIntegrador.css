@@ -135,10 +135,7 @@ img {
   margin: auto;
   background-color: white;
   border-radius: 10px;
-  border-left: 2px solid #000000;
-  border-right: 2px solid #000000;
-  border-top: 2px solid #000000;
-  border-bottom: 2px solid #000000;
+  border: 2px solid #000000;
   box-shadow: 3px 3px 3px 3px #333;
   text-align: justify;
   font-size: 12pt;
@@ -191,7 +188,10 @@ p.margemC {
   background-color: white;
   clear: both;
   bottom: 0%;
+  display: flex;
   width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn {
@@ -205,6 +205,7 @@ p.margemC {
   backdrop-filter: blur(1rem);
   border-radius: 5rem;
   transition: 0.5s;
+  color: white;
   animation: gradient_301 5s ease infinite;
   border: double 4px transparent;
   background-image: linear-gradient(#212121, #212121), linear-gradient(137.48deg, var(--cor-principal) 10%, rgb(0, 0, 0) 45%, var(--cor-principal) 67%, rgb(0, 0, 0) 87%);
@@ -246,7 +247,7 @@ strong {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   letter-spacing: 1px;
-  color: var(--cor-principal);
+  color: white;
   text-shadow: 0 0 4px white;
 }
 
@@ -850,9 +851,7 @@ h1.center {
   justify-content: center;
   align-items: center;
   transition: 0.5s;
-  animation: gradient_301 5s ease infinite;
-  background-image: linear-gradient(#000000, var(--cor-principal));
-
+  animation: gradient_3012 6s ease infinite;
 }
 
 .grid-container {
@@ -891,12 +890,10 @@ p.margemsambaqui {
 .parte-rodape-esquerdo {
   float: left;
   text-align: justify;
-  margin-left: 52%;
 }
 
 .parte-rodape-direito {
   float: right;
-  margin-right: -53%;
 }
 
 .ref-imagens {
@@ -921,4 +918,16 @@ p.margemsambaqui {
   margin-left: 3.7cm;
   font-size: 10pt;
   line-height: 1;
+}
+
+.ref-imagens5{
+  font-size: 10pt;
+  line-height: 1;
+  margin-left: 6.25cm;
+}
+
+.ref-imagens6{
+  font-size: 10pt;
+  line-height: 1;
+  margin-left: 7.5cm;
 }
