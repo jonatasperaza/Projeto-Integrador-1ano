@@ -217,11 +217,7 @@
     }
   }
   
-  @media screen and (max-width:790px) {
-    .MenuB {
-      display: none;
-    }
-  }
+
 
   @media screen and (max-width:1024px) {
     ref-imagens{
