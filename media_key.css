@@ -1,269 +1,220 @@
-* {
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
+@media screen and (max-width: 1024px) {
+  .efeito-magica {
+    height: 600vh;
   }
 
-  @media screen and (max-width: 1024px) {
-    .efeito-magica{
-      height: 600vh;
-    }
+  strong.cabeca {
+    font-size: 32px;
   }
 
-  @keyframes intro {
-    0% {
-      transform: perspective(200px) rotateX(14deg) translateY(800px);
-      opacity: 1;
-    }
-    60% {
-      opacity: 1;
-    }
-    100% {
-      transform: perspective(200px) rotateX(20deg) translateY(-1000px);
-      opacity: 1;
-    }
+  .openNav {
+    margin-top: -12px;
+    padding-bottom: 15px;
   }
 
-  @media screen and (max-width: 1024px) {
-    strong.cabeca {
-      font-size: 32px;
-    }
-  
-    .openNav {
-      margin-top: -12px;
-      padding-bottom: 15px;
-    }
-  }
-  
-  @media screen and (max-width: 1024px) {
-    .texto1 {
-      display: grid;
-    }
-  
-    .texto2 {
-      display: grid;
-    }
-  }
-  
-  @media screen and (max-width: 1024px) {
-    p.textos {
-      margin-left: 1cm;
-      max-height: 500px;
-    }
-  
-    img.veio {
-      display: grid;
-      align-items: center;
-      text-align: center;
-      margin-left: 4.5cm;
-      width: 30%;
-      height: 100%;
-    }
-  
-    .texto1 {
-      display: grid;
-    }
+  .texto1 {
+    display: grid;
+    width: 90%
   }
 
-  @media screen and (max-width:1024px) {
-    strong.cabeca2 {
-      font-size: 30px;
-    }
-  }
-  
-  a {
-    text-decoration: none;
+  .texto2 {
+    display: grid;
+    width: 90%;
   }
 
-  @keyframes animStar {
-    from {
-      transform: translateY(0);
-    }
-  
-    to {
-      transform: translateY(-135rem);
-    }
+  p.textos {
+    margin-left: 1cm;
+    max-height: 500px;
+    font-size: 15px;
+    max-width: 80%;
   }
-  
-  @keyframes animStarRotate {
-    from {
-      transform: rotate(360deg);
-    }
-  
-    to {
-      transform: rotate(0);
-    }
-  }
-  
-  @keyframes gradient_301 {
-    0% {
-      background-position: 0% 50%;
-    }
-  
-    50% {
-      background-position: 100% 50%;
-    }
-  
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-  
-  @keyframes gradient_3012 {
-    0% {
-      background-position: 0% 50%;
-    }
-  
-    50% {
-      background-position: 100% 50%;
-    }
-  
-    100% {
-      background-position: 0% 50%;
-    }
+  p#textos2 {
+    font-size: 15px;
+    max-width: 82.5%;
   }
 
-  @media screen and (max-width: 1024px) {
-    .texto1 {
-      width: 90%;
-    }
-  
-    .texto2 {
-      width: 90%;
-    }
-  
-    strong.cabeca2 {
-      font-size: 15px;
-      margin-left: 2cm;
-    }
-  
-    strong.cabeca22 {
-      margin-left: 5cm;
-      font-size: 15px;
-    }
-    
-    p#textos2 {
-      font-size: 15px;
-      max-width: 82.5%;
-    }
-  
-    p.textos {
-      font-size: 15px;
-      max-width: 80%;
-    }
-  }
-  
-  @media screen and (max-width: 1024px) {
-    .caixas {
-      display: grid;
-    }
-  
-    .espaco {
-      height: 400px;
-    }
+  img.veio {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    margin-left: 4.5cm;
+    width: 30%;
+    height: 100%;
   }
 
-  @media screen and (max-width: 1024px) {
-    img.FelixCatus {
-      display: grid;
-    }
-  
-    .gato {
-      display: grid;
-    }
-  
-    .texto2 {
-      display: grid;
-    }
+  strong.cabeca2 {
+    font-size: 15px;
+    margin-left: 2cm;
   }
 
-  @keyframes barra {
-    0% {
-      top: -100%
-    }
-  
-    100% {
-      bottom: 100%
-    }
+  strong.cabeca22 {
+    margin-left: 5cm;
+    font-size: 15px;
   }
-  
-  @keyframes barraDois {
-    from {
-      bottom: 100%
-    }
-  
-    to {
-      top: -100%
-    }
+  .caixas {
+    display: grid;
   }
 
-  @media screen and (max-height: 450px) {
-    .sidebar {
-      padding-top: 15px;
-    }
-  
-    .sidebar a {
-      font-size: 18px;
-    }
+  .espaco {
+    height: 400px;
   }
-  
-  @media (max-width: 1024px) {
-    #openNav {
-      display: none;
-    }
-  
-    .menu {
-      display: block;
-    }
+  img.FelixCatus {
+    display: grid;
   }
-  
 
+  .gato {
+    display: grid;
+  }
 
-  @media screen and (max-width:1024px) {
-    ref-imagens{
-        margin-left: 2cm;
-    }
-    img.temas{
-      width: 60%;
-      height: 30vh;
-    }
+  img.temas {
+    width: 60%;
+    height: 30vh;
   }
-  @media screen and (max-width: 1024px){
-    .texto-rodape{
-      display: grid;
-    }
-    .parte-rodape-esquerdo{
-      margin-left: 5%;
-    }
-    .parte-rodape-direito{
-      margin-right: -4%;
-      margin-top: 5%;
-    }
-    .rodape{
-      height: 50%;
-    }
+
+  #openNav {
+    display: none;
   }
-  @media screen and (max-width: 1024px){
-    .ref-imagens{
-      margin-left: 4.1cm;
-      max-width: 257px;
-    }
-    .ref-imagens-2{
-      margin-left: 1.5cm;
-    }
-    .ref-imagens-3{
-      margin-left: 2.2cm;
-      max-width: 385px;
-    }
-    .ref-imagens-4{
-      margin-left: 2.2cm;
-      max-width: 180px;
-    }
-    blockquote{
-      margin-left: 6cm;
-      max-width: 255px;
-    }
+
+  .menu {
+    display: block;
+  }
+
+  .texto-rodape {
+    display: grid;
+  }
+
+  .parte-rodape-esquerdo {
+    margin-left: 5%;
+  }
+
+  .parte-rodape-direito {
+    margin-right: -4%;
+    margin-top: 5%;
+  }
+
+  .rodape {
+    height: 50%;
+  }
+  .ref-imagens {
+    margin-left: 4.1cm;
+    max-width: 257px;
+  }
+
+  .ref-imagens-2 {
+    margin-left: 1.5cm;
+  }
+
+  .ref-imagens-3 {
+    margin-left: 2.2cm;
+    max-width: 385px;
+  }
+
+  .ref-imagens-4 {
+    margin-left: 2.2cm;
+    max-width: 180px;
+  }
+
+  blockquote {
+    margin-left: 6cm;
+    max-width: 255px;
+  }
+}
+
+@keyframes barra {
+  0% {
+    top: -100%
+  }
+
+  100% {
+    bottom: 100%
+  }
+}
+
+@keyframes intro {
+  0% {
+    transform: perspective(200px) rotateX(14deg) translateY(800px);
+    opacity: 1;
+  }
+
+  60% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: perspective(200px) rotateX(20deg) translateY(-1000px);
+    opacity: 1;
+  }
+} 
+
+@keyframes animStar {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-135rem);
+  }
+}
+
+@keyframes animStarRotate {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0);
+  }
+}
+
+@keyframes gradient_301 {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient_3012 {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
   }
   
-  
-  
+}
+
+@keyframes barraDois {
+  from {
+    bottom: 100%
+  }
+
+  to {
+    top: -100%
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+
+  .sidebar a {
+    font-size: 18px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
