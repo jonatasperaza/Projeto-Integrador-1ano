@@ -223,6 +223,10 @@
     ref-imagens{
         margin-left: 2cm;
     }
+    img.temas{
+      width: 60%;
+      height: 30vh;
+    }
   }
   @media screen and (max-width: 1024px){
     .texto-rodape{

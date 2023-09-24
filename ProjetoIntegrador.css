@@ -110,7 +110,7 @@ img {
 }
 
 
-.cabeçalho {
+header {
   width: 100%;
   height: 80px;
   background-color: white;
@@ -331,6 +331,7 @@ html::-webkit-scrollbar {
   width: 85%;
   height: 30%;
   border-radius: 10px;
+  padding: 80px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -411,7 +412,7 @@ strong.cabeca1 {
   width: 100%;
 }
 
-strong.cabeca12 {
+.cabeca12 {
   z-index: 2;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
@@ -536,14 +537,16 @@ strong.cabeca12-white {
   display: flex;
 }
 
-.temas {
+#temas {
   display: grid;
   margin: auto;
   grid-template-columns: auto auto auto auto;
   text-align: center;
   box-shadow: 2px 2px 0px 0px white;
   width: 95%;
-  border-radius: 15px   ;
+  gap: 20px;
+  padding: 10px;
+  border-radius: 15px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -760,7 +763,6 @@ img.FelixCatus {
 }
 
 .openNav {
-
   width: 100%;
   margin-top: -30px;
 }
@@ -780,11 +782,9 @@ img.FelixCatus {
   overflow-x: hidden;
   transition: 0s;
   padding-top: 60px;
-  border: 5px solid #000000;
+  border: 3px solid #000000;
   scrollbar-width: 0%;
 }
-
-
 
 .sidebar a {
   padding: 8px 8px 8px 32px;
@@ -832,7 +832,6 @@ h1.center {
 .buscas{
   width: 100%;
   display: flex;
-  
   justify-content: right;
 }
 
@@ -930,4 +929,17 @@ p.margemsambaqui {
   font-size: 10pt;
   line-height: 1;
   margin-left: 7.5cm;
+}
+
+img.temas{
+  width: 60%;
+  height: 25vh;
+}
+
+nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }

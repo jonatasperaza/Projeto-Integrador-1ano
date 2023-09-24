@@ -9,13 +9,12 @@
   <link href="ProjetoIntegrador.css" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="Imagens/OIG__2_-removebg-preview.png">
   <script src="index.js"></script>
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet" />
+
   <link rel="stylesheet" href="media_key.css">
 </head>
 
 <body>
-  <div class="cabeçalho">
+  <header>
     <a href="index.html">
       <h1 class="center"><strong class="cabeca"> Física Na Mente </strong></h1>
     </a>
@@ -23,162 +22,163 @@
     <div id="mySidebar" class="sidebar">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
       <h1 style="text-align: center;">Tópicos</h1>
-      <a href="Ondas.html"><button type="button" class="btn">
+      <nav>
+        <button type="button" onclick="ondas()" class="btn">
           <strong>Ondas</strong>
-          <div class="container-stars">
-            <div class="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div class="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br>
-      <a href="Leis De Newton.html">
-        <button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+
+        <button type="button" onclick="leis()" class="btn">
           <strong>Leis de Newton</strong>
-          <div class="container-stars">
-            <div class="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div class="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="Mecanica.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="mecanica()" class="btn">
           <strong>Mecânica</strong>
-          <div class="container-stars">
-            <div class="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div class="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="Energia.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="energia()" class="btn">
           <strong>Energia</strong>
-          <div class="container-stars">
-            <div class="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div class="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="Eletricidade.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="eletricidade()" class="btn">
           <strong>Eletricidade</strong>
-          <div class="container-stars">
-            <div class="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div class="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="CorrentesEletricas.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="correntes()" class="btn">
           <strong>Correntes Elétricas</strong>
-          <div class="container-stars">
-            <div class="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div class="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="TermoFisica.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="termofisica()" class="btn">
           <strong>Termofísica</strong>
-          <div class="container-stars">
-            <div class="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div class="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br><a href="Optica.html"><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="optica()" class="btn">
           <strong>Óptica</strong>
-          <div class="container-stars">
-            <div class="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div class="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br>
-      <a href="Bibliografia.html"><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="bibli()" class="btn">
           <strong>Bibliografia</strong>
-          <div class="container-stars">
-            <div class="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div class="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br>
-      <a href="sambaqui.html"><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="sambaqui()" class="btn">
           <strong>Sambaqui</strong>
-          <div class="container-stars">
-            <div class="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div class="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br>
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+      </nav>
     </div>
-<div class="buscas">
-    <div id="main">
-      <span style="font-size:30px;cursor:pointer;" onclick="openNav()" class="openNav">&#9776;</span>
+    <div class="buscas">
+      <div id="main">
+        <span style="font-size:30px;cursor:pointer;" onclick="openNav()" class="openNav">&#9776;</span>
+      </div>
     </div>
-  </div>
-  </div>
-
+  </header>
+<main>
 
   <div class="parteIndex">
-    <br>
+
     <h1 style="font-size: 70px;"> O Melhor Site Para Você Aprender Física</h1>
     <div class="center">
-      <br>
+
       <button type="button" class="btn1" style="width: 300px;" onclick="click_starwars();">
         <strong style="font-size: 20px; color: white;">Definição de Física</strong>
       </button>
     </div>
-    <br>
+
   </div>
-  </div>
-  </div>
+
 
   <div class="caixas">
     <div id="caixa1">
       <strong class="cabeca1">Porque Você Deve Estudar Física?</strong>
-      <br>
-      <br>
+
+
       <p class="caixas">
         Estudar física é uma porta para desvendar os segredos do universo. Através dela, compreendemos as leis que regem
         a natureza, desde o movimento dos astros até o comportamento das partículas subatômicas. </p>
     </div>
-    <br>
+
     <div id="caixa2">
       <strong class="cabeca1"> Quais os Principais Assuntos do Site?</strong>
-      <br><br><br>
+
       <p class="caixas">Ondas</p>
       <p class="caixas">Leis de Newton</p>
       <p class="caixas">Energia</p>
@@ -188,95 +188,95 @@
       <p class="caixas">TermoFísica</p>
       <p class="caixas">Optica</p>
     </div>
-    <br>
+
     <div id="caixa4"><strong class="cabeca1">Quem Fez o Site?</strong>
       <div class="center">
-        <br><br>
+
         <p class="caixas">
           Anthony Gabriel Loche dos Reis
         </p>
-        <br>
+
         <p class="caixas">
           Claudio Anzini Neto
         </p>
-        <br>
+
         <p class="caixas">
           Gustavo Correa Kruger
         </p>
-        <br>
+
         <p class="caixas">
           Pedro Henrique da Silva Malaquias
         </p>
       </div>
     </div>
   </div>
-  <br>
-  <br>
+
+
   <div class="center">
     <h1><strong class="cabeca-white">
         Assuntos
       </strong></h1>
   </div>
-  <br>
-  <div class="temas">
+
+  <div id="temas">
     <a href="Ondas.html">
       <div id="caixaOndas">
         <p><strong class="cabeca12-white">Ondas</strong></p>
-        <img src="Imagens/ondas_alfa.jpg" width="60%" height="170vh" alt="">
+        <img src="Imagens/ondas_alfa.jpg" class="temas" alt="">
       </div>
     </a>
-    <a href="Leis De Newton.html">
+    <a href="LeisDeNewton.html">
       <div id="caixaLeis">
         <p><strong class="cabeca12-white">Leis de Newton</strong></p>
         <img
           src="Imagens/as-leis-newton-estao-entre-as-mais-importantes-leis-fisica-sao-usadas-para-determinar-dinamica-dos-corpos-5bb2703f333e2.webp"
-          width="60%" height="170vh" alt="">
+          class="temas" alt="">
       </div>
     </a>
     <a href="Mecanica.html">
       <div id="caixaMecanica">
         <p><strong class="cabeca12-white">Mecânica</strong></p>
-        <img src="Imagens/montanharussa.jpeg" width="60%" height="170vh" alt="">
+        <img src="Imagens/montanharussa.jpeg" class="temas" alt="">
       </div>
     </a>
     <a href="Energia.html">
       <div id="caixaEnergia">
         <p><strong class="cabeca12-white">Energia</strong></p>
-        <img src="Imagens/energia.webp" width="60%" height="170vh" alt="">
+        <img src="Imagens/energia.webp" class="temas" alt="">
       </div>
     </a>
     <a href="Eletricidade.html">
       <div id="caixaEletricidade">
         <p><strong class="cabeca12-white">Eletricidade</strong></p>
-        <img src="Imagens/OIG (1).jpeg" width="60%" height="170vh" alt="">
+        <img src="Imagens/fotoParaEletricidade.jpeg" class="temas" alt="">
       </div>
     </a>
     <a href="CorrentesEletricas.html">
       <div id="caixaCorrentes">
         <p><strong class="cabeca12-white">Correntes Elétricas</strong></p>
-        <img src="Imagens/corretens.jpeg" width="60%" height="170vh" alt="">
+        <img src="Imagens/corretens.jpeg" class="temas" alt="">
       </div>
     </a>
     <a href="Optica.html">
       <div id="caixaOptica">
         <p><strong class="cabeca12-white">Optica</strong></p>
-        <img src="Imagens/optica1.png" width="60%" height="170vh" alt="">
+        <img src="Imagens/optica1.png" class="temas" alt="">
       </div>
     </a>
     <a href="TermoFisica.html">
       <div id="caixaTermofisica">
         <p><strong class="cabeca12-white">TermoFísica</strong></p>
-        <img src="Imagens/termometro-5c3e0e41d5615.webp" width="60%" height="170vh" alt="">
+        <img src="Imagens/termometro-5c3e0e41d5615.webp" class="temas" alt="">
       </div>
     </a>
-    <br>
+
   </div>
-  <br>
-  <br>
-  <br>
+
+
+
 
   <div class="espaco1"></div>
-  <br>
+
   <div class="imagemEs">
     <div class="texto1">
 
@@ -284,36 +284,36 @@
       <img src="Imagens/atomo.png" alt="" class="veio">
       <div class="display: grid">
         <h1><strong class="cabeca2"> Vou Te Mostrar Que Física Não É Chata!</strong></h1>
-        <br>
+
         <p class="textos">A física é uma ciência fascinante que nos permite compreender as leis fundamentais da natureza
           e
           explorar os segredos do universo. Ela abrange desde o movimento dos planetas até as partículas subatômicas.
           Além disso, a física está presente em nossa vida cotidiana, sendo responsável por tecnologias inovadoras como
           eletricidade, mecânica automotiva e computação.
         </p>
-        <br>
+
         <p class="textos">Ao
           estudar física, podemos desvendar fenômenos surpreendentes como gravidade, eletromagnetismo e mecânica
           quântica.
         </p>
-        <br>
+
         <p class="textos"> A física promove a criatividade e o pensamento crítico, ou seja, a criação/formulação de
           hipóteses científicas,
           a experimentação e a análise de dados. A física está em constante evolução, com novas teorias e descobertas
           que
           desafiam constantemente o nosso conhecimento.</p>
-        <br>
+
       </div>
-      <br>
-      
+
+
     </div>
     <div class="espaco"></div>
-    <br><br><br><br><br>  
+
     <div class="rodape">
 
       <div class="texto-rodape">
         <div class="parte-rodape-esquerdo">
-          <strong class="cabeca12">
+          <div class="cabeca12">
             <h4>Desenvolvedores:
             </h4>
             <p>Anthony Gabriel Loche dos Reis</p>
@@ -321,12 +321,13 @@
             <p>Gustavo Correa Kruger</p>
             <p>Pedro Henrique da Silva Malaquias</p>
             <p>Professor/Orientador: Doutor Naylor Garcia Bachiega</p>
-          </strong>
+          </div>
         </div>
 
 
-        <div class="parte-rodape-direito"><strong class="cabeca12"><img src="Imagens/Logo_IFC_horizontal.gif"
-              alt="Logo IFC" width="300px"></strong></div>
+        <div class="parte-rodape-direito">
+          <div class="cabeca12"><img src="Imagens/Logo_IFC_horizontal.gif" alt="Logo IFC" width="300"></div>
+        </div>
 
       </div>
     </div>
@@ -381,6 +382,7 @@
     </div>
 
   </div>
+</main>
 </body>
 
 </html>

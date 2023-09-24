@@ -1,6 +1,6 @@
 function click_starwars() {
   const elemento = document.getElementById("magica");
-  elemento.style.display =  'block'
+  elemento.style.display = 'block'
   elemento.className = "efeito-magica";
   const estrela = document.getElementById("star-wars")
   estrela.className = "star-wars"
@@ -15,7 +15,7 @@ function openNav() {
 
 function voltar(event) {
   if (event.animationName === "barraDois") {
-      document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("mySidebar").style.width = "0";
   }
 }
 
@@ -36,17 +36,17 @@ window.addEventListener("focus", () => {
   document.title = volteSite
 })
 
-window.onkeydown = function(evt) {
+window.onkeydown = function (evt) {
   evt = evt || window.event;
   var isEscape = false;
   if ("key" in evt) {
-      isEscape = (evt.key === "Escape" || evt.key === "Esc");
+    isEscape = (evt.key === "Escape" || evt.key === "Esc");
   } else {
-      isEscape = (evt.keyCode === 27);
+    isEscape = (evt.keyCode === 27);
   }
   if (isEscape) {
     const elemento = document.getElementById("magica");
-    elemento.style.display =  'none'
+    elemento.style.display = 'none'
     elemento.className = "";
     const estrela = document.getElementById("star-wars")
     estrela.className = ""
@@ -54,3 +54,48 @@ window.onkeydown = function(evt) {
     claudio.style.display = "block"
   }
 };
+
+function ondas() {
+  var ondas = "Ondas.html";
+  window.open(ondas);
+}
+
+function leis() {
+  var leis = "LeisDeNewton.html";
+  window.open(leis);
+}
+
+function energia() {
+  var energia = "Energia.html";
+  window.open(energia);
+}
+function mecanica() {
+  var mecanica = "Mecanica.html";
+  window.open(mecanica);
+}
+function optica() {
+  var optica = "Optica.html";
+  window.open(optica);
+}
+function correntes() {
+  var correntes = "CorrentesEletricas.html";
+  window.open(correntes);
+}
+function eletricidade() {
+  var eletricidade = "Eletricidade.html";
+  window.open(eletricidade);
+}
+function termofisica() {
+  var termofisica = "Termofisica.html";
+  window.open(termofisica);
+}
+
+function sambaqui() {
+  var sambaqui = "sambaqui.html";
+  window.open(sambaqui);
+}
+
+function bibli() {
+  var bibliografias = "Bibliografia.html";
+  window.open(bibliografias);
+}
