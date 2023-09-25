@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <div class="cabeçalho">
+  <header>
     <a href="index.html">
       <h1 class="center"><strong class="cabeca"> Física Na Mente </strong></h1>
     </a>
@@ -24,169 +24,158 @@
     <div id="mySidebar" class="sidebar">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
       <h1 style="text-align: center;">Tópicos</h1>
-      <a href="Ondas.html"><button type="button" class="btn">
+      <nav>
+        <button type="button" onclick="ondas()" class="btn">
           <strong>Ondas</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br>
-      <a href="Leis De Newton.html">
-        <button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+
+        <button type="button" onclick="leis()" class="btn">
           <strong>Leis de Newton</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="Mecanica.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="mecanica()" class="btn">
           <strong>Mecânica</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="Energia.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="energia()" class="btn">
           <strong>Energia</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="Eletricidade.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="eletricidade()" class="btn">
           <strong>Eletricidade</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="CorrentesEletricas.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="correntes()" class="btn">
           <strong>Correntes Elétricas</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="TermoFisica.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="termofisica()" class="btn">
           <strong>Termofísica</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br><a href="Optica.html"><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="optica()" class="btn">
           <strong>Óptica</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br>
-      <a href="Bibliografia.html"><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="bibli()" class="btn">
           <strong>Bibliografia</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br>
-      <a href="sambaqui.html"><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="sambaqui()" class="btn">
           <strong>Sambaqui</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br>
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+      </nav>
     </div>
     <div class="buscas">
       <div id="main">
-        <span style="font-size:30px;cursor:pointer;" onclick="openNav()" class="openNav">&#9776;<div class="MenuB">Menu
-          </div></span>
+        <span style="font-size:30px;cursor:pointer;" onclick="openNav()" class="openNav">&#9776;</span>
       </div>
     </div>
-  </div>
+  </header>
   <br>
   <div class="conteudo">
-    <div id="center">
-      <br>
-
-      <h1 style="font-size: 12pt;">CORRENTES ELÉTRICAS</h1>
-
-
-    </div>
-    <br>
-    <p>
+    <h1 style="font-size: 12pt; text-align: center; margin-top: 15px;">CORRENTES ELÉTRICAS</h1>
+    <p class="margemEntreTextos">
     <blockquote>“A corrente elétrica designa o movimento ordenado de cargas elétricas, partículas eletrizadas chamadas
       de íons ou elétrons, dentro de um sistema condutor”(GOUVEIA, 2023).</blockquote>
 
     </p>
-    <br>
-    <p class="margem">
+    <p class="margem margemEntreTextos">
       Para que ocorra esse movimento o sistema apresenta uma diferença de potencial elétrico(ddp) ou tensão elétrica.
       Quando a energia elétrica passa por resistores ela pode ser transformada em energia térmica, este fenômeno é
       conhecido como Efeito Joule.(GOUVEIA,2023)
     </p>
-    <br>
-    <p class="margem">
+    <p class="margem margemEntreTextos">
       Um fio condutor pode facilitar ou dificultar a passagem de uma corrente elétrica, isso é calculado pela fórmula da
       primeira lei de Ohm (R=U/I), onde R é a resistência elétrica, U é a tensão elétrica e I é a corrente
       elétrica.(GOUVEIA,2023)</p>
-
-    <br>
-    <p class="margem">
+    <p class="margem margemEntreTextos">
       Eletrônicos e pilhas apresentam os pólos positivo e negativo, que é um claro exemplo do diferencial de potencial
       elétrico. Existem dois sentidos de corrente elétrica, a corrente elétrica real é aquela que possui o sentido do
       movimento dos elétrons, e a corrente elétrica convencional que tem sentido contrário ao movimento dos elétrons e
       tem destaque pelo movimento das cargas elétricas positivas.(GOUVEIA,2023)</p>
-    <br>
-    <p class="margem">
+    <p class="margem margemEntreTextos">
       Além do sentido, as correntes elétricas também podem ser classificadas entre corrente contínua
       (CC) e corrente
       alternada (CA). A corrente contínua é gerada por pilhas e baterias, apresenta diferença de potencial (ddp)
@@ -194,8 +183,7 @@
       energia elétrica, apresenta diferença de potencial(ddp) alternada, com o sentido e intensidade
       variados.(ALVES,2023)
     </p>
-    <br>
-    <div class="center">
+    <div class="center margemEntreTextos">
       <img src="Imagens/Corrente-continua-e-alternada-720.webp" alt="Foto Satelite" style="width: 51%;">
 
     </div>
@@ -203,22 +191,21 @@
       <P>Fonte: ALVES, 2019.
       </P>
     </legend>
-    <br>
-    <p class="margem">A tensão elétrica de um circuito refere-se à diferença do potencial elétrico de dois pontos de um
+    <p class="margem margemEntreTextos">A tensão elétrica de um circuito refere-se à diferença do potencial elétrico de
+      dois pontos de um
       condutor, de
       acordo com o Sistema Internacional de medidas (SI) ela é medida em Volts (V) e pode ser calculada pela fórmula:
       U=R.I, ou seja, o inverso da resistência elétrica.(ALVES,2023)</p>
-    <br>
-    <p class="margem">A intensidade de uma corrente elétrica refere-se à quantidade de carga elétrica que atravessa um
+    <p class="margem margemEntreTextos">A intensidade de uma corrente elétrica refere-se à quantidade de carga elétrica
+      que atravessa um
       condutor durante
       um determinado período de tempo, no (SI) a intensidade é medida em Ampère (A), a intensidade pode ser calculada
       através da fórmula (ALVES, 2023):</p>
-    <div class="center">
+    <div class="center margemEntreTextos">
       <img src="Imagens/formula.png" alt="formula">
     </div>
-    <br>
 
-    <p class="margem">Onde,
+    <p class="margem margemEntreTextos">Onde,
 
     </p>
     <p class="margem"> I= intensidade da corrente (A)
@@ -227,13 +214,11 @@
     </p>
     <p class="margem"> Δt: intervalo de tempo (s)
     </p>
-    <br>
-    <p class="margem">
+    <p class="margem margemEntreTextos">
       Por fim, a energia elétrica de uma corrente é produzida através do potencial elétrico de dois pontos de um
       condutor, para calcular a energia elétrica é utilizada a seguinte equação:
     </p>
-    <br>
-    <p class="margem">Eel = P . ∆t</p>
+    <p class="margem margemEntreTextos">Eel = P . ∆t</p>
     <p class="margem">Onde,
 
     </p>
@@ -243,28 +228,26 @@
     </p>
     <p class="margem"> ∆t: variação do tempo (h)
     </p>
-    <br>
-    <h1 style="margin-left: 3cm ;"> Refêrencias </h1>
-    <br>
-    <p style="margin-left: 3cm; margin-right: 2cm; line-height: 1.5;">ALVES, Pedro. <strong class="bibliografia">“O que
+    <h1 class="margemEntreTextos" style="margin-left: 3cm ;"> Refêrencias </h1>
+    <p class="margemEntreTextos" style="margin-left: 3cm; margin-right: 2cm; line-height: 1.5;">ALVES, Pedro. <strong
+        class="bibliografia">“O que
         é corrente elétrica? Fórmulas e características”</strong>. “Manual da Eletrônica”. Disponível em: O que é
       corrente elétrica? Fórmulas e características! (manualdaeletronica.com.br). Acesso em 23 de março de 2023.
     </p>
-    <br>
-    <p style="margin-left: 3cm; margin-right: 2cm; line-height: 1.5;"> GOUVEIA, Rosimar. <strong
-        class="bibliografia">“Corrente Elétrica”</strong>. “Toda Matéria”. Disponível em
+
+    <p class="margemEntreTextos" style="margin-left: 3cm; margin-right: 2cm; line-height: 1.5;"> GOUVEIA, Rosimar.
+      <strong class="bibliografia">“Corrente Elétrica”</strong>. “Toda Matéria”. Disponível em
       https://www.todamateria.com.br/corrente-eletrica/. Acesso em 23 de março de 2023.
     </p>
-    <br>
-    <p style="margin-left: 3cm; margin-right: 2cm; line-height: 1.5;"> HELERBROCK, Rafael. <strong
-        class="bibliografia">“Corrente Elétrica”</strong>. “Brasil Escola" Disponível em:
+
+    <p class="margemEntreTextos" style="margin-left: 3cm; margin-right: 2cm; line-height: 1.5;"> HELERBROCK, Rafael.
+      <strong class="bibliografia">“Corrente Elétrica”</strong>. “Brasil Escola" Disponível em:
       https://brasilescola.uol.com.br/fisica/corrente-eletrica.htm. Acesso em 23 de março de 2023.
     </p>
-    <br>
   </div>
   </div>
   <br>
-  <div class="rodape">
+  <footer class="rodape">
     <div class="texto-rodape">
       <div class="parte-rodape-esquerdo">
         <strong class="cabeca12">
@@ -277,11 +260,12 @@
           <p>Professor/Orientador: Doutor Naylor Garcia Bachiega</p>
         </strong>
       </div>
-
-
-      <div class="parte-rodape-direito"><strong class="cabeca12"><img src="Imagens/Logo_IFC_horizontal.gif"
-            alt="Logo IFC" width="300px"></strong></div>
     </div>
+
+
+    <div class="parte-rodape-direito"><strong class="cabeca12"><img src="Imagens/Logo_IFC_horizontal.gif" alt="Logo IFC"
+          width="300px"></strong></div>
+  </footer>
 
 </body>
 
