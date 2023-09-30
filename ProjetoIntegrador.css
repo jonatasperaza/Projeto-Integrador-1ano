@@ -98,6 +98,7 @@ img {
 .center {
   text-align: center;
   margin: auto;
+  padding: 10px;
 }
 
 #justify {
@@ -119,13 +120,10 @@ header {
 
 
 .conteudo {
-
-  margin-bottom: 2cm;
-  margin-top: 3cm;
-  margin-right: 2cm;
+  
   max-width: 950px;
   min-width: 320px;
-  margin: auto;
+  margin: 15px auto 15px auto;
   background-color: white;
   border-radius: 10px;
   border: 2px solid #000000;
@@ -136,19 +134,13 @@ header {
 }
 
 .conteudo2 {
-  margin-left: 3cm;
-  margin-bottom: 2cm;
-  margin-top: 3cm;
-  margin-right: 2cm;
+  margin: 15px auto 15px auto;
   max-width: 90%;
   min-width: 320px;
   margin: auto;
   background-color: white;
   border-radius: 10px;
-  border-left: 2px solid #000000;
-  border-right: 2px solid #000000;
-  border-top: 2px solid #000000;
-  border-bottom: 2px solid #000000;
+  border: 2px solid #000000;
   box-shadow: 3px 3px 3px 3px #333;
   text-align: justify;
 }
@@ -176,7 +168,18 @@ p.margemC {
   max-width: 300px;
 }
 
-.rodape {
+.margemEntreTextos {
+  margin-top: 15px;
+}
+
+p.bibli {
+  margin-left: 3cm;
+  margin-right: 2cm;
+  line-height: 1.5;
+  margin-top: 15px;
+}
+
+footer {
   height: 150px;
   background-color: white;
   clear: both;
@@ -185,6 +188,7 @@ p.margemC {
   width: 100%;
   align-items: center;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .btn {
@@ -821,7 +825,7 @@ h1.center {
   float: right;
 }
 
-.buscas{
+.buscas {
   width: 100%;
   display: flex;
   justify-content: right;
@@ -911,27 +915,47 @@ p.margemsambaqui {
   line-height: 1;
 }
 
-.ref-imagens5{
+.ref-imagens5 {
   font-size: 10pt;
   line-height: 1;
   margin-left: 6.25cm;
 }
 
-.ref-imagens6{
+.ref-imagens6 {
   font-size: 10pt;
   line-height: 1;
   margin-left: 7.5cm;
 }
 
-img.temas{
+img.temas {
   width: 60%;
   height: 25vh;
 }
 
-nav{
+nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 40px;
+}
+
+img.ondas{
+  width: 40%;
+}
+
+img.ondas1{
+  width: 50%;
+}
+
+img.leis1{
+  width: 80%;
+}
+
+img.leis2{
+  width: 35%;
+}
+
+img.leis3{
+  width:70%;
 }
