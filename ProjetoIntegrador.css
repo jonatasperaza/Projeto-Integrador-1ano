@@ -959,3 +959,22 @@ img.leis2{
 img.leis3{
   width:70%;
 }
+h4{
+  color: #008383;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+letter-spacing: 1px;
+}
+.margemEntreTextos{
+  margin-top: 15px;
+}
+.margemParaMain{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.botaoMecanica{
+  margin: auto;
+  width: 200px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}

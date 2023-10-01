@@ -56,37 +56,37 @@ window.onkeydown = function (evt) {
 };
 
 function ondas() {
-  var ondas = "Ondas.html";
+  var ondas = "ondas.html";
   window.open(ondas);
 }
 
 function leis() {
-  var leis = "LeisDeNewton.html";
+  var leis = "leis_de_newton.html";
   window.open(leis);
 }
 
 function energia() {
-  var energia = "Energia.html";
+  var energia = "energia.html";
   window.open(energia);
 }
 function mecanica() {
-  var mecanica = "Mecanica.html";
+  var mecanica = "mecanica.html";
   window.open(mecanica);
 }
 function optica() {
-  var optica = "Optica.html";
+  var optica = "optica.html";
   window.open(optica);
 }
 function correntes() {
-  var correntes = "CorrentesEletricas.html";
+  var correntes = "correntes_eletricas.html";
   window.open(correntes);
 }
 function eletricidade() {
-  var eletricidade = "Eletricidade.html";
+  var eletricidade = "eletricidade.html";
   window.open(eletricidade);
 }
 function termofisica() {
-  var termofisica = "Termofisica.html";
+  var termofisica = "termofisica.html";
   window.open(termofisica);
 }
 
@@ -96,6 +96,6 @@ function sambaqui() {
 }
 
 function bibli() {
-  var bibliografias = "Bibliografia.html";
+  var bibliografias = "bibliografia.html";
   window.open(bibliografias);
 }

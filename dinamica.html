@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <div class="cabeçalho">
+  <header>
     <a href="index.html">
       <h1 class="center"><strong class="cabeca"> Física Na Mente </strong></h1>
     </a>
@@ -23,127 +23,135 @@
     <div id="mySidebar" class="sidebar">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
       <h1 style="text-align: center;">Tópicos</h1>
-      <a href="Ondas.html"><button type="button" class="btn">
+      <nav>
+        <button type="button" onclick="ondas()" class="btn">
           <strong>Ondas</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br>
-      <a href="Leis De Newton.html">
-        <button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+
+        <button type="button" onclick="leis()" class="btn">
           <strong>Leis de Newton</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="Mecanica.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="mecanica()" class="btn">
           <strong>Mecânica</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="Energia.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="energia()" class="btn">
           <strong>Energia</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="Eletricidade.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="eletricidade()" class="btn">
           <strong>Eletricidade</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="CorrentesEletricas.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="correntes()" class="btn">
           <strong>Correntes Elétricas</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="TermoFisica.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="termofisica()" class="btn">
           <strong>Termofísica</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br><a href="Optica.html"><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="optica()" class="btn">
           <strong>Óptica</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br>
-      <a href="Bibliografia.html"><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="bibli()" class="btn">
           <strong>Bibliografia</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br>
-      <a href="sambaqui.html"><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="sambaqui()" class="btn">
           <strong>Sambaqui</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br>
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+      </nav>
     </div>
+    <div class="buscas">
+      <div id="main">
+        <span style="font-size:30px;cursor:pointer;" onclick="openNav()" class="openNav">&#9776;</span>
+      </div>
+    </div>
+  </header>
 <div class="buscas">
     <div id="main">
       <span style="font-size:30px;cursor:pointer;" onclick="openNav()" class="openNav">&#9776;<div class="MenuB">Menu
@@ -152,47 +160,46 @@
   </div>
   </div>
  
-  <div class="conteudo">
-      <br>
-    <div id="center">
+  <main class="conteudo margemParaMain">
+      
+    <div class="center">
       <h1 style="font-size: 12pt;"> DINÂMICA </h1>
-    
     </div>
-    <br>
-    <p>Dinâmica é o ramo da física que estuda as leis que governam o movimento dos corpos e as causas desse
-      movimento.Essas leis são descritas pelas três leis de Newton, também conhecidas como as leis do
+    
+    <p class="margem margemEntreTextos">Dinâmica é o ramo da física que estuda as leis que governam o movimento dos corpos e as causas desse
+      movimento.Essas leis são descritas pelas três leis de Newton, também conhecclassas como as leis do
       movimento.(HELERBROCK, 2023).</p>
-    <br>
+    
   
-    <div id="center">
+    <div class="center">
       <p><strong class="bibliografia">Figura 1:</strong> Força</p>
       <img src="Imagens/tipos-de-forca.webp" alt="Isaac Newton" width="35%">
     </div>
-    <legend class="ref-imagens">Fonte: GOUVEIA, 2023.
-    </legend>
-    <br>
+    <div class="ref-imagens">Fonte: GOUVEIA, 2023.
+    </div>
+    
 
-    <p class="margem">Segundo Pedro Loos(2022), a primeira lei de Newton, também chamada de lei da inércia, diz que um
+    <p class="margem margemEntreTextos">Segundo Pedro Loos(2022), a primeira lei de Newton, também chamada de lei da inércia, diz que um
       objeto
       em repouso permanecerá em repouso e um objeto em movimento permanecerá em movimento em linha reta e com
       a mesma velocidade, a menos que seja influenciado por uma força externa.
     </p>
-    <p class="margem"> A segunda lei de Newton relaciona a força aplicada a um objeto à sua massa e aceleração, por meio
+    <p class="margem margemEntreTextos"> A segunda lei de Newton relaciona a força aplicada a um objeto à sua massa e aceleração, por meio
       da
       expressão matemática F = m*a, onde F é a força, m é a massa do objeto e a é a aceleração que ele
       sofre.(Pedro Loos, 2022).</p>
-    <p class="margem">
+    <p class="margem margemEntreTextos">
       A terceira lei de Newton, conhecida como lei da ação e reação, estabelece que para toda ação há sempre
       uma reação igual e oposta.</p>
-    <p class="margem"> Essas leis são usadas para entender e prever o movimento de objetos sob a ação de forças
+    <p class="margem margemEntreTextos"> Essas leis são usadas para entender e prever o movimento de objetos sob a ação de forças
       externas.
       Além disso, a dinâmica também estuda conceitos como trabalho, energia e quantidade de movimento, que são
       fundamentais para o entendimento de fenômenos como a colisão entre objetos e a transformação de energia
       em diversas formas. </p>
-    <p class="margem"> A dinâmica também é importante na engenharia, sendo utilizada no projeto de máquinas, veículos e
+    <p class="margem margemEntreTextos"> A dinâmica também é importante na engenharia, sendo utilizada no projeto de máquinas, veículos e
       estruturas.(HELERBROCK, 2023).</p>
-    <br>
-    <div id="center">
+    
+    <div class="center">
       <p><strong class="bibliografia">Figura 2:</strong> Foguete</p>
       <img src="Imagens/flight-sky-earth-space.jpg" alt="Isaac Newton" width="35%">
     </div>
@@ -200,35 +207,52 @@
     </legend>
 
 
-    <br>
-    <div id="center">
+    
+    <div class="center">
       <h1 style="font-size: 12pt;"> ESTÁTICA </h1>
     
     </div>
-    <br>
-    <p class="margem">De acordo com Prof. Eduardo Nobre Lages, A estática é o ramo da física que estuda o equilíbrio de
+    
+    <p class="margem margemEntreTextos">De acordo com Prof. Eduardo Nobre Lages, A estática é o ramo da física que estuda o equilíbrio de
       corpos em repouso sob a ação de forças, segundo a primeira lei de Newton, quando um sistema está em equilíbrio,
       todas as suas partes também estarão. Com isso em mente, um corpo está em equilíbrio quando sua resultante de
       forças é nula, ou seja, quando a soma vetorial de todas as forças aplicadas no corpo é igual a zero.(Nopes, 2023).
     </p>
-    <br>
-    <div id="center">
+    
+    <div class="center">
       <p><strong class="bibliografia">Figura 3:</strong> Pedra</p>
       <img src="Imagens/Pedra.jpeg" alt="Isaac Newton" width="35%">
     </div>
-    <legend class="ref-imagens">Fonte: GOUVEIA, 2023.
-    </legend>
-    <br>
+    <div class="ref-imagens">Fonte: GOUVEIA, 2023.
     </div>
-    <br>
-  </div>
+    
+    </div>
+    
+  </main>
 
 
 
 
 
 
-  <div class="rodape"></div>
+  <footer class="rodape">
+    <div class="texto-rodape">
+      <div class="parte-rodape-esquerdo"><h4>Desenvolvedores:
+          </h4>
+        <strong class="cabeca12">
+          <p>Anthony Gabriel Loche dos Reis <br>
+          Claudio Anzini Neto <br>
+          Gustavo Correa Kruger <br>
+          Pedro Henrique da Silva Malaquias <br>
+          Professor/Orientador: Doutor Naylor Garcia Bachiega</p>
+        </strong>
+      </div>
+    </div>
+
+
+    <div class="parte-rodape-direito"><strong class="cabeca12"><img src="Imagens/Logo_IFC_horizontal.gif" alt="Logo IFC"
+          width="300px"></strong></div>
+  </footer>
 
 </body>
 

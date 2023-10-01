@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <div class="cabeçalho">
+  <header>
     <a href="index.html">
       <h1 class="center"><strong class="cabeca"> Física Na Mente </strong></h1>
     </a>
@@ -24,323 +24,320 @@
     <div id="mySidebar" class="sidebar">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
       <h1 style="text-align: center;">Tópicos</h1>
-      <a href="Ondas.html"><button type="button" class="btn">
+      <nav>
+        <button type="button" onclick="ondas()" class="btn">
           <strong>Ondas</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br>
-      <a href="Leis De Newton.html">
-        <button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+
+        <button type="button" onclick="leis()" class="btn">
           <strong>Leis de Newton</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="Mecanica.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="mecanica()" class="btn">
           <strong>Mecânica</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="Energia.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="energia()" class="btn">
           <strong>Energia</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="Eletricidade.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="eletricidade()" class="btn">
           <strong>Eletricidade</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="CorrentesEletricas.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="correntes()" class="btn">
           <strong>Correntes Elétricas</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="TermoFisica.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="termofisica()" class="btn">
           <strong>Termofísica</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br><a href="Optica.html"><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="optica()" class="btn">
           <strong>Óptica</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br>
-      <a href="Bibliografia.html"><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="bibli()" class="btn">
           <strong>Bibliografia</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br>
-      <a href="sambaqui.html"><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="sambaqui()" class="btn">
           <strong>Sambaqui</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br>
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+      </nav>
     </div>
     <div class="buscas">
       <div id="main">
-        <span style="font-size:30px;cursor:pointer;" onclick="openNav()" class="openNav">&#9776;<div class="MenuB">Menu
-          </div></span>
+        <span style="font-size:30px;cursor:pointer;" onclick="openNav()" class="openNav">&#9776;</span>
       </div>
     </div>
-  </div>
-  <br>
-  <div class="conteudo">
+  </header>
+ 
+  <main class="conteudo margemParaMain">
     <div class="center">
       <h1 style="font-size: 12pt;"> TERMOFISICA </h1>
     </div>
-    <br>
-    <p class="margem">
+   
+    <p class="margem margemEntreTextos">
 
       Termofísica ou termologia é o ramo da física que estuda o calor, tratado acerca do calor( Dicionário Oxford
       Languages).
       A termofísica é o estudo do calor, e sobre a temperatura e como ela influencia. </p>
-    <br>
-    <div id="center">
-      <img src="Imagens/termometro-5c3e0e41d5615.webp" width="75%" alt="Foto Satelite">
-      <legend style="text-align: center;"><a href="https://brasilescola.uol.com.br/fisica/termologia.htm">
+   
+    <div class="center">
+      <img src="Imagens/termometro-5c3e0e41d5615.webp" width="60%" alt="Foto Satelite">
+      <div style="text-align: center;"><a href="https://brasilescola.uol.com.br/fisica/termologia.htm">
           Imagem Dísponivel
-          Aqui</a> </legend>
+          Aqui</a> </div>
     </div>
 
-    <br>
-    <p class="margem">Calor (energia calorífica) é a transferência que vai de um corpo para o outro quando há diferença
+   
+    <p class="margem margemEntreTextos">Calor (energia calorífica) é a transferência que vai de um corpo para o outro quando há diferença
       de temperatura
       de ambos, e o espalhamento de calor pode ocorrer de três formas: Condução Térmica, Convecção Térmica e a
       Irradiação Térmica (HELERBROCK, 2023).
 
 
     </p>
-    <p class="margem"> Condução Térmica: Transferência de calor através do contato de superfície,
+    <p class="margem margemEntreTextos"> Condução Térmica: Transferência de calor através do contato de superfície,
       Convecção Térmica: Transferência de calor em razão da formação de correntes convectivas em um fluido,
       Irradiação Térmica: Transferência de calor por ondas eletromagnéticas</p>
-    <p class="margem"></p>
-    <br>
+    <p class="margem margemEntreTextos"></p>
+   
     <div class="center">
       <h1 style="font-size: 12pt;"> CONDUÇÃO TÉRMICA </h1>
-      <br>
+     
     </div>
-    <br>
-    <p class="margem">A condução térmica é um processo de transferência de calor que ocorre quando há uma diferença de
+   
+    <p class="margem margemEntreTextos">A condução térmica é um processo de transferência de calor que ocorre quando há uma diferença de
       temperatura
       entre dois pontos em um material. Esse processo ocorre por meio das vibrações moleculares do material. Isso
       transfere energia térmica de uma molécula para outra molécula adjacente (HELERBROCK, 2023).</p>
-    <br>
-    <p class="margem">Mais tecnicamente, podemos dizer que a condução de calor é regida pela lei de Fourier, que afirma
+   
+    <p class="margem margemEntreTextos">Mais tecnicamente, podemos dizer que a condução de calor é regida pela lei de Fourier, que afirma
       que o fluxo de
       calor é diretamente proporcional à diferença de temperatura e à área da seção transversal de um material, e
       inversamente proporcional à distância entre dois pontos (MELO, 2023).
     </p>
-    <br>
-    <p class="margem">E a condução térmica depende muito do material que está passando a condutividade térmica, por
+   
+    <p class="margem margemEntreTextos">E a condução térmica depende muito do material que está passando a condutividade térmica, por
       exemplo os metais
       eles tem uma condutividade térmica alta, e já os plásticos e madeiras tem um nível de condutividade térmica baixa
       (HELERBROCK, 2023).</p>
-    <br>
-    <div id="center">
-      <img src="Imagens/conducao-de-calor-solido(1).webp" width="75%" alt="Foto Satelite">
-      <legend><a href="https://brasilescola.uol.com.br/fisica/conducao-termica.htm">
+   
+    <div class="center">
+      <img src="Imagens/conducao-de-calor-solido(1).webp" width="60%" alt="Foto Satelite">
+      <div><a href="https://brasilescola.uol.com.br/fisica/conducao-termica.htm">
           Imagem Dísponivel
-          Aqui</a> </legend>
+          Aqui</a> </div>
     </div>
-    <br>
+   
     <div class="center">
       <h1 style="font-size: 12pt;"> CONVECÇÃO TÉRMICA </h1>
     </div>
-    <div id="center">
-      <img src="Imagens/conveccao-no-bule-5c2e5b51c413a.webp" width="75%" alt="Foto Satelite">
-      <legend style="text-align: center;"><a
+    <div class="center">
+      <img src="Imagens/conveccao-no-bule-5c2e5b51c413a.webp" width="60%" alt="Foto Satelite">
+      <div  style="text-align: center;"><a
           href="https://brasilescola.uol.com.br/o-que-e/fisica/o-que-e-conveccao.htm">
           Imagem Dísponivel
-          Aqui</a> </legend>
+          Aqui</a> </div >
     </div>
-    <br>
-    <p class="margem">A convecção térmica é o processo de transferência de calor que ocorre através do movimento de um
+   
+    <p class="margem margemEntreTextos">A convecção térmica é o processo de transferência de calor que ocorre através do movimento de um
       fluido aquecido
       (gás ou líquido). Esse processo leva a diversos fenômenos naturais, como a formação da circulação atmosférica e
       das correntes oceânicas (HELERBROCK, 2023). </p>
-    <br>
-    <p class="margem">Quando um fluido é aquecido em um determinado ponto, sua densidade diminui, fazendo com que ele
+   
+    <p class="margem margemEntreTextos">Quando um fluido é aquecido em um determinado ponto, sua densidade diminui, fazendo com que ele
       fique mais leve e
       suba. Esse movimento ascendente faz com que a pressão na área aquecida caia, fazendo com que o fluido circundante
       flua para preencher o espaço vazio. Esse movimento descendente do fluido circundante é chamado de convecção
       descendente (GOUVEIA, 2023).</p>
-    <br>
-    <p class="margem">Esse ciclo convectivo de ascensão e queda faz com que o fluido se mova, trazendo calor para outras
+   
+    <p class="margem margemEntreTextos">Esse ciclo convectivo de ascensão e queda faz com que o fluido se mova, trazendo calor para outras
       partes do
       sistema. Esse processo é chamado de convecção natural porque acontece espontaneamente sem nenhum equipamento
       externo (MELO, 2023).</p>
-    <br>
-    <p class="margem">Há também casos de convecção forçada, causada por equipamentos externos. É o caso, por exemplo, de
+   
+    <p class="margem margemEntreTextos">Há também casos de convecção forçada, causada por equipamentos externos. É o caso, por exemplo, de
       um radiador,
       que aquece o ar com o qual entra em contato, provocando uma convecção forçada que leva o ar aquecido para outras
       partes do ambiente (HELERBROCK, 2023).</p>
-    <br>
-    <p class="margem">A convecção térmica é um processo importante para a compreensão de muitos fenômenos naturais, como
+   
+    <p class="margem margemEntreTextos">A convecção térmica é um processo importante para a compreensão de muitos fenômenos naturais, como
       as correntes
       oceânicas e a circulação atmosférica. Além disso, é um processo fundamental em diversas áreas da engenharia, como
       transferência de calor e mecânica dos fluidos (HELERBROCK, 2023).</p>
-    <br>
+   
     <div class="center">
       <h1 style="font-size: 12pt;"> IRRADIAÇÃO TÉRMICA </h1>
     </div>
-    <br>
-    <p class="margem">A radiação térmica é um tipo de transferência de calor que ocorre quando a energia é transferida
+   
+    <p class="margem margemEntreTextos">A radiação térmica é um tipo de transferência de calor que ocorre quando a energia é transferida
       na forma de
       ondas eletromagnéticas. Ao contrário da condução e da convecção, que requerem um meio material para ocorrer, a
       radiação térmica pode ocorrer através do vácuo, como é o caso do sol aquecendo a Terra (HELERBROCK, 2023).
     </p>
-    <br>
-    <p class="margem">A energia térmica é emitida por objetos aquecidos na forma de radiação eletromagnética, que pode
+   
+    <p class="margem margemEntreTextos">A energia térmica é emitida por objetos aquecidos na forma de radiação eletromagnética, que pode
       ser classificada
       de acordo com seu comprimento de onda ou frequência. A radiação térmica é uma forma de radiação infravermelha com
       comprimentos de onda mais longos do que a luz visível (GOUVEIA, 2023).</p>
-    <br>
-    <p class="margem">A energia emitida por um objeto aquecido depende de sua temperatura, área de superfície e
+   
+    <p class="margem margemEntreTextos">A energia emitida por um objeto aquecido depende de sua temperatura, área de superfície e
       propriedades do
       material. Objetos mais quentes emitem mais radiação eletromagnética e a taxa de emissividade de energia aumenta à
       medida que a temperatura do objeto aumenta (HELERBROCK, 2023).</p>
-    <br>
-    <p class="margem">A radiação térmica é importante em algumas aplicações práticas, como a geração de eletricidade por
+   
+    <p class="margem margemEntreTextos">A radiação térmica é importante em algumas aplicações práticas, como a geração de eletricidade por
       meio de
       painéis solares.</p>
-    <br>
-    <div id="center">
-      <img src="Imagens/os-processos-transmissao-calor-estao-inseridos-no-cotidiano-1315837060.webp" width="75%"
+   
+    <div class="center">
+      <img src="Imagens/os-processos-transmissao-calor-estao-inseridos-no-cotidiano-1315837060.webp" width="60%"
         alt="Foto Satelite">
-      <legend style="text-align: center;"><a
+      <div style="text-align: center;"><a
           href="https://brasilescola.uol.com.br/fisica/processo-propagacao-calor.htm">
           Imagem Dísponivel
-          Aqui</a> </legend>
+          Aqui</a> </div>
     </div>
-    <br>
-    <p class="margem">Nesta imagem vemos os três tipos de espalhamento do calor ao mesmo tempo.</p>
+   
+    <p class="margem margemEntreTextos">Nesta imagem vemos os três tipos de espalhamento do calor ao mesmo tempo.</p>
   
 
-  <br>
+ 
   <h1 style="margin-left: 3cm ;"> Refêrencias </h1>
-  <br>
-  <br>
-  <p style="margin-left: 3cm; margin-right: 2cm; line-height: 1.5;"> SILVA, Domiciano Correa Marques da. <strong
+ 
+ 
+  <p style="margin-left: 3cm; margin-right: 2cm; line-height: 1.5;" class="margemEntreTextos"> SILVA, Domiciano Correa Marques da. <strong
     class="bibliografia"> "Processos de propagação de Calor". </strong> Brasil Escola. Disponível em: 
     https://brasilescola.uol.com.br/fisica/processo-propagacao-calor.htm. Acesso em 15 de março de 2023.
 </p>
-  <br>
-  <p style="margin-left: 3cm; margin-right: 2cm; line-height: 1.5;">
+ 
+  <p style="margin-left: 3cm; margin-right: 2cm; line-height: 1.5;" class="margemEntreTextos">
     ASTH, Rafael. <strong class="bibliografia">“Calor e Temperatura”. </strong> Toda Matéria. Disponível em:
     https://www.todamateria.com.br/calor-e-temperatura/. Acesso em: 16 mar. 2023.
   </p>
-  <br>
-  <br>
-  <p style="margin-left: 3cm; margin-right: 2cm; line-height: 1.5;"> HELERBROCK, Rafael.  <strong class="bibliografia">
+ 
+ 
+  <p style="margin-left: 3cm; margin-right: 2cm; line-height: 1.5;" class="margemEntreTextos"> HELERBROCK, Rafael.  <strong class="bibliografia">
     "Termologia" </strong> Brasil Escola. Disponível em:  https://brasilescola.uol.com.br/fisica/termologia.htm.  Acesso em 16 de março de 2023.
 
   </p>
-  <br>
-  <p style="margin-left: 3cm; margin-right: 2cm; line-height: 1.5;"> RICARDO PRASS, Alberto. <strong
+ 
+  <p style="margin-left: 3cm; margin-right: 2cm; line-height: 1.5;" class="margemEntreTextos"> RICARDO PRASS, Alberto. <strong
     class="bibliografia"> “Física Térmica” </strong>  FísicaNET. Disponível em:
     https://www.fisica.net/fisicatermica/#:~:text=A%20F%C3%ADsica%20T%C3%A9rmica%20ou%20Termologia,estudo%20t%C3%A9rmico%20dos%20gases%20etc   . Acesso em 17 mar. 2023.
     
 </p>
-  <br>
-  <p style="margin-left: 3cm; margin-right: 2cm; line-height: 1.5;"> HELERBROCK, Rafael.  <strong
+ 
+  <p style="margin-left: 3cm; margin-right: 2cm; line-height: 1.5;" class="margemEntreTextos"> HELERBROCK, Rafael.  <strong
       class="bibliografia"> “Termologia”. </strong> Mundo educação. Disponível em:
       https://mundoeducacao.uol.com.br/fisica/termologia.htm. Acesso em: 18 mar. 2023.
       
   </p>
-  <br>
-</div>
-<br>
-  <<div class="rodape">
+ 
 
+
+  </main><footer class="rodape">
     <div class="texto-rodape">
-      <div class="parte-rodape-esquerdo">
-        <strong class="cabeca12">
-          <h4>Desenvolvedores:
+      <div class="parte-rodape-esquerdo"><h4>Desenvolvedores:
           </h4>
-          <p>Anthony Gabriel Loche dos Reis</p>
-          <p>Claudio Anzini Neto</p>
-          <p>Gustavo Correa Kruger</p>
-          <p>Pedro Henrique da Silva Malaquias</p>
-          <p>Professor/Orientador: Doutor Naylor Garcia Bachiega</p>
+        <strong class="cabeca12">
+          <p>Anthony Gabriel Loche dos Reis <br>
+          Claudio Anzini Neto <br>
+          Gustavo Correa Kruger <br>
+          Pedro Henrique da Silva Malaquias <br>
+          Professor/Orientador: Doutor Naylor Garcia Bachiega</p>
         </strong>
       </div>
-
-
-      <div class="parte-rodape-direito"><strong class="cabeca12"><img src="Imagens/Logo_IFC_horizontal.gif"
-            alt="Logo IFC" width="300px"></strong></div>
-
     </div>
-  </div>
-</div>
+  
+  
+    <div class="parte-rodape-direito"><strong class="cabeca12"><img src="Imagens/Logo_IFC_horizontal.gif" alt="Logo IFC"
+          width="300px"></strong></div>
+  </footer>
 </body>
 
 </html>

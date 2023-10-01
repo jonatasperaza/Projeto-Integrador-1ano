@@ -13,298 +13,326 @@
 </head>
 
 <body>
-  <div class="cabeçalho">
-    <div class="center">
+  <header>
+    <a href="index.html">
       <h1 class="center"><strong class="cabeca"> Física Na Mente </strong></h1>
-  </div>
+    </a>
+
     <div id="mySidebar" class="sidebar">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-<h1 style="text-align: center;">Tópicos</h1>
-    <a href="Ondas.html"><button type="button" class="btn">
-        <strong>Ondas</strong>
-        <div id="container-stars">
-          <div id="stars"></div>
-        </div>
+      <h1 style="text-align: center;">Tópicos</h1>
+      <nav>
+        <button type="button" onclick="ondas()" class="btn">
+          <strong>Ondas</strong>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-        <div id="glow">
-          <div class="circle"></div>
-          <div class="circle"></div>
-        </div>
-      </button></a>
-    <br>
-    <a href="Leis De Newton.html">
-      <button type="button" class="btn">
-        <strong>Leis de Newton</strong>
-        <div id="container-stars">
-          <div id="stars"></div>
-        </div>
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
 
-        <div id="glow">
-          <div class="circle"></div>
-          <div class="circle"></div>
-        </div>
-      </button></a>
-    <a href="Mecanica.html">
-      <br><button type="button" class="btn">
-        <strong>Mecânica</strong>
-        <div id="container-stars">
-          <div id="stars"></div>
-        </div>
 
-        <div id="glow">
-          <div class="circle"></div>
-          <div class="circle"></div>
-        </div>
-      </button></a>
-    <a href="Energia.html">
-      <br><button type="button" class="btn">
-        <strong>Energia</strong>
-        <div id="container-stars">
-          <div id="stars"></div>
-        </div>
+        <button type="button" onclick="leis()" class="btn">
+          <strong>Leis de Newton</strong>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-        <div id="glow">
-          <div class="circle"></div>
-          <div class="circle"></div>
-        </div>
-      </button></a>
-    <a href="Eletricidade.html">
-      <br><button type="button" class="btn">
-        <strong>Eletricidade</strong>
-        <div id="container-stars">
-          <div id="stars"></div>
-        </div>
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
 
-        <div id="glow">
-          <div class="circle"></div>
-          <div class="circle"></div>
-        </div>
-      </button></a>
-    <a href="CorrentesEletricas.html">
-      <br><button type="button" class="btn">
-        <strong>Correntes Elétricas</strong>
-        <div id="container-stars">
-          <div id="stars"></div>
-        </div>
+        <button type="button" onclick="mecanica()" class="btn">
+          <strong>Mecânica</strong>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-        <div id="glow">
-          <div class="circle"></div>
-          <div class="circle"></div>
-        </div>
-      </button></a>
-    <a href="TermoFisica.html">
-      <br><button type="button" class="btn">
-        <strong>Termofísica</strong>
-        <div id="container-stars">
-          <div id="stars"></div>
-        </div>
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
 
-        <div id="glow">
-          <div class="circle"></div>
-          <div class="circle"></div>
-        </div>
-      </button></a>
-    <br><a href="Optica.html"><button type="button" class="btn">
-        <strong>Óptica</strong>
-        <div id="container-stars">
-          <div id="stars"></div>
-        </div>
+        <button type="button" onclick="energia()" class="btn">
+          <strong>Energia</strong>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-        <div id="glow">
-          <div class="circle"></div>
-          <div class="circle"></div>
-        </div>
-      </button></a>
-    <br>
-    <a href="Bibliografia.html"><button type="button" class="btn">
-      <strong>Bibliografia</strong>
-      <div id="container-stars">
-        <div id="stars"></div>
-      </div>
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
 
-      <div id="glow">
-        <div class="circle"></div>
-        <div class="circle"></div>
-      </div>
-    </button></a>
-  <br>
+        <button type="button" onclick="eletricidade()" class="btn">
+          <strong>Eletricidade</strong>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="correntes()" class="btn">
+          <strong>Correntes Elétricas</strong>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
+
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="termofisica()" class="btn">
+          <strong>Termofísica</strong>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
+
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="optica()" class="btn">
+          <strong>Óptica</strong>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
+
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="bibli()" class="btn">
+          <strong>Bibliografia</strong>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
+
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="sambaqui()" class="btn">
+          <strong>Sambaqui</strong>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
+
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+      </nav>
     </div>
-    
-    <div id="main">
-      <span style="font-size:30px;cursor:pointer;" onclick="openNav()" class="openNav">&#9776;<div
-        class="MenuB">Menu </div></span> 
-
+    <div class="buscas">
+      <div id="main">
+        <span style="font-size:30px;cursor:pointer;" onclick="openNav()" class="openNav">&#9776;</span>
+      </div>
     </div>
-  </div>
-  </div>
-  <div class="conteudo">
-    <h1><strong class="textosTitulo"> Bibliografia</strong></h1>
+  </header>
+  <main class="conteudo margemParaMain">
+    <div class="center"><h1> Bibliografia</h1></div>
     <hr>
-    <p>HELERBROCK, Rafael. "O que é onda?" Brasil Escola. Disponível em:
+    <p class="margem margemEntreTextos">HELERBROCK, Rafael. "O que é onda?" Brasil Escola. Disponível em:
       https://brasilescola.uol.com.br/o-que-e/fisica/o-que-e-onda.htm. Acesso em 13 de março de 2023.</p>
-      <br>
-    <p>HELERBROCK, Rafael. "Classificação das ondas"; Brasil Escola. Disponível em:
+     
+    <p class="margem margemEntreTextos">HELERBROCK, Rafael. "Classificação das ondas"; Brasil Escola. Disponível em:
       https://brasilescola.uol.com.br/fisica/a-classificacao-das-ondas.htm. Acesso em 14 de março de 2023. </p>
-      <br>
-    <p>“O que é uma onda?”Pedro Loos, Youtube, 24 de julho de 2020 , duração, local de consulta ( O que é uma Onda? -
+     
+    <p class="margem margemEntreTextos">“O que é uma onda?”Pedro Loos, Youtube, 24 de julho de 2020 , duração, local de consulta ( O que é uma Onda? -
       YouTube), Acesso em 13 de março de 2023</p>
-      <br>
-    <p>GOUVEIA, Rosimar. Ondas. Toda Matéria. Disponível em: https://www.todamateria.com.br/ondas/. Acesso em: 14 mar.
+     
+    <p class="margem margemEntreTextos">GOUVEIA, Rosimar. Ondas. Toda Matéria. Disponível em: https://www.todamateria.com.br/ondas/. Acesso em: 14 mar.
       2023</p>
-      <br>
-    <p>Borges, Frederico. “Ondas”: Mundo Educação. Disponível em: Ondas. Conceito, natureza e tipos de ondas - Mundo
+     
+    <p class="margem margemEntreTextos">Borges, Frederico. “Ondas”: Mundo Educação. Disponível em: Ondas. Conceito, natureza e tipos de ondas - Mundo
       Educação (uol.com.br). Acesso em 13 de março de 2023.
     </p>
-    <br>
-    <p>CARDOSO, Mayara “Modelo Atômico de Broglie”, InfoEscola, Disponível em:Modelo atômico de Broglie - Química -
+   
+    <p class="margem margemEntreTextos">CARDOSO, Mayara “Modelo Atômico de Broglie”, InfoEscola, Disponível em:Modelo atômico de Broglie - Química -
       InfoEscola, Acesso em 13 de março de 2023.
-    </p>
-    <br>
-    <p>GUILHERME, Luiz. "Ondas mecânicas"; Brasil Escola. Disponível em:
+    </p class="margem margemEntreTextos">
+   
+    <p class="margem margemEntreTextos">GUILHERME, Luiz. "Ondas mecânicas"; Brasil Escola. Disponível em:
       https://brasilescola.uol.com.br/fisica/ondas-mecanicas.htm. Acesso em 18 de março de 2023.</p>
-    <p>GOUVEIA, Rosimar. Ondas. Toda Matéria, [s.d.]. Disponível em: https://www.todamateria.com.br/ondas/. Acesso em:
+    <p class="margem margemEntreTextos">GOUVEIA, Rosimar. Ondas. Toda Matéria, [s.d.]. Disponível em: https://www.todamateria.com.br/ondas/. Acesso em:
       18 mar. 2023</p>
-      <br>
-    <p>MELÔ, Pâmella. "Ondulatoria"; Mundo Educação. Disponível em:
+     
+    <p class="margem margemEntreTextos">MELÔ, Pâmella. "Ondulatoria"; Mundo Educação. Disponível em:
       https://brasilescola.uol.com.br/fisica/ondas-mecanicas.htm. Acesso em 18 de março de 2023.</p>
-      <br>
-    <p>HELERBROCK, Rafael. "Primeira Lei de Newton"; Brasil Escola. Disponível em:
+     
+    <p class="margem margemEntreTextos">HELERBROCK, Rafael. "Primeira Lei de Newton"; Brasil Escola. Disponível em:
       https://brasilescola.uol.com.br/fisica/primeira-lei-newton.htm. Acesso em 15 de março de 2023.</p>
-      <br>
-    <p>
+     
+    <p class="margem margemEntreTextos">
       “A Primeira Lei de Newton (Lei da Inércia) Explicada | Episódio 4
       ”Ciência Todo Dia, Youtube, 22 de junho de 2020 ,local de consulta (A Primeira Lei de Newton (Lei da Inércia)
       Explicada | Episódio 4 - YouTube), Acesso em 15 de março de 2023</p>
-      <br>
-    <p>MELO, Pâmella Raphaella. "Segunda lei de Newton"; Brasil Escola. Disponível em:
+     
+    <p class="margem margemEntreTextos">MELO, Pâmella Raphaella. "Segunda lei de Newton"; Brasil Escola. Disponível em:
       https://brasilescola.uol.com.br/fisica/segunda-lei-newton.htm. Acesso em 19 de março de 2023.</p>
-      <br>
-    <p>
+     
+    <p class="margem margemEntreTextos">
       HELERBROCK, Rafael. "Terceira lei de Newton"; Brasil Escola. Disponível em:
       https://brasilescola.uol.com.br/fisica/terceira-lei-newton.htm. Acesso em 19 de março de 2023.</p>
-      <br>
-    <p>HELERBROCK, Rafael. “Mecânica”, Brasil Escola. Disponível em https://brasilescola.uol.com.br/fisica/mecanica.htm
+     
+    <p class="margem margemEntreTextos">HELERBROCK, Rafael. “Mecânica”, Brasil Escola. Disponível em https://brasilescola.uol.com.br/fisica/mecanica.htm
       . Acesso em 18 de março de 2023.
-    </p>
-    <br>
-    <p>Silas da Silva Júnior, Joab. “Mecânica”, Mundo Educação. Disponível em
+    </p class="margem margemEntreTextos">
+   
+    <p class="margem margemEntreTextos">Silas da Silva Júnior, Joab. “Mecânica”, Mundo Educação. Disponível em
       https://mundoeducacao.uol.com.br/fisica/mecanica.htm . Acesso em 18 de março de 2023.
-    </p>
-    <br>
-    <p>
+    </p class="margem margemEntreTextos">
+   
+    <p class="margem margemEntreTextos">
       FERNANDES, Mariana.”Física mecânica: conceitos, fórmulas e exercícios [Física no Enem], PUC Goiás. Disponível em
       https://ead.pucgoias.edu.br/blog/fisica-mecanica . Acesso em 18 de março de 2023.</p>
-      <br>
-    <p>
+     
+    <p class="margem margemEntreTextos">
       DIAS, Fabiana. “Mecânica”, Educa+Brasil. Disponível em https://www.educamaisbrasil.com.br/enem/fisica/mecanica .
       Acesso em 18 de março de 2023.
-    </p>
-    <br>
-    <p>MELO, Augusto. “Movimento Uniforme-noções preliminares”. Disponível em
+    </p class="margem margemEntreTextos">
+   
+    <p class="margem margemEntreTextos">MELO, Augusto. “Movimento Uniforme-noções preliminares”. Disponível em
       https://www.cparaiso.com.br/pdf/2018-02-mecanica-movimento-uniforme-26022018.pdf . Acesso em 18 de março de 2023.
-    </p>
-    <br>
-    <p>
+    </p class="margem margemEntreTextos">
+   
+    <p class="margem margemEntreTextos">
       MARTINS, Lucas. “Movimento Uniforme (MU)”, INFOESCOLA-navegando e aprendendo. Disponível em
       https://www.infoescola.com/fisica/movimento-uniforme-mu/ . Acesso em 18 de março de 2023.</p>
-      <br>
-    <p>
+     
+    <p class="margem margemEntreTextos">
       GOUVEIA, Rosimar.”Movimento Retilíneo Uniforme”, Toda Matéria. Disponível em
       https://www.todamateria.com.br/movimento-retilineo-uniforme/ . Acesso em 18 de março de 2023.</p>
-      <br>
-    <p>OLIVEIRA, Davi. “Movimento Circular Uniforme - Aula 01”, Davi Oliveira - Física 2.0. Disponível em
+     
+    <p class="margem margemEntreTextos">OLIVEIRA, Davi. “Movimento Circular Uniforme - Aula 01”, Davi Oliveira - Física 2.0. Disponível em
       https://www.youtube.com/watch?v=P28aPQvFhmE . Acesso em 18 de março de 2023.</p>
-      <br>
-    <p>
+     
+    <p class="margem margemEntreTextos">
       HELERBROCK, Rafael. ”Dinâmica”, Brasil Escola. Disponível em
       https://brasilescola.uol.com.br/fisica/dinamica.htm#:~:text=Dinâmica%20é%20a%20área%20da,lei%20da%20ação%20e%20reação
       . Acesso em 18 de março de 2023.</p>
-      <br>
-    <p>
+     
+    <p class="margem margemEntreTextos">
       HELERBROCK, Rafael. ”Leis de Newton”, Brasil Escola. Disponível em
       https://brasilescola.uol.com.br/fisica/leis-newton.htm . Acesso em 18 de março de 2023.</p>
-      <br>
-    <p>
+     
+    <p class="margem margemEntreTextos">
       LOSS, Pedro.”As 3 Leis de Newton EXPLICADAS”, Ciência Todo Dia. Disponível em
       https://www.youtube.com/watch?v=B2u8FYE9fWk Acesso em 18 de março de 2023.
     </p>
-    <br>
-    <p>DIAS, Fabiana. ”Estática”, Educa+Brasil. Disponível em https://www.educamaisbrasil.com.br/enem/fisica/estatica .
+   
+    <p class="margem margemEntreTextos">DIAS, Fabiana. ”Estática”, Educa+Brasil. Disponível em https://www.educamaisbrasil.com.br/enem/fisica/estatica .
       Acesso em 19 de março de 2023.
     </p>
-    <br>
-    <p>
+   
+    <p class="margem margemEntreTextos">
       NOPES, Eduardo Lages. “Estática – Conceitos e Conceitos e Princípios Fundamentais”, Universidade Federal de
       Alagoas. Disponível em
       https://ctec.ufal.br/professor/enl/aurb006/7%20-%20Estatica%20-%20Conceitos%20e%20Principios%20Fundamentais.pdf .
       Acesso em 19 de março de 2023.</p>
-      <br>
-    <p>GOUVEIA, Rosimar. “Teoria da Relatividade”, Toda Matéria. Disponível em
+     
+    <p class="margem margemEntreTextos">GOUVEIA, Rosimar. “Teoria da Relatividade”, Toda Matéria. Disponível em
       https://www.todamateria.com.br/teoria-da-relatividade-2/ . Acesso em 19 de março de 2023.</p>
-      <br>
-    <p>BETZ, Michel. “Mecânica Quântica( Física Quântica)”, FísicaNet. Disponível em
-      https://www.fisica.net/mecanica-quantica/#:~:text=A%20Mecânica%20Quântica%20(Física%20Quântica,descrever%20fenômenos%20macroscópicos%20em%20diversos
+     
+    <p class="margem margemEntreTextos">BETZ, Michel. “Mecânica Quântica( Física Quântica)”, FísicaNet. Disponível em
+      https://www.fisica.net/mecanica-quantica/#:~:text=A%20Mecânica%20Quântica%20Física%20Quântica,descrever%20fenômenos%20macroscópicos%20em%20diversos
       . Acesso em 19 de março de 2023.
     </p>
-    <br>
-    <p>SILVA, Domiciano Correa Marques da. "Processos de propagação de calor"; Brasil Escola. Disponível em:
+   
+    <p class="margem margemEntreTextos">SILVA, Domiciano Correa Marques da. "Processos de propagação de calor"; Brasil Escola. Disponível em:
       https://brasilescola.uol.com.br/fisica/processo-propagacao-calor.htm . Acesso em 15 de março de 2023.</p>
-      <br>
-    <p>ASTH, Rafael. “Calor e Temperatura”. Toda Matéria. Disponível em:
-      https://www.todamateria.com.br/calor-e-temperatura/. Acesso em: 16 mar. 2023.</p><br>
-    <p>HELERBROCK, Rafael. "Termologia"; Brasil Escola. Disponível em:
-      https://brasilescola.uol.com.br/fisica/termologia.htm. Acesso em 16 de março de 2023.</p><br>
-    <p>RICARDO PRASS, Alberto. “Física Térmica”. FísicaNET. Disponível em:
+     
+    <p class="margem margemEntreTextos">ASTH, Rafael. “Calor e Temperatura”. Toda Matéria. Disponível em:
+      https://www.todamateria.com.br/calor-e-temperatura/. Acesso em: 16 mar. 2023.</p>
+    <p class="margem margemEntreTextos">HELERBROCK, Rafael. "Termologia"; Brasil Escola. Disponível em:
+      https://brasilescola.uol.com.br/fisica/termologia.htm. Acesso em 16 de março de 2023.</p>
+    <p class="margem margemEntreTextos">RICARDO PRASS, Alberto. “Física Térmica”. FísicaNET. Disponível em:
       https://www.fisica.net/fisicatermica/#:~:text=A%20F%C3%ADsica%20T%C3%A9rmica%20ou%20Termologia,estudo%20t%C3%A9rmico%20dos%20gases%20etc
-      . Acesso em 17 mar. 2023.</p><br>
-    <p>HELERBROCK, Rafael. “Termologia”. Mundo educação. Disponível em:
-      https://mundoeducacao.uol.com.br/fisica/termologia.htm. Acesso em: 18 mar. 2023.</p><br>
-    <p>Fundamentals of Heat and Mass Transfer, de Frank P. Incropera e David P. DeWitt.
-    </p><br>
-    <p>Heat Transfer, de J.P. Holman.
-    </p><br>
-    <p>An Introduction to Thermal Physics, de Daniel V. Schroeder.
-    </p><br>
-    <p>Bejan, A. (2013). Convection heat transfer. John Wiley & Sons.
-    </p><br>
-    <p>Çengel, Y. A., & Ghajar, A. J. (2015). Heat and mass transfer: fundamentals and applications. McGraw-Hill
+      . Acesso em 17 mar. 2023.</p>
+    <p class="margem margemEntreTextos">HELERBROCK, Rafael. “Termologia”. Mundo educação. Disponível em:
+      https://mundoeducacao.uol.com.br/fisica/termologia.htm. Acesso em: 18 mar. 2023.</p>
+    <p class="margem margemEntreTextos" class="margem margemEntreTextos">Fundamentals of Heat and Mass Transfer, de Frank P. Incropera e David P. DeWitt.
+    </p>
+    <p class="margem margemEntreTextos">Heat Transfer, de J.P. Holman.
+    </p>
+    <p class="margem margemEntreTextos">An Introduction to Thermal Physics, de Daniel V. Schroeder.
+    </p>
+    <p class="margem margemEntreTextos">Bejan, A. (2013). Convection heat transfer. John Wiley & Sons.
+    </p>
+    <p class="margem margemEntreTextos">Çengel, Y. A., & Ghajar, A. J. (2015). Heat and mass transfer: fundamentals and applications. McGraw-Hill
       Education.
-    </p><br>
-    <p>"Thermal Radiation Heat Transfer" de Robert Siegel e John Howell.
-    </p><br>
-    <p>HELERBROCK, Rafael. “Energia”, Brasil Escola. Disponível em https://brasilescola.uol.com.br/fisica/energia.htm .
-      Acesso em 19 de março de 2023.</p><br>
-<p>MELO, Pâmella Raphaella. “Energia mecânica”, PrePara Enem. Disponível em https://www.preparaenem.com/fisica/energia-mecanica.htm . Acesso em 19 de março de 2023.</p><br>
-<p>ANJOS, Talita .”Agitação molecular dos Corpos”, Canal do Educador. 
-  Disponível em https://educador.brasilescola.uol.com.br/estrategias-ensino/agitacao-molecular-dos-corpos.htm . Acesso em 19 de março de 2023.</p><br>
-<p>
-  HELERBROCK, Rafael. ”Energia Térmica”, Brasil Escola. Disponível em https://brasilescola.uol.com.br/fisica/energia-termica.htm .Acesso em 19 de março de 2023.</p><br>
-<p>MEGAWHAT. “Energia Quimica”. Disponível em https://megawhat.energy/verbetes/320/energia-quimica .Acesso em 19 de março de 2023.</p><br>
-<p>HELERBROCK, Rafael. "Fissão Nuclear”, Brasil Escola. Disponível em https://brasilescola.uol.com.br/fisica/fissao-nuclear.htm  .Acesso em 19 de março de 2023.
-</p><br>
-<p>BATISTA, Carolina. “Fusão Nuclear”. Toda Matéria”. Disponível em https://www.todamateria.com.br/fusao-nuclear/ . Acesso em 19 de março de 2023.</p><br>
-<p>GOUVEIA, Rosimar. “Corrente Elétrica”. “Toda Matéria”. disponível em https://www.todamateria.com.br/corrente-eletrica/. Acesso em 23  de março de 2023.</p><br>
-<p>
+    </p>
+    <p class="margem margemEntreTextos">"Thermal Radiation Heat Transfer" de Robert Siegel e John Howell.
+    </p>
+    <p class="margem margemEntreTextos">HELERBROCK, Rafael. “Energia”, Brasil Escola. Disponível em https://brasilescola.uol.com.br/fisica/energia.htm .
+      Acesso em 19 de março de 2023.</p>
+<p class="margem margemEntreTextos">MELO, Pâmella Raphaella. “Energia mecânica”, PrePara Enem. Disponível em https://www.preparaenem.com/fisica/energia-mecanica.htm . Acesso em 19 de março de 2023.</p>
+<p class="margem margemEntreTextos">ANJOS, Talita .”Agitação molecular dos Corpos”, Canal do Educador. 
+  Disponível em https://educador.brasilescola.uol.com.br/estrategias-ensino/agitacao-molecular-dos-corpos.htm . Acesso em 19 de março de 2023.</p>
+<p class="margem margemEntreTextos">
+  HELERBROCK, Rafael. ”Energia Térmica”, Brasil Escola. Disponível em https://brasilescola.uol.com.br/fisica/energia-termica.htm .Acesso em 19 de março de 2023.</p>
+<p class="margem margemEntreTextos">MEGAWHAT. “Energia Quimica”. Disponível em https://megawhat.energy/verbetes/320/energia-quimica .Acesso em 19 de março de 2023.</p>
+<p class="margem margemEntreTextos">HELERBROCK, Rafael. "Fissão Nuclear”, Brasil Escola. Disponível em https://brasilescola.uol.com.br/fisica/fissao-nuclear.htm  .Acesso em 19 de março de 2023.
+</p>
+<p class="margem margemEntreTextos">BATISTA, Carolina. “Fusão Nuclear”. Toda Matéria”. Disponível em https://www.todamateria.com.br/fusao-nuclear/ . Acesso em 19 de março de 2023.</p>
+<p class="margem margemEntreTextos">GOUVEIA, Rosimar. “Corrente Elétrica”. “Toda Matéria”. disponível em https://www.todamateria.com.br/corrente-eletrica/. Acesso em 23  de março de 2023.</p>
+<p class="margem margemEntreTextos">
   ALVES, Pedro. “O que é corrente elétrica? Fórmulas e características”. “Manual da Eletrônica”. Disponível em O que é corrente elétrica? Fórmulas e características! (manualdaeletronica.com.br). Acesso em 23 de março de 2023.
-  </p><br>
-<p>
-  HELERBROCK, Rafael. “Corrente Elétrica”. “Brasil Escola" disponível em https://brasilescola.uol.com.br/fisica/corrente-eletrica.htm. Acesso em 23 de março de 2023.</p><br>
-<p>HELERBROCK, Rafael. ”Óptica”. Mundo educação
-  Disponível em: https://mundoeducacao.uol.com.br/fisica/optica.htm  Acesso em: 24 mar. 2023</p><br>
-<p>TEIXEIRA, Mariane Mendes."O que é Óptica Geométrica?" Brasil Escola. Disponível em:https://brasilescola.uol.com.br/o-que-e/fisica/o-que-e-optica-geometrica.htm.  Acesso em 26 de março de 2023.
-</p><br>
-<p>MARQUES,Gil da Costa; MELLO,Luiz Adolfo. “Óptica Curso de Extensão” ri.ufs.br Disponível em:https://ri.ufs.br/bitstream/riufs/11378/2/OpticaCursoExtensao.pdf. Acesso em: 31 de março de 2023</p><br>
-<p>PRAVALER. “Luz – fontes, propagação e principais fenômenos ópticos” Pravaler Disponível em:https://www.pravaler.com.br/luz-fontes-propagacao-e-principais-fenomenos-opticos/. Acesso em : 2 de abril de 2023</p><br>
-<p>HELERBROCK, Rafael. "Óptica". Prepara Enem. Disponível em: https://www.preparaenem.com/fisica/optica.htm. Acesso em: 11 de abril de 2023</p><br>
-<p>DEON, Dante. “Óptica Geométrica”. SlidePlayer. Disponível em: https://slideplayer.com.br/slide/363434/2. Acesso em: 12 de abril de 2023</p><br>
-<p>GOETHE, JW von. Doutrina das cores. Editora Nova Alexandria, 2018. Acesso em: 18 de abril de 2023</p><br>
+  </p>
+<p class="margem margemEntreTextos">
+  HELERBROCK, Rafael. “Corrente Elétrica”. “Brasil Escola" disponível em https://brasilescola.uol.com.br/fisica/corrente-eletrica.htm. Acesso em 23 de março de 2023.</p>
+<p class="margem margemEntreTextos">HELERBROCK, Rafael. ”Óptica”. Mundo educação
+  Disponível em: https://mundoeducacao.uol.com.br/fisica/optica.htm  Acesso em: 24 mar. 2023</p>
+<p class="margem margemEntreTextos">TEIXEIRA, Mariane Mendes."O que é Óptica Geométrica?" Brasil Escola. Disponível em:https://brasilescola.uol.com.br/o-que-e/fisica/o-que-e-optica-geometrica.htm.  Acesso em 26 de março de 2023.
+</p>
+<p class="margem margemEntreTextos">MARQUES,Gil da Costa; MELLO,Luiz Adolfo. “Óptica Curso de Extensão” ri.ufs.br Disponível em:https://ri.ufs.br/bitstream/riufs/11378/2/OpticaCursoExtensao.pdf. Acesso em: 31 de março de 2023</p>
+<p class="margem margemEntreTextos">PRAVALER. “Luz – fontes, propagação e principais fenômenos ópticos” Pravaler Disponível em:https://www.pravaler.com.br/luz-fontes-propagacao-e-principais-fenomenos-opticos/. Acesso em : 2 de abril de 2023</p>
+<p class="margem margemEntreTextos">HELERBROCK, Rafael. "Óptica". Prepara Enem. Disponível em: https://www.preparaenem.com/fisica/optica.htm. Acesso em: 11 de abril de 2023</p>
+<p class="margem margemEntreTextos">DEON, Dante. “Óptica Geométrica”. SlidePlayer. Disponível em: https://slideplayer.com.br/slide/363434/2. Acesso em: 12 de abril de 2023</p>
+<p class="margem margemEntreTextos">GOETHE, JW von. Doutrina das cores. Editora Nova Alexandria, 2018. Acesso em: 18 de abril de 2023</p>
 
 
 
+</main>
+<footer class="rodape">
+  <div class="texto-rodape">
+    <div class="parte-rodape-esquerdo"><h4>Desenvolvedores:
+        </h4>
+      <strong class="cabeca12">
+        <p>Anthony Gabriel Loche dos Reis <br>
+        Claudio Anzini Neto <br>
+        Gustavo Correa Kruger <br>
+        Pedro Henrique da Silva Malaquias <br>
+        Professor/Orientador: Doutor Naylor Garcia Bachiega</p>
+      </strong>
+    </div>
   </div>
-  <div class="rodape"></div>
 
+
+  <div class="parte-rodape-direito"><strong class="cabeca12"><img src="Imagens/Logo_IFC_horizontal.gif" alt="Logo IFC"
+        width="300px"></strong></div>
+</footer>
 </body>
 
 </html>

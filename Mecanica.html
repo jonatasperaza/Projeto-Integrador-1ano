@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <div class="cabeçalho">
+  <header>
     <a href="index.html">
       <h1 class="center"><strong class="cabeca"> Física Na Mente </strong></h1>
     </a>
@@ -23,195 +23,196 @@
     <div id="mySidebar" class="sidebar">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
       <h1 style="text-align: center;">Tópicos</h1>
-      <a href="Ondas.html"><button type="button" class="btn">
+      <nav>
+        <button type="button" onclick="ondas()" class="btn">
           <strong>Ondas</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br>
-      <a href="Leis De Newton.html">
-        <button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+
+        <button type="button" onclick="leis()" class="btn">
           <strong>Leis de Newton</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="Mecanica.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="mecanica()" class="btn">
           <strong>Mecânica</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="Energia.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="energia()" class="btn">
           <strong>Energia</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="Eletricidade.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="eletricidade()" class="btn">
           <strong>Eletricidade</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="CorrentesEletricas.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="correntes()" class="btn">
           <strong>Correntes Elétricas</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="TermoFisica.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="termofisica()" class="btn">
           <strong>Termofísica</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br><a href="Optica.html"><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="optica()" class="btn">
           <strong>Óptica</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br>
-      <a href="Bibliografia.html"><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="bibli()" class="btn">
           <strong>Bibliografia</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br>
-      <a href="sambaqui.html"><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="sambaqui()" class="btn">
           <strong>Sambaqui</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br>
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+      </nav>
     </div>
-<div class="buscas">
-    <div id="main">
-      <span style="font-size:30px;cursor:pointer;" onclick="openNav()" class="openNav">&#9776;<div class="MenuB">Menu
-        </div></span>
+    <div class="buscas">
+      <div id="main">
+        <span style="font-size:30px;cursor:pointer;" onclick="openNav()" class="openNav">&#9776;</span>
+      </div>
     </div>
-  </div>
-  </div>
-  <div class="conteudo">
-    <br>
-    <div id="center">
+  </header>
+  <main class="conteudo margemParaMain">
+    
+    <div class="center">
 
       <h1 style="font-size: 12pt;"> MECÂNICA </h1>
     </div>
 
-    <br>
-    <p class="margem">
+    
+    <p class="margem margemEntreTextos">
       “Segundo Rafael Helerbrock : Mecânica é
       uma grande área da física que se concentra no
       estudo do movimento e repouso dos corpos,
       estejam estes ou não sob a ação de forças."
 
-      <br>
+      
     </p>
-    <br>
-    <p class="margem">Sendo dividida em mecânica clássica, relativística e quântica.
+    
+    <p class="margem margemEntreTextos">Sendo dividida em mecânica clássica, relativística e quântica.
       A mecânica, assim como qualquer área da física, sofreu diversas alterações durante o tempo, as bases do que
       chamamos de “mecânica clássica” foram publicadas por Galileu Galilei, Johannes Kepler e Isaac Newton, e no século
       XX sofreu alterações sendo apresentada a mecânica relativística por Albert Einstein, onde era levado em conta
       movimentos próximos à da luz junto a mecânica clássica. Entre 1925 e 1926 foi apresentada a “mecânica quântica”
       pelas contribuições de Heisenberg, Born, Jordan, Dirac, Pauli, Wiener, Schrödinger e outros.(HELERBROCK, 2023).
     </p>
-    <br>
-    <div id="center">
+    
+    <div class="center">
 
       <h1 style="font-size: 12pt;"> O QUE ELA ESTUDA? </h1>
     </div>
-    <br>
-    <p class="margem">
+    
+    <p class="margem margemEntreTextos">
       A mecânica é um ramo da física que estuda o movimento e o comportamento dos objetos sob a influência da força, ou
       seja, todo e qualquer movimento provocado por determinado corpo que sofre a influência de determinada
       força.(HELERBROCK, 2023).
     </p>
-    <br>
-    <div id="center">
+    
+    <div class="center">
       <p><strong class="bibliografia">Figura 1:</strong> SATÉLITE</p>
       <img src="Imagens/mecanicafoto1.jpeg" alt="Isaac Newton" width="35%">
     </div>
-    <legend class="ref-imagens">Fonte: GOUVEIA, 2023.
-    </legend>
-    <br>
-    <div id="center">
+    <div class="ref-imagens">Fonte: GOUVEIA, 2023.
+    </div>
+    
+    <div class="center">
       <h1 style="font-size: 12pt;"> MECÂNICA CLÁSSICA </h1>
     </div>
-    <br>
-    <p class="margem"> A primeira Lei de Newton é chamada de princípio da inércia, mas é mais conhecida como Lei da
+    
+    <p class="margem margemEntreTextos"> A primeira Lei de Newton é chamada de princípio da inércia, mas é mais conhecida como Lei da
       Inércia.
       (HELERBROCK, Rafael, 2023).
     </p>
-    <br>
-    <p class="margem">
+    
+    <p class="margem margemEntreTextos">
       A mecânica clássica estuda as variações de força e energia que atuam sobre um corpo, sendo desenvolvida antes do
       século XX e por consequência antes da mecânica relativística, suas análises levam em consideração apenas objetos
       que não estão perto da velocidade da luz, sendo uma ótima escolha para estudar nosso cotidiano. (FERNANDES, 2023).
       Exemplos: podemos calcular a velocidade de carros, a pressão de uma torneira além de ser a base para o
       funcionamento dos computadores e celulares.
     </p>
-    <br>
-    <p class="margem"> Mas FISICAMENTE FALANDO, a Lei da Inércia significa que: se algo está parado esse algo pretende
+    
+    <p class="margem margemEntreTextos"> Mas FISICAMENTE FALANDO, a Lei da Inércia significa que: se algo está parado esse algo pretende
       ficar parado,
       até venha alguém mexer nele, exemplo, seu celular, se você deixar ele no sofá ele ficará lá até alguém pegar ele,
       sem uma força exterior ele continuará parado, e o mesmo se aplica para corpos em movimento, mas para dar um
@@ -221,110 +222,126 @@
       ou a caneta entrar em órbita de um objeto grande, apesar da massa da caneta não ser suficiente para ela entrar em
       órbita, ao nao ser que seja de outro objeto pequeno) (HELERBROCK, 2023).
     </p>
-    <br>
+    
 
-    <br>
-    <div id="center">
+    
+    <div class="center">
       <h1 style="font-size: 12pt;"> MOVIMENTO RETILÍNEO UNIFORME (MRU) </h1>
     </div>
-    <br>
-    <p class="margem">
+    
+    <p class="margem margemEntreTextos">
       Segundo o Prof. Augusto Melo(2023), o movimento uniforme é um tipo de movimento em que um objeto percorre
       distâncias iguais em intervalos de tempo iguais, mantendo a mesma velocidade. Sendo assim a velocidade permanece
       constante e invariável por todo trajeto além de sua trajetória ser uma reta.
       A equação que descreve o movimento é:
-      <br>
-      <br>
-      <div id="center">
+      
+      
+      <div class="center">
         <h1 style="font-size: 12pt;"> S = s0 + V * t </h1>
       </div>
-    <br>
+    
     <p class="margem"> S =é a posição final do objeto em relação a um ponto de referência.</p>
     <p class="margem"> s0=é a posição inicial do objeto em relação ao mesmo ponto de referência
     </p>
     <p class="margem"> V= é a velocidade constante do objeto.</p>
     <p class="margem"> t = é o tempo em que o objeto levou para percorrer a trajetória.</p>
-    <br>
-    <div id="center">
+    
+    <div class="center">
       <h1 style="font-size: 12pt;"> MOVIMENTO RETILÍNEO UNIFORMEMENTE VARIADO (MRUV) </h1>
     </div>
-    <br>
+    
 
-    <p class="margem"> um tipo de movimento em que a velocidade de um objeto varia uniformemente ao longo do tempo, sob
+    <p class="margem margemEntreTextos"> um tipo de movimento em que a velocidade de um objeto varia uniformemente ao longo do tempo, sob
       a ação de uma
       aceleração constante, ou seja, a velocidade aumenta ou diminui, contudo a aceleração permanece a mesma.(MARTINS,
       2023) .
       A equação da cinemática que descreve o movimento uniformemente variado é dada por:
-      <br>
-      <br>
-      <div id="center">
+      
+      
+      <div class="center">
         <h1 style="font-size: 12pt;"> S = S0 + V0*t + (1/2)at^2 </h1>
       </div>
 
-    <br>
-    <br>
-    <div id="center">
+    
+    
+    <div class="center">
       <h1 style="font-size: 12pt;"> MOVIMENTO CIRCULAR UNIFORME (MCU) </h1>
     </div>
-    <br>
+    
 
-    <p class="margem"> No vídeo Movimento Circular Uniforme - Aula 01 do canal
+    <p class="margem margemEntreTextos"> No vídeo Movimento Circular Uniforme - Aula 01 do canal
       Davi Oliveira - Física 2.0, é apresentado que o movimento circular uniforme é um tipo de movimento em que um
       objeto se move em uma trajetória circular com velocidade constante, a velocidade tangencial ( velocidade
       instantânea do objeto considerado) em qualquer ponto da rota permanece a mesma, contudo a sua direção muda
       continuamente em direção ao centro da circunferência.(OLIVEIRA, 2023).
       A equação desse movimento é:
     </p>
-    <br>
-    <div id="center">
+    
+    <div class="center">
       <h1 style="font-size: 12pt;"> θ = ω*t </h1>
     </div>
-    <br>
+    
 
 
     <p class="margem"> θ é o ângulo percorrido pelo objeto na trajetória circular.</p>
     <p class="margem"> ω é a velocidade angular do objeto.</p>
     <p class="margem"> t é o tempo decorrido desde o início do movimento.</p>
     </p>
-    <br>
+    
 
-    <div id="center">
-      <h3>Tópicos em Mecanica</h3>
-      <br>
+    <div class="center">
+      <h3>Tópicos em Mecanica</h3></div>
+      <div class="botaoMecanica">   
       <a href="MecanicaRe.html"><button type="button" class="btn">
           <strong>Mecanica Relativista</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
+          <div class="container-stars">
+            <div class="stars"></div>
           </div>
   
-          <div id="glow">
+          <div class="glow">
             <div class="circle"></div>
             <div class="circle"></div>
           </div>
         </button></a>
-      <br>
       <a href="Dinamica.html"><button type="button" class="btn">
           <strong>Dinamica</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
+          <div class="container-stars">
+            <div class="stars"></div>
           </div>
   
-          <div id="glow">
+          <div class="glow">
             <div class="circle"></div>
             <div class="circle"></div>
           </div>
         </button></a>
+    
     </div>
-    <br>
-    </div>
-    </div>
+  </main>
    
 
 
 
 
 
-  <div class="rodape"></div>
+  <footer class="rodape">
+    <div class="texto-rodape">
+      <div class="parte-rodape-esquerdo"><h4>Desenvolvedores:
+          </h4>
+        <strong class="cabeca12">
+          <p>Anthony Gabriel Loche dos Reis <br>
+          Claudio Anzini Neto <br>
+          Gustavo Correa Kruger <br>
+          Pedro Henrique da Silva Malaquias <br>
+          Professor/Orientador: Doutor Naylor Garcia Bachiega</p>
+        </strong>
+      </div>
+    </div>
+
+
+    <div class="parte-rodape-direito"><strong class="cabeca12"><img src="Imagens/Logo_IFC_horizontal.gif" alt="Logo IFC"
+          width="300px"></strong></div>
+  </footer>
+
 
 </body>
 

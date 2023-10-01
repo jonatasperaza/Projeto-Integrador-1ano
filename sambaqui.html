@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="media_key.css">
 </head>
 <body>
-  <div class="cabeçalho">
+  <header>
     <a href="index.html">
       <h1 class="center"><strong class="cabeca"> Física Na Mente </strong></h1>
     </a>
@@ -21,292 +21,295 @@
     <div id="mySidebar" class="sidebar">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
       <h1 style="text-align: center;">Tópicos</h1>
-      <a href="Ondas.html"><button type="button" class="btn">
+      <nav>
+        <button type="button" onclick="ondas()" class="btn">
           <strong>Ondas</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br>
-      <a href="Leis De Newton.html">
-        <button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+
+        <button type="button" onclick="leis()" class="btn">
           <strong>Leis de Newton</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="Mecanica.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="mecanica()" class="btn">
           <strong>Mecânica</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="Energia.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="energia()" class="btn">
           <strong>Energia</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="Eletricidade.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="eletricidade()" class="btn">
           <strong>Eletricidade</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="CorrentesEletricas.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="correntes()" class="btn">
           <strong>Correntes Elétricas</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <a href="TermoFisica.html">
-        <br><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="termofisica()" class="btn">
           <strong>Termofísica</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br><a href="Optica.html"><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="optica()" class="btn">
           <strong>Óptica</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br>
-      <a href="Bibliografia.html"><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="bibli()" class="btn">
           <strong>Bibliografia</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br>
-      <a href="sambaqui.html"><button type="button" class="btn">
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+
+        <button type="button" onclick="sambaqui()" class="btn">
           <strong>Sambaqui</strong>
-          <div id="container-stars">
-            <div id="stars"></div>
-          </div>
+          <span class="container-stars">
+            <span class="stars"></span>
+          </span>
 
-          <div id="glow">
-            <div class="circle"></div>
-            <div class="circle"></div>
-          </div>
-        </button></a>
-      <br>
+          <span class="glow">
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </span>
+        </button>
+      </nav>
     </div>
-<div class="buscas">
-    <div id="main">
-      <span style="font-size:30px;cursor:pointer;" onclick="openNav()" class="openNav">&#9776;<div class="MenuB">Menu
-        </div></span>
+    <div class="buscas">
+      <div id="main">
+        <span style="font-size:30px;cursor:pointer;" onclick="openNav()" class="openNav">&#9776;</span>
+      </div>
     </div>
-  </div>
-  </div>
-  <br> 
-  <div class="conteudo">
-    <br>
-    <div id="center">
+  </header>
+  
+  <main class="conteudo margemParaMain">
+   
+    <div class="center">
       <h1 style="font-size: 12pt;">Relatório de História – Visita ao Museu do Sambaqui</h1>
     </div>
-    <br>
-    <div id="center">
+   
+    <div class="center">
       <h1 style="font-size: 12pt;">O que é Sambaqui?</h1>
     </div>
-    <p class="margem">
+    <p class="margem margemEntreTextos">
       Conforme explicado pelo professor Ivan, de história, e a monitora do Museu do Sambaqui, Ana Claudia Bruhmuller, sambaqui é uma variação de origem tupi, sambaquis são amontoados de conchas usado como ritual de sepultamento entre outras coisas, os sambaquis podem ser encontrados ao longo do litoral nordestino, no Rio de Janeiro, em São Paulo, e em outras partes do litoral gaúcho.
-      <br>
+     
     </p>
-    <br>
-    <div id="center">
+   
+    <div class="center">
       <h1 style="font-size: 12pt;">Localização dos Sambaquis em nossa região “Deve conter mapa com indicação de ao menos 5 locais onde se encontram sambaquis. Pode ser tanto de Joinville, ou Araquari, ou São Francisco do sul ou Barra do Sul, etc.”</h1>
     </div>
-    <br>
-    <p class="margem">As localidades, vistas no mapa abaixo, são respectivamente: Lagoa do Saguaçu; Morro do Amaral III; Espinheiros VI; Ilha dos Espinheiros II.Pedro V,  
+   
+    <p class="margem margemEntreTextos">As localidades, vistas no mapa abaixo, são respectivamente: Lagoa do Saguaçu; Morro do Amaral III; Espinheiros VI; Ilha dos Espinheiros II.Pedro V,  
     </p>
-    <div id="center">
+    <div class="center">
       <p><strong class="bibliografia">Figura 1:</strong>Mapa dos Sambaquis</p>
       <img src="Imagens/imagem1 sambaqui.jpeg" alt="Mapa Sambaquis" width="35%">
     </div>
-    <legend class="ref-imagens">Fonte: Dos autores, 2023.
-    </legend>
-    <br>
-    <div id="center">
+    <div class="ref-imagens">Fonte: Dos autores, 2023.
+    </div>
+   
+    <div class="center">
       <h1 style="font-size: 12pt;">O povo que vivia no Sambaqui era da espécie Homo Sapiens? Explique.</h1>
     </div>
-    <br>
-    <p class="margem">
+   
+    <p class="margem margemEntreTextos">
       Eles eram Homo Sapiens, por que tem relatos a partir de que o primeiro sambaqui foi “construído” em aproximadamente 9 mil anos atrás, e tem relatos de homo sapiens entre 350 mil e 200 mil anos atrás, então certamente são Homo Sapiens (Tiradas das aulas do Professor Ivan Furmann).
     </p>
-    <br>
-    <div id="center">
+   
+    <div class="center">
       <h1 style="font-size: 12pt;">Como esse povo chegou até a América? E, pelos elementos que existem na arqueologia, quando habitaram a região da Baía da Babitonga?
       </h1>
     </div>
-    <br>
-    <p class="margem">
+   
+    <p class="margem margemEntreTextos">
       Como apresentado pelo Professor Ivan, este povo possuía traços extremamente asiáticos, tendo muita similaridade com os povos originários, popularmente chamados de Índios. Por este motivo e também por datação arqueológica, é muito teorizado que o povo sambaqui tenha vindo pelo Estreito de Bering. Já a duração Sambaquis é de aproximadamente de 3 mil a 5 mil anos atrás.
     </p>
-    <div id="center">
+    <div class="center">
       <h1 style="font-size: 12pt;">Qual era a principal fonte de alimentação deles? Como se sabe essa informação?</h1>
     </div>
-    <br>
-    <p class="margem">
+   
+    <p class="margem margemEntreTextos">
       Conforme explicado na aula de história com o Professor Ivan Furmann, a principal fonte era a pesca, porque eles viviam em áreas costeiras próximas ao mar. Eu sei dessa informação pois o professor Ivan Furmann e a monitora e pesquisadora Ana Claudia Bruhmuller, falaram sobre isso na visita do museu do sambaqui em Joinville.
     </p>
-    <br>
+   
     <div class="center">
       <h1 style="font-size: 12pt;">
         O que é um zoólito: Explique e apresente alguma foto que contenha um exemplo de um deles.
       </h1>
     </div>
-      <br>
-      <p class="margem">
+     
+      <p class="margem margemEntreTextos">
       Os Zoólitos são esculturas talhadas em pedra, elas têm valor arqueológico e artístico (Retirado das aulas do Professor Ivan).
       </p>
-      <div id="center">
+      <div class="center">
         <p><strong class="bibliografia">Figura 2:</strong>Zoólitos</p>
       <img src="Imagens/sambaqui img3.jpeg" alt="Zoólitos" width="35%">
       </div>
-      <legend class="ref-imagens">Fonte: Dos autores, 2023.
-      </legend>
-      <div id="center">
+      <div class="ref-imagens">Fonte: Dos autores, 2023.
+      </div>
+      <div class="center">
         <h1 style="font-size: 12pt;">Todo sambaqui contém sepultamentos? Explique.</h1>
       </div>
-      <br>
-      <p class="margem">
+     
+      <p class="margem margemEntreTextos">
         Arqueologicamente já foram encontrados restos alimentares, ferramentas, armas, adornos e sepultamentos dos que viveram ali. Então sim contém sepultamentos. (SAMBAQUIS - ARQUEOLOGIA BRASILEIRA. [s. d.]. Museu Nacional - UFRJ, 2023).
       </p>
-      <br>
-      <div id="center">
+     
+      <div class="center">
         <p><strong class="bibliografia">Figura 3:</strong>Mundo simbólico sepultamentos</p>
       <img src="Imagens/Sambaqui img4.jpeg" alt="Mundo simbólico sepultamentos" width="35%">
       </div>
-      <legend class="ref-imagens">Fonte: Dos autores, 2023.
-      </legend>
-      <br>
-      <div id="center">
+      <div class="ref-imagens">Fonte: Dos autores, 2023.
+      </div>
+     
+      <div class="center">
         <h1 style="font-size: 12pt;">Existem outras partes do Brasil e do Mundo que contenham construções humanas parecidas com as dos Sambaquis da região da Baía da Babitonga? Explique.</h1>
       </div>
-      <br>
-      <p class="margem">
+     
+      <p class="margem margemEntreTextos">
         Sim, em várias regiões costeiras pelo mundo como desde a Austrália e Nova Zelândia e outras ilhas da Oceania à África, América do Norte e Europa e geralmente são chamados de “shell mound” ou “shell middens” . Já no Brasil, além da região da Baía da Babitonga, temos nas regiões costeiras do sudeste brasileiro como nos estados do Rio de Janeiro e São Paulo, assim como mais ao sul, em Santa Catarina e Paraná principalmente. (DE CASTILHO, 2008)
       </p>
-      <br>
-      <div id="center">
+     
+      <div class="center">
         <p><strong class="bibliografia">Figura 4:</strong>Amontoados de conchas no mundo</p>
       <img src="Imagens/Sambaqui img5.jpeg" alt="Amontoados de conchas no mundo" width="35%">
       </div>
-      <legend class="ref-imagens">Fonte: Dos autores, 2023.
-      </legend>
-      <br>
-      <div id="center">
+      <div class="ref-imagens">Fonte: Dos autores, 2023.
+      </div>
+     
+      <div class="center">
         <h1 style="font-size: 12pt;">
           Todos os sambaquis encontrados estão intactos ou alguns já foram destruídos? Como isso aconteceu?
         </h1>
       </div>
-      <br>
-      <p class="margem">
+     
+      <p class="margem margemEntreTextos">
         Segundo Ana Claudia Bruhmuller, alguns já foram destruídos, outros intactos, pois teve a exploração descuidada, alguns por causa natural de desastres, e outros por causa de destruição sem consentimento que aquilo era um sambaqui, etc.
       </p>
-      <br>
-      <div id="center">
+     
+      <div class="center">
         <p><strong class="bibliografia">Figura 5:</strong>Preservação do patrimônio arqueológico</p>
       <img src="Imagens/Sambaqui img6.jpeg" alt="Preservação do patrimônio arqueológico" width="35%">
       </div>
-      <legend class="ref-imagens">Fonte: Dos autores, 2023.
-      </legend>
-      <br>
-      <div id="center">
+      <div class="ref-imagens">Fonte: Dos autores, 2023.
+      </div>
+     
+      <div class="center">
         <h1 style="font-size: 12pt;">
           Qual a importância de preservar os sambaquis?
         </h1>
       </div>
-      <p class="margem">
+      <p class="margem margemEntreTextos">
         “... Sua importância significativa na construção simbólica da paisagem, referenciando a territorialidade e a organização social das comunidades de pescadores assentadas no entorno desta região lagunar ao longo de vários milênios.” (DE BLASIS, KNEIP, SCHEEL-YBERT, GIANNINI e GASPAR, 2007)
       </p>
-  <br>
+ 
   <h1 style="margin-left: 3cm ;"> Refêrencias </h1>
-  <br>
-  <br>
-  <p style="margin-left: 3cm; margin-right: 2cm; line-height: 1.5;"> DE CASTILHO, Pedro V. <strong
+ 
+ 
+  <p style="margin-left: 3cm; margin-right: 2cm; line-height: 1.5;" class="margemEntreTextos"> DE CASTILHO, Pedro V. <strong
     class="bibliografia">  Utilization of cetaceans in shell mounds from the southern coast of Brazil. 2008. </strong> Disponível em: https://www.sciencedirect.com/science/article/pii/S1040618207002704. Acesso em: 25 Abr. 2023.
 </p>
-  <br>
-  <p style="margin-left: 3cm; margin-right: 2cm; line-height: 1.5;">
+ 
+  <p style="margin-left: 3cm; margin-right: 2cm; line-height: 1.5;" class="margemEntreTextos">
     DE BLASIS, Paulo; KNEIP, Andreas; SCHEEL-YBERT, Rita; GIANNINNI, Paulo C.; GASPAR, Maria  <strong class="bibliografia">D. SAMBAQUIS E PAISAGEM: Dinâmica natural e arqueologia regional no litoral do sul do Brasil. </strong> Disponível em: https://scholar.google.com.br/scholar?hl=pt-BR&as_sdt=0%2C5&q=a+importancia+do+sambaqui&bt .Acesso em: 1 de Ago. 2023. 
   </p>
-  <br>
-  <br>
-  <p style="margin-left: 3cm; margin-right: 2cm; line-height: 1.5;"> SAMBAQUIS - ARQUEOLOGIA BRASILEIRA. [s. d.] <strong class="bibliografia">
+ 
+ 
+  <p style="margin-left: 3cm; margin-right: 2cm; line-height: 1.5;" class="margemEntreTextos"> SAMBAQUIS - ARQUEOLOGIA BRASILEIRA. [s. d.] <strong class="bibliografia">
     Museu Nacional - UFRJ. </strong> Disponível em: https://museunacional.ufrj.br/dir/exposicoes/arqueologia/arqueologia-brasileira/sambaquis.html.
     Acesso em: 25 Abr. 2023. 
     
   </p>
-  <br>
-</div>
-<br>
+ 
+  </main>
 
-  <div class="rodape">
-
-    <div class="texto-rodape">
-      <div class="parte-rodape-esquerdo">
-        <strong class="cabeca12">
-          <h4>Desenvolvedores:
-          </h4>
-          <p>Anthony Gabriel Loche dos Reis</p>
-          <p>Claudio Anzini Neto</p>
-          <p>Gustavo Correa Kruger</p>
-          <p>Pedro Henrique da Silva Malaquias</p>
-          <p>Professor/Orientador: Doutor Naylor Garcia Bachiega</p>
-        </strong>
-      </div>
+<footer class="rodape">
+  <div class="texto-rodape">
+    <div class="parte-rodape-esquerdo"><h4>Desenvolvedores:
+        </h4>
+      <strong class="cabeca12">
+        <p>Anthony Gabriel Loche dos Reis <br>
+        Claudio Anzini Neto <br>
+        Gustavo Correa Kruger <br>
+        Pedro Henrique da Silva Malaquias <br>
+        Professor/Orientador: Doutor Naylor Garcia Bachiega</p>
+      </strong>
     </div>
+  </div>
+
+
+  <div class="parte-rodape-direito"><strong class="cabeca12"><img src="Imagens/Logo_IFC_horizontal.gif" alt="Logo IFC"
+        width="300px"></strong></div>
+</footer>
 </body>
 </html>
