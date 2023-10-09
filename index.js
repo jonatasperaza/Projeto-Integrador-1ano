@@ -94,7 +94,6 @@ function sambaqui() {
   var sambaqui = "sambaqui.html";
   window.open(sambaqui);
 }
-
 function bibli() {
   var bibliografias = "bibliografia.html";
   window.open(bibliografias);

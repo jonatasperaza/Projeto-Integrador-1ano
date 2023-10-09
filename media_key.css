@@ -26,20 +26,15 @@
     margin-left: 1cm;
     max-height: 500px;
     font-size: 15px;
-    max-width: 80%;
+    max-width: 100%;
   }
   p#textos2 {
     font-size: 15px;
     max-width: 82.5%;
   }
 
-  img.veio {
-    display: grid;
-    align-items: center;
-    text-align: center;
-    margin-left: 4.5cm;
-    width: 30%;
-    height: 100%;
+  h1#destaque{
+    max-width: 200px;
   }
 
   strong.cabeca2 {
@@ -87,11 +82,6 @@
     margin-left: 5%;
   }
 
-  .parte-rodape-direito {
-    margin-right: -4%;
-    margin-top: 5%;
-  }
-
   .rodape {
     height: 50%;
   }
@@ -117,6 +107,12 @@
   blockquote {
     margin-left: 6cm;
     max-width: 255px;
+  }
+  #temas{
+    grid-template-columns: auto;
+  }
+  footer{
+    height: 300px;
   }
 }
 
