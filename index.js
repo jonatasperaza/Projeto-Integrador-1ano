@@ -86,7 +86,7 @@ function eletricidade() {
   window.open(eletricidade);
 }
 function termofisica() {
-  var termofisica = "termofisica.html";
+  var termofisica = "termo_fisica.html";
   window.open(termofisica);
 }
 
