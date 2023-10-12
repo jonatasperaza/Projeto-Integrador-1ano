@@ -9,13 +9,13 @@ function click_starwars() {
 }
 
 function openNav() {
-  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("mySidebar").style.display = "block";
   mySidebar.style.animation = 'barra 2s'
 }
 
 function voltar(event) {
   if (event.animationName === "barraDois") {
-    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("mySidebar").style.display = "none";
   }
 }
 

@@ -1,4 +1,7 @@
 @media screen and (max-width: 1024px) {
+  img.veio{
+    width: 50%;
+  }  
   .efeito-magica {
     height: 600vh;
   }
@@ -23,13 +26,13 @@
   }
 
   p.textos {
-    margin-left: 1cm;
+    margin-left: 10px;
     max-height: 500px;
-    font-size: 15px;
+    font-size: 25px;
     max-width: 100%;
   }
   p#textos2 {
-    font-size: 15px;
+    font-size: 25px;
     max-width: 82.5%;
   }
 
@@ -62,8 +65,8 @@
   }
 
   img.temas {
-    width: 60%;
-    height: 30vh;
+    width: 35%;
+    height: 18vh;
   }
 
   #openNav {
@@ -139,6 +142,9 @@
   100% {
     transform: perspective(200px) rotateX(20deg) translateY(-1000px);
     opacity: 1;
+  }
+  header{
+    margin: 0;
   }
 } 
 

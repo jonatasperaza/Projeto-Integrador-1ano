@@ -1,6 +1,6 @@
 * {
-  padding: 0%;
-  margin: 0%;
+  padding: 0px;
+  margin: 0px;
   box-sizing: border-box;
 }
 
@@ -13,17 +13,6 @@ body {
 
 #magica {
   display: none;
-}
-
-.efeito-magica {
-  width: 250vh;
-  height: 500vh;
-  position: absolute;
-  top: 0;
-  background-color: #000000;
-  background-image: url(Imagens/FundoEstrelas.gif);
-  animation: animation 8s;
-  max-width: 100%;
 }
 
 :root {
@@ -66,10 +55,6 @@ p.star {
 
 .star-wars :is(h2, p) {
   color: var(--main);
-}
-
-.auto {
-  margin: auto;
 }
 
 .parteIndex {
@@ -122,7 +107,6 @@ header {
 .conteudo {
   
   max-width: 950px;
-  min-width: 320px;
   margin: 15px auto 15px auto;
   background-color: white;
   border-radius: 10px;
@@ -136,7 +120,6 @@ header {
 .conteudo2 {
   margin: 15px auto 15px auto;
   max-width: 90%;
-  min-width: 320px;
   margin: auto;
   background-color: white;
   border-radius: 10px;
@@ -541,7 +524,6 @@ strong.cabeca12-white {
   margin: auto;
   grid-template-columns: auto auto auto auto;
   text-align: center;
-  box-shadow: 2px 2px 0px 0px white;
   width: 95%;
   gap: 20px;
   padding: 10px;
@@ -708,7 +690,6 @@ strong.cabeca12-white {
 #caixa1:hover {
   width: 350px;
   height: 350px;
-  box-shadow: 2px 2px 0px 0px white;
   margin-top: -10px;
   transition: 1s;
   animation: gradient_3012 2s ease infinite;
@@ -720,7 +701,6 @@ strong.cabeca12-white {
 #caixa2:hover {
   width: 350px;
   height: 350px;
-  box-shadow: 2px 2px 0px 0px white;
   margin-top: -10px;
   transition: 1s;
   animation: gradient_3012 2s ease infinite;
@@ -732,7 +712,6 @@ strong.cabeca12-white {
 #caixa3:hover {
   width: 350px;
   height: 350px;
-  box-shadow: 2px 2px 0px 0px white;
   transition: 1s;
   margin-top: -10px;
   animation: gradient_3012 2s ease infinite;
@@ -744,7 +723,6 @@ strong.cabeca12-white {
 #caixa4:hover {
   width: 350px;
   height: 350px;
-  box-shadow: 2px 2px 0px 0px white;
   transition: 1s;
   margin-top: -10px;
   animation: gradient_3012 2s ease infinite;
@@ -771,7 +749,7 @@ img.FelixCatus {
 
 .sidebar {
   height: 100%;
-  width: 0;
+  width: 320px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -782,6 +760,7 @@ img.FelixCatus {
   padding-top: 60px;
   border: 3px solid #000000;
   scrollbar-width: 0%;
+  display: none;
 }
 
 .sidebar a {
@@ -962,7 +941,7 @@ img.leis3{
   width:70%;
 }
 h4{
-  color: #008383;
+color: #008383;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 15px;
 letter-spacing: 1px;
