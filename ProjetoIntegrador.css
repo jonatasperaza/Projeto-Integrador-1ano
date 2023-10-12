@@ -1,14 +1,11 @@
-* {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
+:root{
+  background-image: url(Imagens/FundoEstrelas.gif);
 }
 
-body {
-  width: 100%;
-  background-image: url(Imagens/FundoEstrelas.gif);
-  background-size: auto;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 #magica {
