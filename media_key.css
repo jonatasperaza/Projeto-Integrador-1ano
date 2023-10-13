@@ -1,4 +1,9 @@
 @media screen and (max-width: 1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   img.veio{
     width: 50%;
   }  
@@ -17,7 +22,8 @@
 
   .texto1 {
     display: grid;
-    width: 90%
+    width: 90%;
+    padding: 40px;
   }
 
   .texto2 {
@@ -27,7 +33,6 @@
 
   p.textos {
     margin-left: 10px;
-    max-height: 500px;
     font-size: 25px;
     max-width: 100%;
   }
@@ -65,8 +70,8 @@
   }
 
   img.temas {
-    width: 35%;
-    height: 18vh;
+    width: 50%;
+    height: 30vh;
   }
 
   #openNav {
@@ -77,17 +82,6 @@
     display: block;
   }
 
-  .texto-rodape {
-    display: grid;
-  }
-
-  .parte-rodape-esquerdo {
-    margin-left: 5%;
-  }
-
-  .rodape {
-    height: 50%;
-  }
   .ref-imagens {
     margin-left: 4.1cm;
     max-width: 257px;
@@ -114,8 +108,8 @@
   #temas{
     grid-template-columns: auto;
   }
-  footer{
-    height: 300px;
+  .center{
+    padding: 0;
   }
 }
 

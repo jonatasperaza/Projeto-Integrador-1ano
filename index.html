@@ -1,377 +1,368 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Física Na Mente</title>
+    <link href="ProjetoIntegrador.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="Imagens/OIG__2_-removebg-preview.png"
+    />
+    <script src="index.js"></script>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Física Na Mente</title>
-  <link href="ProjetoIntegrador.css" rel="stylesheet">
-  <link rel="icon" type="image/x-icon" href="Imagens/OIG__2_-removebg-preview.png">
-  <script src="index.js"></script>
+    <link rel="stylesheet" href="media_key.css" />
+  </head>
 
-  <link rel="stylesheet" href="media_key.css">
-</head>
+  <body>
+    <header>
+      <a href="index.html">
+        <h1 class="center">
+          <strong class="cabeca"> Física Na Mente </strong>
+        </h1>
+      </a>
 
-<body>
-  <header>
-    <a href="index.html">
-      <h1 class="center"><strong class="cabeca"> Física Na Mente </strong></h1>
-    </a>
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <h1 style="text-align: center">Tópicos</h1>
+        <nav>
+          <button type="button" onclick="ondas()" class="btn">
+            <strong>Ondas</strong>
+            <span class="container-stars">
+              <span class="stars"></span>
+            </span>
 
-    <div id="mySidebar" class="sidebar">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-      <h1 style="text-align: center;">Tópicos</h1>
-      <nav>
-        <button type="button" onclick="ondas()" class="btn">
-          <strong>Ondas</strong>
-          <span class="container-stars">
-            <span class="stars"></span>
-          </span>
+            <span class="glow">
+              <span class="circle"></span>
+              <span class="circle"></span>
+            </span>
+          </button>
 
-          <span class="glow">
-            <span class="circle"></span>
-            <span class="circle"></span>
-          </span>
-        </button>
+          <button type="button" onclick="leis()" class="btn">
+            <strong>Leis de Newton</strong>
+            <span class="container-stars">
+              <span class="stars"></span>
+            </span>
 
+            <span class="glow">
+              <span class="circle"></span>
+              <span class="circle"></span>
+            </span>
+          </button>
 
-        <button type="button" onclick="leis()" class="btn">
-          <strong>Leis de Newton</strong>
-          <span class="container-stars">
-            <span class="stars"></span>
-          </span>
+          <button type="button" onclick="mecanica()" class="btn">
+            <strong>Mecânica</strong>
+            <span class="container-stars">
+              <span class="stars"></span>
+            </span>
 
-          <span class="glow">
-            <span class="circle"></span>
-            <span class="circle"></span>
-          </span>
-        </button>
+            <span class="glow">
+              <span class="circle"></span>
+              <span class="circle"></span>
+            </span>
+          </button>
 
-        <button type="button" onclick="mecanica()" class="btn">
-          <strong>Mecânica</strong>
-          <span class="container-stars">
-            <span class="stars"></span>
-          </span>
+          <button type="button" onclick="energia()" class="btn">
+            <strong>Energia</strong>
+            <span class="container-stars">
+              <span class="stars"></span>
+            </span>
 
-          <span class="glow">
-            <span class="circle"></span>
-            <span class="circle"></span>
-          </span>
-        </button>
+            <span class="glow">
+              <span class="circle"></span>
+              <span class="circle"></span>
+            </span>
+          </button>
 
-        <button type="button" onclick="energia()" class="btn">
-          <strong>Energia</strong>
-          <span class="container-stars">
-            <span class="stars"></span>
-          </span>
+          <button type="button" onclick="eletricidade()" class="btn">
+            <strong>Eletricidade</strong>
+            <span class="container-stars">
+              <span class="stars"></span>
+            </span>
 
-          <span class="glow">
-            <span class="circle"></span>
-            <span class="circle"></span>
-          </span>
-        </button>
+            <span class="glow">
+              <span class="circle"></span>
+              <span class="circle"></span>
+            </span>
+          </button>
 
-        <button type="button" onclick="eletricidade()" class="btn">
-          <strong>Eletricidade</strong>
-          <span class="container-stars">
-            <span class="stars"></span>
-          </span>
+          <button type="button" onclick="correntes()" class="btn">
+            <strong>Correntes Elétricas</strong>
+            <span class="container-stars">
+              <span class="stars"></span>
+            </span>
 
-          <span class="glow">
-            <span class="circle"></span>
-            <span class="circle"></span>
-          </span>
-        </button>
+            <span class="glow">
+              <span class="circle"></span>
+              <span class="circle"></span>
+            </span>
+          </button>
 
-        <button type="button" onclick="correntes()" class="btn">
-          <strong>Correntes Elétricas</strong>
-          <span class="container-stars">
-            <span class="stars"></span>
-          </span>
+          <button type="button" onclick="termofisica()" class="btn">
+            <strong>Termofísica</strong>
+            <span class="container-stars">
+              <span class="stars"></span>
+            </span>
 
-          <span class="glow">
-            <span class="circle"></span>
-            <span class="circle"></span>
-          </span>
-        </button>
+            <span class="glow">
+              <span class="circle"></span>
+              <span class="circle"></span>
+            </span>
+          </button>
 
-        <button type="button" onclick="termofisica()" class="btn">
-          <strong>Termofísica</strong>
-          <span class="container-stars">
-            <span class="stars"></span>
-          </span>
+          <button type="button" onclick="optica()" class="btn">
+            <strong>Óptica</strong>
+            <span class="container-stars">
+              <span class="stars"></span>
+            </span>
 
-          <span class="glow">
-            <span class="circle"></span>
-            <span class="circle"></span>
-          </span>
-        </button>
+            <span class="glow">
+              <span class="circle"></span>
+              <span class="circle"></span>
+            </span>
+          </button>
 
-        <button type="button" onclick="optica()" class="btn">
-          <strong>Óptica</strong>
-          <span class="container-stars">
-            <span class="stars"></span>
-          </span>
+          <button type="button" onclick="bibli()" class="btn">
+            <strong>Bibliografia</strong>
+            <span class="container-stars">
+              <span class="stars"></span>
+            </span>
 
-          <span class="glow">
-            <span class="circle"></span>
-            <span class="circle"></span>
-          </span>
-        </button>
+            <span class="glow">
+              <span class="circle"></span>
+              <span class="circle"></span>
+            </span>
+          </button>
 
-        <button type="button" onclick="bibli()" class="btn">
-          <strong>Bibliografia</strong>
-          <span class="container-stars">
-            <span class="stars"></span>
-          </span>
+          <button type="button" onclick="sambaqui()" class="btn">
+            <strong>Sambaqui</strong>
+            <span class="container-stars">
+              <span class="stars"></span>
+            </span>
 
-          <span class="glow">
-            <span class="circle"></span>
-            <span class="circle"></span>
-          </span>
-        </button>
-
-        <button type="button" onclick="sambaqui()" class="btn">
-          <strong>Sambaqui</strong>
-          <span class="container-stars">
-            <span class="stars"></span>
-          </span>
-
-          <span class="glow">
-            <span class="circle"></span>
-            <span class="circle"></span>
-          </span>
-        </button>
-      </nav>
-    </div>
-    <div class="buscas">
-      <div id="main">
-        <span style="font-size:30px;cursor:pointer;" onclick="openNav()" class="openNav">&#9776;</span>
+            <span class="glow">
+              <span class="circle"></span>
+              <span class="circle"></span>
+            </span>
+          </button>
+        </nav>
       </div>
-    </div>
-  </header>
-<main>
-
-  <div class="parteIndex">
-
-    <h1 style="font-size: 70px;"> O Melhor Site Para Você Aprender Física</h1>
-    <div class="center">
-
-      <button type="button" class="btn1" style="width: 300px;" onclick="click_starwars();">
-        <strong style="font-size: 20px; color: white;">Definição de Física</strong>
-      </button>
-    </div>
-
-  </div>
-
-
-  <div class="caixas">
-    <div id="caixa1">
-      <strong class="cabeca1">Porque Você Deve Estudar Física?</strong>
-
-
-      <p class="caixas">
-        Estudar física é uma porta para desvendar os segredos do universo. Através dela, compreendemos as leis que regem
-        a natureza, desde o movimento dos astros até o comportamento das partículas subatômicas. </p>
-    </div>
-
-    <div id="caixa2">
-      <strong class="cabeca1"> Quais os Principais Assuntos do Site?</strong>
-
-      <p class="caixas">Ondas</p>
-      <p class="caixas">Leis de Newton</p>
-      <p class="caixas">Energia</p>
-      <p class="caixas">Mecanica</p>
-      <p class="caixas">Eletricidade</p>
-      <p class="caixas">Correntes Eletricas</p>
-      <p class="caixas">TermoFísica</p>
-      <p class="caixas">Optica</p>
-    </div>
-
-    <div id="caixa4"><strong class="cabeca1">Quem Fez o Site?</strong>
-      <div class="center">
-
-        <p class="caixas">
-          Anthony Gabriel Loche dos Reis
-        </p>
-
-        <p class="caixas">
-          Claudio Anzini Neto
-        </p>
-
-        <p class="caixas">
-          Pedro Henrique da Silva Malaquias
-        </p>
-        <p class="caixas">
-          Jonatas Silva Peraza
-        </p>
+      <div class="buscas">
+        <div id="main">
+          <span
+            style="font-size: 30px; cursor: pointer"
+            onclick="openNav()"
+            class="openNav"
+            >&#9776;</span
+          >
+        </div>
       </div>
-    </div>
-  </div>
-
-
-  <div class="center">
-    <h1><strong class="cabeca-white">
-        Assuntos
-      </strong></h1>
-  </div>
-
-  <div id="temas">
-    <a href="Ondas.html">
-      <div id="caixaOndas">
-        <p><strong class="cabeca12-white">Ondas</strong></p>
-        <img src="Imagens/ondas_alfa.jpg" class="temas" alt="">
-      </div>
-    </a>
-    <a href="leis_de_newton.html">
-      <div id="caixaLeis">
-        <p><strong class="cabeca12-white">Leis de Newton</strong></p>
-        <img
-          src="Imagens/as-leis-newton-estao-entre-as-mais-importantes-leis-fisica-sao-usadas-para-determinar-dinamica-dos-corpos-5bb2703f333e2.webp"
-          class="temas" alt="">
-      </div>
-    </a>
-    <a href="Mecanica.html">
-      <div id="caixaMecanica">
-        <p><strong class="cabeca12-white">Mecânica</strong></p>
-        <img src="Imagens/montanharussa.jpeg" class="temas" alt="">
-      </div>
-    </a>
-    <a href="Energia.html">
-      <div id="caixaEnergia">
-        <p><strong class="cabeca12-white">Energia</strong></p>
-        <img src="Imagens/energia.webp" class="temas" alt="">
-      </div>
-    </a>
-    <a href="Eletricidade.html">
-      <div id="caixaEletricidade">
-        <p><strong class="cabeca12-white">Eletricidade</strong></p>
-        <img src="Imagens/fotoParaEletricidade.jpeg" class="temas" alt="">
-      </div>
-    </a>
-    <a href="correntes_eletricas.html">
-      <div id="caixaCorrentes">
-        <p><strong class="cabeca12-white">Correntes Elétricas</strong></p>
-        <img src="Imagens/corretens.jpeg" class="temas" alt="">
-      </div>
-    </a>
-    <a href="Optica.html">
-      <div id="caixaOptica">
-        <p><strong class="cabeca12-white">Optica</strong></p>
-        <img src="Imagens/optica1.png" class="temas" alt="">
-      </div>
-    </a>
-    <a href="termo_fisica.html">
-      <div id="caixaTermofisica">
-        <p><strong class="cabeca12-white">TermoFísica</strong></p>
-        <img src="Imagens/termometro-5c3e0e41d5615.webp" class="temas" alt="">
-      </div>
-    </a>
-
-  </div>
-
-
-
-
-  <div class="espaco1"></div>
-
-  <div class="imagemEs">
-    <div class="texto1">
-
-
-      <img src="Imagens/atomo.png" alt="" class="veio">
-      <div class="display: grid">
-        <!-- <h1 id="destaque"><strong class="cabeca2"> Vou Te Mostrar Que Física Não É Chata!</strong></h1> -->
-
-        <p class="textos">A física é uma ciência fascinante que nos permite compreender as leis fundamentais da natureza e explorar os segredos do universo. Ela abrange desde o movimento dos planetas até as partículas subatômicas. Além disso, a física está presente em nossa vida cotidiana, sendo responsável por tecnologias inovadoras como eletricidade, mecânica automotiva e computação.
-        </p>
-
-        <p class="textos">Ao estudar física, podemos desvendar fenômenos surpreendentes como gravidade eletromagnetismo e mecânica quântica.
-        </p>
-
-        <p class="textos">A física promove a criatividade e o pensamento crítico, ou seja, a criação/formulação de hipóteses científicas, a experimentação e a análise de dados. A física está em constante evolução, com novas teorias descobertas que desafiam constantemente o nosso conhecimento.</p>
-
+    </header>
+    <main>
+      <div class="parteIndex">
+        <h1 style="font-size: 70px">O Melhor Site Para Você Aprender Física</h1>
+        <div class="center">
+          <button
+            type="button"
+            class="btn1"
+            style="width: 300px"
+            onclick="click_starwars();"
+          >
+            <strong style="font-size: 20px; color: white"
+              >Definição de Física</strong
+            >
+          </button>
+        </div>
       </div>
 
+      <div class="caixas">
+        <div id="caixa1">
+          <strong class="cabeca1">Porque Você Deve Estudar Física?</strong>
 
-    </div>
-    <div class="espaco"></div>
+          <p class="caixas">
+            Estudar física é uma porta para desvendar os segredos do universo.
+            Através dela, compreendemos as leis que regem a natureza, desde o
+            movimento dos astros até o comportamento das partículas subatômicas.
+          </p>
+        </div>
 
-    <footer>
+        <div id="caixa2">
+          <strong class="cabeca1">
+            Quais os Principais Assuntos do Site?</strong
+          >
 
-      <div class="texto-rodape">
-        <div class="parte-rodape-esquerdo">
-          <div class="cabeca12">
-            <h4>Desenvolvedores:
-            </h4>
-            <p>Anthony Gabriel Loche dos Reis</p>
-            <p>Claudio Anzini Neto</p>
-            <p>Jonatas Silva Peraza</p>
-            <p>Pedro Henrique da Silva Malaquias</p>
-            <p>Professor/Orientador: Doutor Naylor Garcia Bachiega</p>
+          <p class="caixas">Ondas</p>
+          <p class="caixas">Leis de Newton</p>
+          <p class="caixas">Energia</p>
+          <p class="caixas">Mecanica</p>
+          <p class="caixas">Eletricidade</p>
+          <p class="caixas">Correntes Eletricas</p>
+          <p class="caixas">TermoFísica</p>
+          <p class="caixas">Optica</p>
+        </div>
+
+        <div id="caixa4">
+          <strong class="cabeca1">Quem Fez o Site?</strong>
+          <div class="center">
+            <p class="caixas">Anthony Gabriel Loche dos Reis</p>
+
+            <p class="caixas">Claudio Anzini Neto</p>
+
+            <p class="caixas">Pedro Henrique da Silva Malaquias</p>
+            <p class="caixas">Jonatas Silva Peraza</p>
           </div>
         </div>
+      </div>
 
+      <div class="center">
+        <h1><strong class="cabeca-white"> Assuntos </strong></h1>
+      </div>
 
-        <div class="parte-rodape-direito">
-          <div class="cabeca12"><img src="Imagens/Logo_IFC_horizontal.gif" alt="Logo IFC" width="300"></div>
+      <div id="temas">
+        <a href="Ondas.html">
+          <div id="caixaOndas">
+            <p><strong class="cabeca12-white">Ondas</strong></p>
+            <img src="Imagens/ondas_alfa.jpg" class="temas" alt="" />
+          </div>
+        </a>
+        <a href="leis_de_newton.html">
+          <div id="caixaLeis">
+            <p><strong class="cabeca12-white">Leis de Newton</strong></p>
+            <img
+              src="Imagens/as-leis-newton-estao-entre-as-mais-importantes-leis-fisica-sao-usadas-para-determinar-dinamica-dos-corpos-5bb2703f333e2.webp"
+              class="temas"
+              alt=""
+            />
+          </div>
+        </a>
+        <a href="Mecanica.html">
+          <div id="caixaMecanica">
+            <p><strong class="cabeca12-white">Mecânica</strong></p>
+            <img src="Imagens/montanharussa.jpeg" class="temas" alt="" />
+          </div>
+        </a>
+        <a href="Energia.html">
+          <div id="caixaEnergia">
+            <p><strong class="cabeca12-white">Energia</strong></p>
+            <img src="Imagens/energia.webp" class="temas" alt="" />
+          </div>
+        </a>
+        <a href="Eletricidade.html">
+          <div id="caixaEletricidade">
+            <p><strong class="cabeca12-white">Eletricidade</strong></p>
+            <img src="Imagens/fotoParaEletricidade.jpeg" class="temas" alt="" />
+          </div>
+        </a>
+        <a href="correntes_eletricas.html">
+          <div id="caixaCorrentes">
+            <p><strong class="cabeca12-white">Correntes Elétricas</strong></p>
+            <img src="Imagens/corretens.jpeg" class="temas" alt="" />
+          </div>
+        </a>
+        <a href="Optica.html">
+          <div id="caixaOptica">
+            <p><strong class="cabeca12-white">Optica</strong></p>
+            <img src="Imagens/optica1.png" class="temas" alt="" />
+          </div>
+        </a>
+        <a href="termo_fisica.html">
+          <div id="caixaTermofisica">
+            <p><strong class="cabeca12-white">TermoFísica</strong></p>
+            <img
+              src="Imagens/termometro-5c3e0e41d5615.webp"
+              class="temas"
+              alt=""
+            />
+          </div>
+        </a>
+      </div>
+      <div class="imagemEs">
+        <div class="texto1">
+          <img src="Imagens/atomo.png" alt="" class="veio" />
+          <div class="text-atom">
+            <p class="textos">
+              A física é uma ciência fascinante que nos permite compreender as
+              leis fundamentais da natureza e explorar os segredos do universo.
+              Ela abrange desde o movimento dos planetas até as partículas
+              subatômicas. Além disso, a física está presente em nossa vida
+              cotidiana, sendo responsável por tecnologias inovadoras como
+              eletricidade, mecânica automotiva e computação.
+<br>
+              Ao estudar física, podemos desvendar fenômenos surpreendentes como
+              gravidade eletromagnetismo e mecânica quântica.
+<br>
+              A física promove a criatividade e o pensamento crítico, ou seja, a
+              criação/formulação de hipóteses científicas, a experimentação e a
+              análise de dados. A física está em constante evolução, com novas
+              teorias descobertas que desafiam constantemente o nosso
+              conhecimento.
+            </p>
+          </div>
         </div>
-
+        <footer>
+              <div class="cabeca12">
+                <h4>Desenvolvedores:</h4>
+                <p>Anthony Gabriel Loche dos Reis</p>
+                <p>Claudio Anzini Neto</p>
+                <p>Jonatas Silva Peraza</p>
+                <p>Pedro Henrique da Silva Malaquias</p>
+                <p>Professor/Orientador: Doutor Naylor Garcia Bachiega</p>
+              </div>
+              <div class="cabeca12">
+                <img
+                  src="Imagens/Logo_IFC_horizontal.gif"
+                  alt="Logo IFC"
+                  width="80%"
+                />
+              </div>
+        </footer>
+        <div id="magica">
+          <div id="star-wars">
+            <h2 class="star">Definição de Física</h2>
+            <p class="star">
+              No âmago do universo, onde estrelas dançam em sintonia, reside a
+              essência da ciência, a Física em sua harmonia. Uma sinfonia
+              cósmica, que desvenda segredos profundos, Com a dança dos átomos,
+              em movimentos vagabundos.
+            </p>
+            <p class="star">
+              A Física é a poetisa do cosmos, com sua pluma de luz, Desvendando
+              mistérios, revelando verdades seduz. É a língua universal que a
+              natureza escolheu, Para contar histórias grandiosas que o Universo
+              escreveu.
+            </p>
+            <p class="star">
+              Ela mergulha nas entranhas do espaço e do tempo, Desvendando
+              enigmas, como um sábio poema. Com equações e fórmulas, desvela a
+              realidade, Em um ballet de partículas, dançando na eternidade.
+            </p>
+            <p class="star">
+              É na Física que o vento suspira em ondas sonoras, E a luz, qual
+              bailarina, atravessa as horas. Os corpos se atraem, num abraço
+              gravitacional, Enquanto o tempo flui, em seu curso fenomenal.
+            </p>
+            <p class="star">
+              Das leis da termodinâmica à relatividade, A Física tece o tecido
+              da nossa realidade. E nos olhos do cientista, brilha um sonho
+              profundo, De compreender o universo, em cada canto do mundo.
+            </p>
+            <p class="star">
+              Pois a Física é a melodia do Cosmos, uma canção, Que ecoa nas
+              mentes curiosas, com pura emoção. Ela nos convida a dançar na
+              valsa dos átomos, A desvendar os mistérios cósmicos, em todos os
+              planos.
+            </p>
+            <p class="star">
+              Assim, a Física nos inspira a contemplar o infinito, A buscar
+              respostas, num constante e eterno aflito. E enquanto existir
+              curiosidade em nossos corações, A Física, bela e poética, seguirá
+              suas criações.
+            </p>
+          </div>
+        </div>
       </div>
-    </footer>
-
-    <div id="magica">
-      <div id="star-wars">
-        <h2 class="star">Definição de Física</h2>
-        <p class="star">
-          No âmago do universo, onde estrelas dançam em sintonia,
-          reside a essência da ciência, a Física em sua harmonia.
-          Uma sinfonia cósmica, que desvenda segredos profundos,
-          Com a dança dos átomos, em movimentos vagabundos.
-        </p>
-        <p class="star">
-          A Física é a poetisa do cosmos, com sua pluma de luz,
-          Desvendando mistérios, revelando verdades seduz.
-          É a língua universal que a natureza escolheu,
-          Para contar histórias grandiosas que o Universo escreveu.
-        </p>
-        <p class="star">
-          Ela mergulha nas entranhas do espaço e do tempo,
-          Desvendando enigmas, como um sábio poema.
-          Com equações e fórmulas, desvela a realidade,
-          Em um ballet de partículas, dançando na eternidade.
-        </p>
-        <p class="star">
-          É na Física que o vento suspira em ondas sonoras,
-          E a luz, qual bailarina, atravessa as horas.
-          Os corpos se atraem, num abraço gravitacional,
-          Enquanto o tempo flui, em seu curso fenomenal.
-        </p>
-        <p class="star">
-          Das leis da termodinâmica à relatividade,
-          A Física tece o tecido da nossa realidade.
-          E nos olhos do cientista, brilha um sonho profundo,
-          De compreender o universo, em cada canto do mundo.
-        </p>
-        <p class="star">
-          Pois a Física é a melodia do Cosmos, uma canção,
-          Que ecoa nas mentes curiosas, com pura emoção.
-          Ela nos convida a dançar na valsa dos átomos,
-          A desvendar os mistérios cósmicos, em todos os planos.
-        </p>
-        <p class="star">
-          Assim, a Física nos inspira a contemplar o infinito,
-          A buscar respostas, num constante e eterno aflito.
-          E enquanto existir curiosidade em nossos corações,
-          A Física, bela e poética, seguirá suas criações.
-        </p>
-      </div>
-
-    </div>
-
-  </div>
-</main>
-</body>
-
+    </main>
+  </body>
 </html>

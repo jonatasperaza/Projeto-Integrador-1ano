@@ -1,5 +1,8 @@
 :root{
   background-image: url(Imagens/FundoEstrelas.gif);
+  --main: #ffb13a;
+  --font: 'Roboto', 'Oxygen', sans-serif;
+  --cor-principal: #008383;
 }
 
 * {
@@ -12,10 +15,15 @@
   display: none;
 }
 
-:root {
-  --main: #ffb13a;
-  --font: 'Roboto', 'Oxygen', sans-serif;
-  --cor-principal: #008383;
+.efeito-magica {
+  width: 250vh;
+  height: 500vh;
+  position: absolute;
+  top: 0;
+  background-color: #000000;
+  background-image: url(Imagens/FundoEstrelas.gif);
+  animation: animation 8s;
+  max-width: 100%;
 }
 
 .star {
@@ -55,23 +63,13 @@ p.star {
 }
 
 .parteIndex {
-  line-break: initial;
-  background-size: cover;
-  width: 100%;
-  height: 14cm;
-  background-position: center;
-  background-repeat: no-repeat;
-  align-items: center;
-  justify-content: center;
   text-align: center;
-  margin-top: 5cm;
-  font-size: 20px;
+  margin: 20vh 0;
   color: #FFFFFF;
   text-shadow: 0 0 4px white;
 }
 
 img {
-
   border: 1pt solid var(--cor-principal);
   text-align: center;
 
@@ -160,17 +158,17 @@ p.bibli {
 }
 
 footer {
-  height: 150px;
   background-color: white;
-  clear: both;
-  bottom: 0%;
   display: flex;
-  width: 100%;
   align-items: center;
-  justify-content: center;
-  margin-top: 20px;
+  margin-top: 2vh;
+  padding: 2vh 0;
 }
+.rodape{
+  display: flex;
+  letter-spacing: 1px;
 
+}
 .btn {
   margin-left: 4.8px;
   display: flex;
@@ -355,15 +353,22 @@ img.veio {
 
 
 p.textos {
-  z-index: 2;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   letter-spacing: 1px;
   color: #FFFFFF;
   text-shadow: 0 0 4px white;
   text-decoration: none;
-  width: 100%;
 
+}
+.text-atom{
+  font-size: 20px;
+  line-height: 1.5;
+  margin-left: 4vw;
+  text-indent: 4.5vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 p#textos2 {
@@ -385,21 +390,19 @@ strong.cabeca1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   letter-spacing: 1px;
-  color: #FFFFFF;
-  text-shadow: 0 0 4px white;
   text-decoration: none;
   width: 100%;
 }
 
 .cabeca12 {
-  z-index: 2;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   letter-spacing: 1px;
   color: var(--cor-principal);
   text-shadow: 0 0 2px white;
   text-decoration: none;
-  width: 100%;
+  margin:auto;
+  width: 30%;
   line-height: 1.5;
 }
 
@@ -444,9 +447,9 @@ strong.cabeca12-white {
 }
 
 .btn:hover {
-  transform: scale(1.1)
+  scale: 1.1;
 }
-
+/*mexa oque tem axima e não oque tem abaixo*/
 .btn:active {
   border: double 4px var(--cor-principal);
   background-origin: border-box;
@@ -464,7 +467,7 @@ strong.cabeca12-white {
 }
 
 .btn1:hover {
-  transform: scale(1.1)
+  scale: 1.1;
 }
 
 .btn1:active {
@@ -511,7 +514,7 @@ strong.cabeca12-white {
   background-size: 50px 50px;
   opacity: 0.5;
 }
-
+/*mexa oque tem abaixo e não oque tem acima*/
 .caixas {
   display: flex;
 }
@@ -527,13 +530,8 @@ strong.cabeca12-white {
   border-radius: 15px;
 }
 
-@media screen and (max-width: 1024px) {
-  .temas {
-    grid-template-columns: auto;
-  }
-}
-
 #caixaOndas {
+  transition:  1s ease-in-out;
   margin: auto;
   border-radius: 10px;
   text-align: center;
@@ -541,6 +539,7 @@ strong.cabeca12-white {
 }
 
 #caixaLeis {
+  transition:  1s ease-in-out;
   margin: auto;
   border-radius: 10px;
   text-align: center;
@@ -548,6 +547,7 @@ strong.cabeca12-white {
 }
 
 #caixaMecanica {
+  transition:  1s ease-in-out;
   margin: auto;
   border-radius: 10px;
   text-align: center;
@@ -555,6 +555,7 @@ strong.cabeca12-white {
 }
 
 #caixaEnergia {
+  transition:  1s ease-in-out;
   margin: auto;
   border-radius: 10px;
   text-align: center;
@@ -562,6 +563,7 @@ strong.cabeca12-white {
 }
 
 #caixaEletricidade {
+  transition:  1s ease-in-out;
   margin: auto;
   border-radius: 10px;
   text-align: center;
@@ -569,6 +571,7 @@ strong.cabeca12-white {
 }
 
 #caixaCorrentes {
+  transition:  1s ease-in-out;
   margin: auto;
   border-radius: 10px;
   text-align: center;
@@ -576,6 +579,7 @@ strong.cabeca12-white {
 }
 
 #caixaOptica {
+  transition:  1s ease-in-out;
   margin: auto;
   border-radius: 10px;
   text-align: center;
@@ -583,6 +587,7 @@ strong.cabeca12-white {
 }
 
 #caixaTermofisica {
+  transition:  1s ease-in-out;
   margin: auto;
   border-radius: 10px;
   text-align: center;
@@ -590,65 +595,39 @@ strong.cabeca12-white {
 }
 
 #caixaOndas:hover {
-  margin: auto;
-  border-radius: 10px;
-  text-align: center;
-  align-items: center;
+  scale: 1.1;
 }
 
 #caixaLeis:hover {
-  margin: auto;
-  border-radius: 10px;
-  text-align: center;
-  align-items: center;
+  scale: 1.1;
 }
 
 #caixaMecanica:hover {
-  margin: auto;
-  border-radius: 10px;
-  text-align: center;
-  align-items: center;
+  scale: 1.1;
 }
 
 #caixaEnergia:hover {
-  margin: auto;
-  border-radius: 10px;
-  text-align: center;
-  align-items: center;
+  scale: 1.1;
 }
 
 #caixaEletricidade:hover {
-  margin: auto;
-  border-radius: 10px;
-  text-align: center;
-  align-items: center;
+  scale: 1.1;
 }
 
 #caixaCorrentes:hover {
-  margin: auto;
-  border-radius: 10px;
-  text-align: center;
-  align-items: center;
-  animation: gradient_3012 2s ease infinite;
+  scale: 1.1;
 }
 
 #caixaOptica:hover {
-  margin: auto;
-  border-radius: 10px;
-  text-align: center;
-  align-items: center;
-  animation: gradient_3012 2s ease infinite;
+  scale: 1.1;
 }
 
 #caixaTermofisica:hover {
-  margin: auto;
-  border-radius: 10px;
-  text-align: center;
-  align-items: center;
-  animation: gradient_3012 2s ease infinite;
+  scale: 1.1;
 }
 
 #caixa1 {
+  transition:  1s ease-in-out;
   width: 350px;
   height: 350px;
   margin: auto;
@@ -658,6 +637,7 @@ strong.cabeca12-white {
 }
 
 #caixa2 {
+  transition:  1s ease-in-out;
   width: 350px;
   height: 350px;
   margin: auto;
@@ -667,6 +647,7 @@ strong.cabeca12-white {
 }
 
 #caixa3 {
+  transition:  1s ease-in-out;
   width: 350px;
   height: 350px;
   margin: auto;
@@ -676,6 +657,7 @@ strong.cabeca12-white {
 }
 
 #caixa4 {
+  transition: 1s ease-in-out;
   width: 350px;
   height: 350px;
   margin: auto;
@@ -685,47 +667,19 @@ strong.cabeca12-white {
 }
 
 #caixa1:hover {
-  width: 350px;
-  height: 350px;
-  margin-top: -10px;
-  transition: 1s;
-  animation: gradient_3012 2s ease infinite;
-  border-radius: 10px;
-  text-align: center;
-  align-items: center;
+  scale: 1.1;
 }
 
 #caixa2:hover {
-  width: 350px;
-  height: 350px;
-  margin-top: -10px;
-  transition: 1s;
-  animation: gradient_3012 2s ease infinite;
-  border-radius: 10px;
-  text-align: center;
-  align-items: center;
+  scale: 1.1;
 }
 
 #caixa3:hover {
-  width: 350px;
-  height: 350px;
-  transition: 1s;
-  margin-top: -10px;
-  animation: gradient_3012 2s ease infinite;
-  border-radius: 10px;
-  text-align: center;
-  align-items: center;
+  scale: 1.1;
 }
 
 #caixa4:hover {
-  width: 350px;
-  height: 350px;
-  transition: 1s;
-  margin-top: -10px;
-  animation: gradient_3012 2s ease infinite;
-  border-radius: 10px;
-  text-align: center;
-  align-items: center;
+  scale: 1.1;
 }
 
 img.FelixCatus {
@@ -809,24 +763,6 @@ h1.center {
   justify-content: right;
 }
 
-.MenuB {
-  float: left;
-  margin-left: 5px;
-  margin-top: 0px;
-  border-radius: 10px;
-}
-
-.MenuB:hover {
-  float: left;
-  padding: 1px 1px 1px 1px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  justify-content: center;
-  align-items: center;
-  transition: 0.5s;
-  animation: gradient_3012 6s ease infinite;
-}
-
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
@@ -852,21 +788,6 @@ p.margemsambaqui {
 
 .img-container {
   text-align: center
-}
-
-.texto-rodape {
-  padding-top: 4px;
-  text-align: center;
-  max-width: 950px;
-}
-
-.parte-rodape-esquerdo {
-  float: left;
-  text-align: justify;
-}
-
-.parte-rodape-direito {
-  float: right;
 }
 
 .ref-imagens {
@@ -937,19 +858,23 @@ img.leis2{
 img.leis3{
   width:70%;
 }
+
 h4{
 color: #008383;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 15px;
 letter-spacing: 1px;
 }
+
 .margemEntreTextos{
   margin-top: 15px;
 }
+
 .margemParaMain{
   margin-top: 10px;
   margin-bottom: 20px;
 }
+
 .botaoMecanica{
   margin: auto;
   width: 200px;
