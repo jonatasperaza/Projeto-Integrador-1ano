@@ -111,6 +111,22 @@
   .center{
     padding: 0;
   }
+  footer{
+    display: grid;
+  }
+  .cabeca12{
+    text-align: center;
+    width: 50%;
+  }
+  p.margem{
+    margin-left: 1cm;
+    margin-right: 1cm;
+  }
+  
+  p.bibli{
+    margin-left: 1cm;
+    margin-right: 1cm;
+  }
 }
 
 @keyframes barra {

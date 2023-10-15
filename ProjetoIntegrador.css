@@ -28,7 +28,6 @@
 
 .star {
   overflow: hidden;
-  background-color: none;
   font-family: var(--font);
   margin: 0;
   color: white;
@@ -127,10 +126,6 @@ blockquote {
   margin-left: 9.85cm;
   max-width: 500px;
   font-size: 10pt;
-}
-
-.conteudo>h1 {
-  font-size: 12pt;
 }
 
 p.margem {
@@ -528,106 +523,23 @@ strong.cabeca12-white {
   gap: 20px;
   padding: 10px;
   border-radius: 15px;
+  list-style: none;
 }
 
-#caixaOndas {
-  transition:  1s ease-in-out;
+.caixasTemas{
+  transition:  0.5s ease-in-out;
   margin: auto;
   border-radius: 10px;
   text-align: center;
   align-items: center;
 }
 
-#caixaLeis {
-  transition:  1s ease-in-out;
-  margin: auto;
-  border-radius: 10px;
-  text-align: center;
-  align-items: center;
-}
-
-#caixaMecanica {
-  transition:  1s ease-in-out;
-  margin: auto;
-  border-radius: 10px;
-  text-align: center;
-  align-items: center;
-}
-
-#caixaEnergia {
-  transition:  1s ease-in-out;
-  margin: auto;
-  border-radius: 10px;
-  text-align: center;
-  align-items: center;
-}
-
-#caixaEletricidade {
-  transition:  1s ease-in-out;
-  margin: auto;
-  border-radius: 10px;
-  text-align: center;
-  align-items: center;
-}
-
-#caixaCorrentes {
-  transition:  1s ease-in-out;
-  margin: auto;
-  border-radius: 10px;
-  text-align: center;
-  align-items: center;
-}
-
-#caixaOptica {
-  transition:  1s ease-in-out;
-  margin: auto;
-  border-radius: 10px;
-  text-align: center;
-  align-items: center;
-}
-
-#caixaTermofisica {
-  transition:  1s ease-in-out;
-  margin: auto;
-  border-radius: 10px;
-  text-align: center;
-  align-items: center;
-}
-
-#caixaOndas:hover {
+.caixasTemas:hover {
   scale: 1.1;
 }
 
-#caixaLeis:hover {
-  scale: 1.1;
-}
-
-#caixaMecanica:hover {
-  scale: 1.1;
-}
-
-#caixaEnergia:hover {
-  scale: 1.1;
-}
-
-#caixaEletricidade:hover {
-  scale: 1.1;
-}
-
-#caixaCorrentes:hover {
-  scale: 1.1;
-}
-
-#caixaOptica:hover {
-  scale: 1.1;
-}
-
-#caixaTermofisica:hover {
-  scale: 1.1;
-}
-
-#caixa1 {
-  transition:  1s ease-in-out;
+.caixa{
+  transition:  0.5s ease-in-out;
   width: 350px;
   height: 350px;
   margin: auto;
@@ -636,49 +548,7 @@ strong.cabeca12-white {
   align-items: center;
 }
 
-#caixa2 {
-  transition:  1s ease-in-out;
-  width: 350px;
-  height: 350px;
-  margin: auto;
-  border-radius: 10px;
-  text-align: center;
-  align-items: center;
-}
-
-#caixa3 {
-  transition:  1s ease-in-out;
-  width: 350px;
-  height: 350px;
-  margin: auto;
-  border-radius: 10px;
-  text-align: center;
-  align-items: center;
-}
-
-#caixa4 {
-  transition: 1s ease-in-out;
-  width: 350px;
-  height: 350px;
-  margin: auto;
-  border-radius: 10px;
-  text-align: center;
-  align-items: center;
-}
-
-#caixa1:hover {
-  scale: 1.1;
-}
-
-#caixa2:hover {
-  scale: 1.1;
-}
-
-#caixa3:hover {
-  scale: 1.1;
-}
-
-#caixa4:hover {
+.caixa:hover {
   scale: 1.1;
 }
 
@@ -710,7 +580,6 @@ img.FelixCatus {
   transition: 0s;
   padding-top: 60px;
   border: 3px solid #000000;
-  scrollbar-width: 0%;
   display: none;
 }
 
@@ -729,10 +598,11 @@ h1.center {
 }
 
 .sidebar a:hover {
-  color: #f1f1f1;
+color: black;
 }
 
 .sidebar .closebtn {
+  color: white;
   position: absolute;
   top: 0;
   right: 25px;
@@ -880,4 +750,14 @@ letter-spacing: 1px;
   width: 200px;
   margin-bottom: 20px;
   margin-top: 20px;
+}
+
+.titulos{
+  text-align: center;
+  font-size: 12pt;
+  padding: 15px 0 15px;
+}
+
+figure{
+  padding: 15px 0 0;
 }
