@@ -3,13 +3,15 @@
     line-height: 1;
     margin-left: 6.22cm;
 }
-.margemEntreTextos{
+
+.margemEntreTextos {
     margin-top: 15px;
 }
-h4{
+
+h4 {
     color: #008383;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  letter-spacing: 1px;
-  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+
 }

@@ -1,4 +1,4 @@
-:root{
+:root {
   background-image: url(Imagens/FundoEstrelas.gif);
   --main: #ffb13a;
   --font: 'Roboto', 'Oxygen', sans-serif;
@@ -99,7 +99,7 @@ header {
 
 
 .conteudo {
-  
+
   max-width: 950px;
   margin: 15px auto 15px auto;
   background-color: white;
@@ -159,11 +159,13 @@ footer {
   margin-top: 2vh;
   padding: 2vh 0;
 }
-.rodape{
+
+.rodape {
   display: flex;
   letter-spacing: 1px;
 
 }
+
 .btn {
   margin-left: 4.8px;
   display: flex;
@@ -356,7 +358,8 @@ p.textos {
   text-decoration: none;
 
 }
-.text-atom{
+
+.text-atom {
   font-size: 20px;
   line-height: 1.5;
   margin-left: 4vw;
@@ -396,7 +399,7 @@ strong.cabeca1 {
   color: var(--cor-principal);
   text-shadow: 0 0 2px white;
   text-decoration: none;
-  margin:auto;
+  margin: auto;
   width: 30%;
   line-height: 1.5;
 }
@@ -444,6 +447,7 @@ strong.cabeca12-white {
 .btn:hover {
   scale: 1.1;
 }
+
 /*mexa oque tem axima e não oque tem abaixo*/
 .btn:active {
   border: double 4px var(--cor-principal);
@@ -509,6 +513,7 @@ strong.cabeca12-white {
   background-size: 50px 50px;
   opacity: 0.5;
 }
+
 /*mexa oque tem abaixo e não oque tem acima*/
 .caixas {
   display: flex;
@@ -526,8 +531,8 @@ strong.cabeca12-white {
   list-style: none;
 }
 
-.caixasTemas{
-  transition:  0.5s ease-in-out;
+.caixasTemas {
+  transition: 0.5s ease-in-out;
   margin: auto;
   border-radius: 10px;
   text-align: center;
@@ -538,8 +543,8 @@ strong.cabeca12-white {
   scale: 1.1;
 }
 
-.caixa{
-  transition:  0.5s ease-in-out;
+.caixa {
+  transition: 0.5s ease-in-out;
   width: 350px;
   height: 350px;
   margin: auto;
@@ -598,7 +603,7 @@ h1.center {
 }
 
 .sidebar a:hover {
-color: black;
+  color: black;
 }
 
 .sidebar .closebtn {
@@ -709,55 +714,55 @@ nav {
   gap: 40px;
 }
 
-img.ondas{
+img.ondas {
   width: 40%;
 }
 
-img.ondas1{
+img.ondas1 {
   width: 50%;
 }
 
-img.leis1{
+img.leis1 {
   width: 80%;
 }
 
-img.leis2{
+img.leis2 {
   width: 35%;
 }
 
-img.leis3{
-  width:70%;
+img.leis3 {
+  width: 70%;
 }
 
-h4{
-color: #008383;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 15px;
-letter-spacing: 1px;
+h4 {
+  color: #008383;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  letter-spacing: 1px;
 }
 
-.margemEntreTextos{
+.margemEntreTextos {
   margin-top: 15px;
 }
 
-.margemParaMain{
+.margemParaMain {
   margin-top: 10px;
   margin-bottom: 20px;
 }
 
-.botaoMecanica{
+.botaoMecanica {
   margin: auto;
   width: 200px;
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
-.titulos{
+.titulos {
   text-align: center;
   font-size: 12pt;
   padding: 15px 0 15px;
 }
 
-figure{
+figure {
   padding: 15px 0 0;
 }
