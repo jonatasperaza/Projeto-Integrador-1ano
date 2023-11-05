@@ -163,7 +163,7 @@ footer {
 .rodape {
   display: flex;
   letter-spacing: 1px;
-
+  flex-direction: column;
 }
 
 .btn {
