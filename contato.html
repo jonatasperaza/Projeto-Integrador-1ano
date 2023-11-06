@@ -12,6 +12,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="media_key.css">
+  <link rel="stylesheet" href="contato.css">
+  <script src="contato.js"></script>
 </head>
 
 <body>
@@ -164,60 +166,26 @@
       </div>
     </div>
   </header>
+  <div class="buscas">
+    <div id="main">
+      <span style="font-size:30px;cursor:pointer;" onclick="openNav()" class="openNav">&#9776;<div class="MenuB">Menu
+        </div></span>
+    </div>
   </div>
+  </div>
+
   <main class="conteudo margemParaMain">
-
-    <h1 class="titulos" style="font-size: 15pt;"> MECÂNICA RELATIVISTA </h1>
-    <p class="margem margemEntreTextos">A mecânica relativista é a parte da física que estuda o movimento de objetos em
-      altas velocidades próximas à
-      velocidade da luz. A mecânica relativista é baseada nas teorias da relatividade restrita, propostas por
-      Albert Einstein em 1905 e finalizada em 1915 com a teoria da relatividade geral.(GOUVEIA, 2023).</p>
-
-
-    <h1 class="titulos" style="font-size: 15pt;"> RESTRITA </h1 class="titulos">
-
-
-    <p class="margem margemEntreTextos">
-      Segundo Prof. Rosimar Gouveia, a relatividade restrita diz que as leis da física são as mesmas para todos os
-      observadores em movimento uniforme (dinâmica estudada anteriormente na página), independentemente da
-      velocidade relativa entre eles. Isso significa que as leis da física devem levar em consideração que não
-      mudam com a velocidade do observador.(GOUVEIA, 2023).
-    </p>
-    <h1 class="titulos" style="font-size: 15pt;"> GERAL </h1>
-
-    <p class="margem margemEntreTextos"> A teoria da relatividade geral leva em consideração um observador em movimento
-      variável próximo a velocidade
-      da luz, o que a teoria da relatividade restrita não considerava. (GOUVEIA, 2023). Principal Fórmula: E= mc²
-    </p>
-
-    <p class="margem margemEntreTextos">E= energia em repouso.
-    </p>
-    <p class="margem margemEntreTextos"> m= massa.
-    </p>
-    <p class="margem margemEntreTextos"> c²= velocidade da luz no vácuo.</p>
-    <div class="center">
-      <figure>
-        <p><strong class="bibliografia">Figura 2:</strong> ESPAÇO</p>
-        <img src="Imagens/fotorelatividade.jpg" alt="Isaac Newton" width="35%">
-      </figure>
-    </div>
-    <figcaption class="ref-imagens">Fonte: GOUVEIA, 2023.
-    </figcaption>
-    <h1 class="titulos" style="font-size: 15pt;"> CINEMÁTICO </h1>
-
-    <p class="margem margemEntreTextos">A cinemática é uma parte da mecânica que estuda o movimento dos objetos, sem se
-      preocupar com as causas desse
-      movimento, ou seja, sem considerar as forças que atuam sobre o objeto. A cinemática se preocupa em descrever o
-      movimento em termos de posição, velocidade e aceleração do objeto, bem como a trajetória que ele percorre.(DIAS,
-      2023).</p>
-    <div class="center">
-      <figure>
-        <p><strong class="bibliografia">Figura 3:</strong> FORÇAS</p>
-        <img src="Imagens/fotomecanica2.webp" alt="Isaac Newton" width="35%">
-      </figure>
-    </div>
-    <figcaption class="ref-imagens">Fonte: GOUVEIA, 2023.
-    </figcaption>
+    <form id="formulario" onsubmit="enviar()">
+      <h1 class="titulos" style="font-size: 20pt;">Entre em contato conosco: </h1>
+      <div class="titulos formulario">
+        <label for="">Nome</label><input id="formularioNome" type="text">
+        <label for="">Escreva seu email:</label><input id="formularioEmail" type="text">
+        <label for="">Escreva sua mensagem:</label>
+        <textarea id="formularioMsg" type="text"></textarea>
+        <label for="">Você gostou do site?</label><input id="formularioLike?" type="checkbox">
+        <button type="submit" style="margin-top: 50px;">Enviar</button>
+      </div>
+    </form>
   </main>
 
   <footer class="rodape">
@@ -238,7 +206,4 @@
     <div class="parte-rodape-direito"><strong class="cabeca12"><img src="Imagens/Logo_IFC_horizontal.gif" alt="Logo IFC"
           width="300px"></strong></div>
   </footer>
-
 </body>
-
-</html>

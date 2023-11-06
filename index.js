@@ -98,3 +98,7 @@ function bibli() {
   var bibliografias = "bibliografia.html";
   window.open(bibliografias);
 }
+function contato() {
+  var contato = "contato.html";
+  window.open(contato);
+}
